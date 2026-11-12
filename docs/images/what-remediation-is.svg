@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 552" width="100%" role="img" aria-labelledby="wri-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="wri-title">Remediation in five steps, and where RegRem Engine checks the proof</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5b6470"/></marker></defs>
+<rect x="0" y="0" width="1000" height="552" rx="12" fill="#ffffff"/>
+<text x="20" y="38" font-size="18" font-weight="600" fill="#1f1e1d">Remediation in five steps, and where RegRem Engine checks the proof</text>
+
+<!-- Step 1 -->
+<rect x="20" y="82" width="174.4" height="120" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<circle cx="40" cy="102" r="12" fill="#9a3412"/>
+<text x="40" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="32" y="134" font-size="14" fill="#1f1e1d">The Supervisor</text>
+<text x="32" y="152" font-size="14" fill="#1f1e1d">examines the bank.</text>
+<text x="107.2" y="224" font-size="13" fill="#5b6470" text-anchor="middle">The Supervisor</text>
+<path d="M197.4 142 L211.4 142" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- Step 2 -->
+<rect x="216.4" y="82" width="174.4" height="120" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<circle cx="236.4" cy="102" r="12" fill="#9a3412"/>
+<text x="236.4" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="228.4" y="134" font-size="14" fill="#1f1e1d">It writes up a</text>
+<text x="228.4" y="152" font-size="14" fill="#1f1e1d">serious problem and</text>
+<text x="228.4" y="170" font-size="14" fill="#1f1e1d">a date for the fix.</text>
+<text x="228.4" y="188" font-size="14" fill="#1f1e1d">That is a finding.</text>
+<text x="303.6" y="224" font-size="13" fill="#5b6470" text-anchor="middle">The Supervisor,</text>
+<text x="303.6" y="239" font-size="13" fill="#5b6470" text-anchor="middle">to the board</text>
+<path d="M393.8 142 L407.8 142" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- Step 3 -->
+<rect x="412.8" y="82" width="174.4" height="120" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<circle cx="432.8" cy="102" r="12" fill="#9a3412"/>
+<text x="432.8" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="424.8" y="134" font-size="14" fill="#1f1e1d">The bank plans the</text>
+<text x="424.8" y="152" font-size="14" fill="#1f1e1d">fix and makes it.</text>
+<text x="500" y="224" font-size="13" fill="#5b6470" text-anchor="middle">Finding owner,</text>
+<text x="500" y="239" font-size="13" fill="#5b6470" text-anchor="middle">business teams</text>
+<path d="M590.2 142 L604.2 142" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- Step 4, where the check runs -->
+<text x="696.4" y="72" font-size="12.5" font-weight="700" fill="#9a3412" text-anchor="middle">RegRem Engine checks the proof here</text>
+<rect x="609.2" y="82" width="174.4" height="120" rx="8" fill="#fdf0e8" stroke="#9a3412" stroke-width="2"/>
+<circle cx="629.2" cy="102" r="12" fill="#9a3412"/>
+<text x="629.2" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="621.2" y="134" font-size="14" fill="#1f1e1d">The bank proves the</text>
+<text x="621.2" y="152" font-size="14" fill="#1f1e1d">fix with signed</text>
+<text x="621.2" y="170" font-size="14" fill="#1f1e1d">evidence and a</text>
+<text x="621.2" y="188" font-size="14" fill="#1f1e1d">closure memo.</text>
+<text x="696.4" y="224" font-size="13" fill="#5b6470" text-anchor="middle">Finding owner,</text>
+<text x="696.4" y="239" font-size="13" fill="#5b6470" text-anchor="middle">internal audit</text>
+<path d="M786.6 142 L800.6 142" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- Step 5 -->
+<rect x="805.6" y="82" width="174.4" height="120" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<circle cx="825.6" cy="102" r="12" fill="#9a3412"/>
+<text x="825.6" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="817.6" y="134" font-size="14" fill="#1f1e1d">The Supervisor</text>
+<text x="817.6" y="152" font-size="14" fill="#1f1e1d">closes the finding,</text>
+<text x="817.6" y="170" font-size="14" fill="#1f1e1d">or sends it back.</text>
+<text x="892.8" y="224" font-size="13" fill="#5b6470" text-anchor="middle">The Supervisor</text>
+
+<!-- Step 4, up close: a panel that points up at step 4 -->
+<path d="M30 262 H682.4 L696.4 249 L710.4 262 H970 A10 10 0 0 1 980 272 V424 A10 10 0 0 1 970 434 H30 A10 10 0 0 1 20 424 V272 A10 10 0 0 1 30 262 Z" fill="#fafafa" stroke="#9a3412" stroke-width="1.5"/>
+<circle cx="48" cy="285" r="12" fill="#9a3412"/>
+<text x="48" y="290" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="68" y="290" font-size="14" font-weight="600" fill="#1f1e1d">Inside step 4: how the bank proves the fix</text>
+<rect x="752" y="278" width="14" height="14" rx="3" fill="#fdf0e8" stroke="#9a3412" stroke-width="1.5"/>
+<text x="772" y="289.5" font-size="13" fill="#5b6470">RegRem Engine</text>
+<rect x="880" y="278" width="14" height="14" rx="3" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="900" y="289.5" font-size="13" fill="#5b6470">The bank</text>
+
+<rect x="40" y="302" width="200" height="116" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="52" y="326" font-size="13.5" font-weight="700" fill="#1f1e1d">The bank</text>
+<text x="52" y="346" font-size="13.5" fill="#1f1e1d">writes the closure memo.</text>
+<text x="52" y="364" font-size="13.5" fill="#1f1e1d">Each claim in it cites</text>
+<text x="52" y="382" font-size="13.5" fill="#1f1e1d">an evidence page.</text>
+<path d="M243 360 L257 360" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+
+<rect x="260" y="302" width="260" height="116" rx="8" fill="#fdf0e8" stroke="#9a3412" stroke-width="2"/>
+<text x="272" y="326" font-size="13.5" font-weight="700" fill="#9a3412">RegRem Engine</text>
+<text x="272" y="346" font-size="13.5" fill="#1f1e1d">looks for each figure, date and</text>
+<text x="272" y="364" font-size="13.5" fill="#1f1e1d">quotation on the page it cites.</text>
+<text x="272" y="382" font-size="13.5" fill="#1f1e1d">What does not match goes on</text>
+<text x="272" y="400" font-size="13.5" fill="#1f1e1d">one short list.</text>
+<path d="M523 360 L537 360" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+
+<rect x="540" y="302" width="200" height="116" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="552" y="326" font-size="13.5" font-weight="700" fill="#1f1e1d">The finding owner</text>
+<text x="552" y="346" font-size="13.5" fill="#1f1e1d">rules on each row of the</text>
+<text x="552" y="364" font-size="13.5" fill="#1f1e1d">list, then signs.</text>
+<path d="M743 360 L757 360" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+
+<rect x="760" y="302" width="200" height="116" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="772" y="326" font-size="13.5" font-weight="700" fill="#1f1e1d">Internal audit</text>
+<text x="772" y="346" font-size="13.5" fill="#1f1e1d">tests whether the fix</text>
+<text x="772" y="364" font-size="13.5" fill="#1f1e1d">works.</text>
+
+<!-- Footnote -->
+<text x="20" y="468" font-size="14" font-weight="600" fill="#1f1e1d">Remediation is steps 3 and 4: the bank's work to fix a problem the Supervisor wrote up, and to prove the fix</text>
+<text x="20" y="487" font-size="14" font-weight="600" fill="#1f1e1d">with evidence the Supervisor accepts.</text>
+<text x="20" y="513" font-size="13.5" fill="#5b6470">RegRem Engine has no AI model inside, so it gives the same answer on every run. It never judges whether the fix works.</text>
+<text x="20" y="531" font-size="13.5" fill="#5b6470">Internal audit tests that, and a person still reads the memo. Every case in this repository is invented.</text>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 702" width="100%" role="img" aria-labelledby="wdw-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><title id="wdw-title">Who does what on one finding. People at the bank do the fix, build the proof and make every decision: the finding owner rules on each row and signs, internal audit tests the fix, and the Supervisor closes the finding or sends it back. RegRem Engine ties each claim to its page, lists what does not match and shows the folder&#x27;s fingerprint.</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5b6470"/></marker></defs><rect x="0" y="0" width="1000" height="702" rx="12" fill="#ffffff"/>
+<text x="20" y="38" font-size="18" font-weight="600" fill="#1f1e1d">Who does what on one finding</text>
+<text x="20" y="60" font-size="13" fill="#5b6470">People at the bank do the fix, build the proof and make every decision. RegRem Engine checks the proof in between.</text>
+<rect x="20" y="112" width="285" height="276" rx="10" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1.5"/>
+<circle cx="43" cy="131" r="11" fill="#5b6470"/>
+<text x="43.0" y="135.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="60.0" y="136.0" font-size="13.5" font-weight="700" fill="#5b6470" text-anchor="start">People build the proof</text>
+<rect x="32" y="148" width="261" height="62" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="42.0" y="170.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Business teams</text>
+<text x="42.0" y="188.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Do the fix and file signed evidence</text>
+<rect x="32" y="230" width="261" height="62" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="42.0" y="252.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Preparer</text>
+<text x="42.0" y="270.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Builds the folder, runs the check</text>
+<text x="42.0" y="287.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">and corrects the memo</text>
+<rect x="32" y="312" width="261" height="62" rx="6" fill="#fafafa" stroke="#6b7280" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="42.0" y="334.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">AI assistant, if the bank allows one</text>
+<text x="42.0" y="352.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">May help with drafts.</text>
+<text x="42.0" y="369.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">A person rules and signs.</text>
+<path d="M162.5 212 L162.5 227" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M162.5 310 L162.5 295" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+<rect x="20" y="404" width="285" height="122" rx="6" fill="#fafafa" stroke="#6b7280" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="30.0" y="426.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Engineer</text>
+<text x="30.0" y="444.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">on the bank&#x27;s staff or brought in by it</text>
+<text x="30.0" y="461.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Fits the tool to the bank: the files it</text>
+<text x="30.0" y="478.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">reads, the bank&#x27;s own words and the</text>
+<text x="30.0" y="495.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">names that must never print. Someone</text>
+<text x="30.0" y="512.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">else accepts each change.</text>
+<rect x="350" y="112" width="300" height="440" rx="10" fill="#fafafa" stroke="#9a3412" stroke-width="1.5" stroke-dasharray="6 4"/>
+<circle cx="373" cy="131" r="11" fill="#9a3412"/>
+<text x="373.0" y="135.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="390.0" y="136.0" font-size="13.5" font-weight="700" fill="#9a3412" text-anchor="start">RegRem Engine checks it</text>
+<text x="500.0" y="174.0" font-size="13" fill="#1f1e1d" text-anchor="middle"><tspan font-weight="700">No AI model inside</tspan>, so the same folder</text>
+<text x="500.0" y="192.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="middle">gives the same answer on every run.</text>
+<rect x="362" y="230" width="276" height="62" rx="6" fill="#fdf0e8" stroke="#9a3412" stroke-width="2"/>
+<text x="372.0" y="252.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Ties each claim to its page</text>
+<text x="372.0" y="270.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Finds each figure, date and quotation</text>
+<text x="372.0" y="287.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">on the evidence page it cites</text>
+<rect x="362" y="312" width="276" height="62" rx="6" fill="#fdf0e8" stroke="#9a3412" stroke-width="2"/>
+<text x="372.0" y="334.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Lists what does not match</text>
+<text x="372.0" y="352.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">One row for each thing that did not</text>
+<text x="372.0" y="369.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">check, for the finding owner to rule on</text>
+<rect x="362" y="394" width="276" height="62" rx="6" fill="#fdf0e8" stroke="#9a3412" stroke-width="2"/>
+<text x="372.0" y="416.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Shows the fingerprint</text>
+<text x="372.0" y="434.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">One code for the whole folder. Edit the</text>
+<text x="372.0" y="451.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">memo or evidence and it changes.</text>
+<text x="500.0" y="502.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="middle">It does not judge whether the fix works.</text>
+<text x="500.0" y="520.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="middle">People decide that.</text>
+<path d="M295 261.0 L359 261.0" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M307 474 L347 474" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+<rect x="695" y="112" width="285" height="440" rx="10" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1.5"/>
+<circle cx="718" cy="131" r="11" fill="#5b6470"/>
+<text x="718.0" y="135.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="735.0" y="136.0" font-size="13.5" font-weight="700" fill="#5b6470" text-anchor="start">People decide</text>
+<rect x="707" y="148" width="261" height="62" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="717.0" y="170.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">The board</text>
+<text x="717.0" y="188.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Approves the plan at the start,</text>
+<text x="717.0" y="205.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">and the closure before sign-off</text>
+<rect x="707" y="230" width="261" height="62" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="717.0" y="252.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Reviewer</text>
+<text x="717.0" y="270.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Reads each sentence against its page,</text>
+<text x="717.0" y="287.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">and wrote no part of the memo</text>
+<rect x="707" y="312" width="261" height="144" rx="6" fill="#ffffff" stroke="#1f1e1d" stroke-width="1.5"/>
+<text x="717.0" y="334.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Finding owner</text>
+<rect x="717" y="350" width="44" height="18" rx="4" fill="#1f1e1d"/>
+<text x="739.0" y="363.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.6">RULE</text>
+<text x="769.0" y="363.5" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Rules on each row on the list</text>
+<text x="769.0" y="381.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">clears it with a reason, or sends</text>
+<text x="769.0" y="397.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">it back to be fixed</text>
+<rect x="717" y="416" width="44" height="18" rx="4" fill="#1f1e1d"/>
+<text x="739.0" y="429.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.6">SIGN</text>
+<text x="769.0" y="429.5" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Signs once nothing is left</text>
+<text x="769.0" y="447.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">and the fingerprint is recorded</text>
+<rect x="707" y="476" width="261" height="62" rx="6" fill="#ffffff" stroke="#1f1e1d" stroke-width="1.5"/>
+<text x="717.0" y="498.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">Internal audit</text>
+<rect x="717" y="508" width="44" height="18" rx="4" fill="#1f1e1d"/>
+<text x="739.0" y="521.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.6">TEST</text>
+<text x="769.0" y="521.5" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Tests the fix, reruns the check</text>
+<path d="M640 359 L704 359" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M640 425 L704 425" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M928 458 L928 473" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="695" y="576" width="285" height="108" rx="10" fill="#fafafa" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="707.0" y="598.0" font-size="13.5" font-weight="700" fill="#6b7280" text-anchor="start">Outside the bank</text>
+<rect x="707" y="612" width="261" height="60" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="717.0" y="634.0" font-size="14" font-weight="700" fill="#1f1e1d" text-anchor="start">The Supervisor</text>
+<text x="717.0" y="652.0" font-size="13" font-weight="normal" fill="#1f1e1d" text-anchor="start">Closes the finding or sends it back</text>
+<path d="M928 540 L928 609" stroke="#5b6470" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="20" y="71" width="24" height="15" rx="3" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="52.0" y="83.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">A person or team</text>
+<rect x="180" y="71" width="24" height="15" rx="3" fill="#fdf0e8" stroke="#9a3412" stroke-width="1.5"/>
+<text x="212.0" y="83.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">What RegRem Engine does</text>
+<rect x="390" y="71" width="24" height="15" rx="3" fill="#1f1e1d"/>
+<text x="422.0" y="83.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">A step only a person may take</text>
+<text x="20.0" y="598.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">Rulings and signatures always come from people. Whether the fix works stays with the</text>
+<text x="20.0" y="616.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">bank, and internal audit tests it. Only the Supervisor closes a finding it wrote.</text>
+<text x="20.0" y="634.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">Every case in this repository is invented.</text>
+</svg>

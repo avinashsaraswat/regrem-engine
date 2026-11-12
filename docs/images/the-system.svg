@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 695" width="100%" role="img" aria-labelledby="title desc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><title id="title">The system: what runs where, and what the bank sends to the Supervisor</title><desc id="desc">One approved machine inside the bank holds the finding folder and RegRem Engine. Where the bank allows an AI assistant, it drafts into the folder. The bank&#x27;s own systems stay as they are. RegRem Engine sends nothing out, and the bank sends the closure package by its own channels.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5b6470"/></marker></defs><rect x="0" y="0" width="1000" height="695" rx="12" fill="#ffffff"/>
+<text x="20.0" y="30.0" font-size="18" font-weight="600" fill="#1f1e1d" text-anchor="start">The system: what runs where, and what the bank sends to the Supervisor</text>
+<text x="20.0" y="52.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">One approved machine inside the bank holds the finding folder and RegRem Engine. Where the bank allows an AI assistant, it drafts into the folder.</text>
+<text x="20.0" y="68.2" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">The bank&#x27;s own systems stay as they are. RegRem Engine sends nothing out, and the bank sends the closure package by its own channels.</text>
+<rect x="20.0" y="82.4" width="775.0" height="522.6" rx="10" fill="#fafafa" stroke="#9a3412" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="32.0" y="100.4" font-size="12" font-weight="700" fill="#9a3412" text-anchor="start">Inside the bank</text>
+<text x="848.0" y="100.4" font-size="12" font-weight="700" fill="#6b7280" text-anchor="start">Outside the bank</text>
+<rect x="32.0" y="116.0" width="152.0" height="455.0" rx="10" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1.5"/>
+<text x="44.0" y="134.0" font-size="12" font-weight="700" fill="#5b6470" text-anchor="start">The bank&#x27;s own</text>
+<text x="44.0" y="149.0" font-size="12" font-weight="700" fill="#5b6470" text-anchor="start">systems</text>
+<rect x="210.0" y="116.0" width="404.0" height="455.0" rx="10" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1.5"/>
+<text x="222.0" y="134.0" font-size="12" font-weight="700" fill="#5b6470" text-anchor="start">One approved machine</text>
+<text x="222.0" y="149.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">where the folder and the tool live</text>
+<rect x="626.0" y="116.0" width="160.0" height="455.0" rx="10" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1.5"/>
+<text x="638.0" y="134.0" font-size="12" font-weight="700" fill="#5b6470" text-anchor="start">People in the bank</text>
+<rect x="40.0" y="166.0" width="136.0" height="80.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="48.0" y="184.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Document store</text>
+<text x="48.0" y="203.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">originals stay here</text>
+<text x="48.0" y="219.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">and a copy goes</text>
+<text x="48.0" y="235.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">into the folder</text>
+<rect x="40.0" y="256.0" width="136.0" height="80.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="48.0" y="274.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Email</text>
+<text x="48.0" y="293.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">approvals by email</text>
+<text x="48.0" y="309.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">are saved into the</text>
+<text x="48.0" y="325.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">folder</text>
+<rect x="40.0" y="346.0" width="136.0" height="81.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="48.0" y="364.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Internal audit&#x27;s</text>
+<text x="48.0" y="381.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">report</text>
+<text x="48.0" y="400.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">its reference goes</text>
+<text x="48.0" y="416.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">into the record</text>
+<rect x="40.0" y="437.0" width="136.0" height="96.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="48.0" y="455.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Board pack</text>
+<text x="48.0" y="474.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">the draft summary</text>
+<text x="48.0" y="490.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">goes to the board</text>
+<text x="48.0" y="506.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">as the owner</text>
+<text x="48.0" y="522.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">decides</text>
+<rect x="634.0" y="166.0" width="144.0" height="64.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="642.0" y="184.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Business teams</text>
+<text x="642.0" y="203.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">do the fix and sign</text>
+<text x="642.0" y="219.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">their evidence</text>
+<rect x="634.0" y="240.0" width="144.0" height="64.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="642.0" y="258.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Preparer</text>
+<text x="642.0" y="277.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">copies files in and</text>
+<text x="642.0" y="293.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">runs the check</text>
+<rect x="634.0" y="314.0" width="144.0" height="64.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<circle cx="653.0" cy="327.5" r="11" fill="#9a3412"/>
+<text x="653.0" y="331.8" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="670.0" y="332.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Finding owner</text>
+<text x="642.0" y="351.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">rules on each row,</text>
+<text x="642.0" y="367.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">then signs</text>
+<rect x="634.0" y="388.0" width="144.0" height="64.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<circle cx="653.0" cy="401.5" r="11" fill="#9a3412"/>
+<text x="653.0" y="405.8" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="670.0" y="406.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Internal audit</text>
+<text x="642.0" y="425.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">tests whether the fix</text>
+<text x="642.0" y="441.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">works</text>
+<rect x="634.0" y="462.0" width="144.0" height="64.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="642.0" y="480.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">Engineer</text>
+<text x="642.0" y="499.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">fits the tool to the</text>
+<text x="642.0" y="515.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">bank&#x27;s files</text>
+<rect x="220.0" y="166.0" width="172.0" height="317.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<circle cx="239.0" cy="179.5" r="11" fill="#9a3412"/>
+<text x="239.0" y="183.8" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="256.0" y="184.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">The finding folder</text>
+<text x="228.0" y="202.5" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">one folder for each finding</text>
+<rect x="230.0" y="224.4" width="152.0" height="26.0" rx="4" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1"/>
+<path d="M238.0 231.9 h6.5 l3.5 3.5 v7.5 h-10 z" fill="#ffffff" stroke="#5b6470" stroke-width="1"/>
+<path d="M244.5 231.9 v3.5 h3.5" fill="none" stroke="#5b6470" stroke-width="1"/>
+<text x="256.0" y="241.9" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">the letter</text>
+<rect x="230.0" y="267.2" width="152.0" height="26.0" rx="4" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1"/>
+<path d="M238.0 274.8 h6.5 l3.5 3.5 v7.5 h-10 z" fill="#ffffff" stroke="#5b6470" stroke-width="1"/>
+<path d="M244.5 274.8 v3.5 h3.5" fill="none" stroke="#5b6470" stroke-width="1"/>
+<text x="256.0" y="284.8" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">the plan</text>
+<rect x="230.0" y="310.1" width="152.0" height="26.0" rx="4" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1"/>
+<path d="M238.0 317.6 h6.5 l3.5 3.5 v7.5 h-10 z" fill="#ffffff" stroke="#5b6470" stroke-width="1"/>
+<path d="M244.5 317.6 v3.5 h3.5" fill="none" stroke="#5b6470" stroke-width="1"/>
+<text x="256.0" y="327.6" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">evidence copies</text>
+<rect x="230.0" y="352.9" width="152.0" height="26.0" rx="4" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1"/>
+<path d="M238.0 360.4 h6.5 l3.5 3.5 v7.5 h-10 z" fill="#ffffff" stroke="#5b6470" stroke-width="1"/>
+<path d="M244.5 360.4 v3.5 h3.5" fill="none" stroke="#5b6470" stroke-width="1"/>
+<text x="256.0" y="370.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">the closure memo</text>
+<rect x="230.0" y="395.7" width="152.0" height="26.0" rx="4" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1"/>
+<path d="M238.0 403.2 h6.5 l3.5 3.5 v7.5 h-10 z" fill="#ffffff" stroke="#5b6470" stroke-width="1"/>
+<path d="M244.5 403.2 v3.5 h3.5" fill="none" stroke="#5b6470" stroke-width="1"/>
+<text x="256.0" y="413.2" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">the owner&#x27;s rulings</text>
+<rect x="230.0" y="438.6" width="152.0" height="26.0" rx="4" fill="#f1f3f5" stroke="#c9cdd3" stroke-width="1"/>
+<path d="M238.0 446.1 h6.5 l3.5 3.5 v7.5 h-10 z" fill="#ffffff" stroke="#5b6470" stroke-width="1"/>
+<path d="M244.5 446.1 v3.5 h3.5" fill="none" stroke="#5b6470" stroke-width="1"/>
+<text x="256.0" y="456.1" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">the sign-off record</text>
+<rect x="418.0" y="166.0" width="186.0" height="102.0" rx="6" fill="#ffffff" stroke="#9a3412" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="437.0" cy="179.5" r="11" fill="#9a3412"/>
+<text x="437.0" y="183.8" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="454.0" y="184.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">AI assistant</text>
+<text x="426.0" y="203.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">where the bank allows one</text>
+<text x="426.0" y="222.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">drafts the plan, the memo</text>
+<text x="426.0" y="238.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">and other papers</text>
+<text x="426.0" y="257.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">never signs</text>
+<rect x="418.0" y="290.0" width="186.0" height="137.0" rx="6" fill="#fdf0e8" stroke="#9a3412" stroke-width="2"/>
+<circle cx="437.0" cy="303.5" r="11" fill="#9a3412"/>
+<text x="437.0" y="307.8" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="454.0" y="308.0" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">RegRem Engine</text>
+<text x="426.0" y="327.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">ties each figure, date and</text>
+<text x="426.0" y="343.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">quotation to its cited page</text>
+<text x="426.0" y="362.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">lists what does not match,</text>
+<text x="426.0" y="378.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">for the finding owner</text>
+<text x="426.0" y="397.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">no AI model inside</text>
+<text x="426.0" y="416.0" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">the same answer every run</text>
+<text x="220.0" y="508.0" font-size="12.5" font-weight="700" fill="#5b6470" text-anchor="start">RegRem Engine:</text>
+<rect x="220.0" y="515.0" width="120.0" height="46.0" rx="6" fill="#ffffff" stroke="#9a3412" stroke-width="1"/>
+<text x="280.0" y="534.5" font-size="12" font-weight="700" fill="#1f1e1d" text-anchor="middle">Nothing installed</text>
+<text x="280.0" y="550.5" font-size="12" font-weight="700" fill="#1f1e1d" text-anchor="middle">beyond Python</text>
+<rect x="352.0" y="515.0" width="120.0" height="46.0" rx="6" fill="#ffffff" stroke="#9a3412" stroke-width="1"/>
+<text x="412.0" y="534.5" font-size="12" font-weight="700" fill="#1f1e1d" text-anchor="middle">No network</text>
+<text x="412.0" y="550.5" font-size="12" font-weight="700" fill="#1f1e1d" text-anchor="middle">connection</text>
+<rect x="484.0" y="515.0" width="120.0" height="46.0" rx="6" fill="#ffffff" stroke="#9a3412" stroke-width="1"/>
+<text x="544.0" y="534.5" font-size="12" font-weight="700" fill="#1f1e1d" text-anchor="middle">Reads text, PDF,</text>
+<text x="544.0" y="550.5" font-size="12" font-weight="700" fill="#1f1e1d" text-anchor="middle">Word and Excel</text>
+<path d="M176.0 196.0 L220.0 196.0" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M176.0 286.0 L220.0 286.0" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M176.0 376.0 L220.0 376.0" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M220.0 467.0 L176.0 467.0" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M418.0 196.0 L392.0 196.0" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M392.0 320.0 L418.0 320.0" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M604.0 346.0 L634.0 346.0" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="848.0" y="174.4" width="132.0" height="147.0" rx="6" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="856.0" y="192.4" font-size="13.5" font-weight="700" fill="#1f1e1d" text-anchor="start">The Supervisor</text>
+<text x="856.0" y="211.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">receives the</text>
+<text x="856.0" y="227.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">closure package,</text>
+<text x="856.0" y="243.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">sent by the bank</text>
+<text x="856.0" y="259.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">through its own</text>
+<text x="856.0" y="275.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">channels</text>
+<text x="856.0" y="294.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">closes the finding</text>
+<text x="856.0" y="310.4" font-size="12.5" font-weight="normal" fill="#1f1e1d" text-anchor="start">or sends it back</text>
+<path d="M795.0 144.4 L914.0 144.4 L914.0 174.4" fill="none" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="815.0" cy="127.4" r="11" fill="#9a3412"/>
+<text x="815.0" y="131.7" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<text x="831.0" y="131.9" font-size="12.5" font-weight="700" fill="#5b6470" text-anchor="start">closure package</text>
+<text x="32.0" y="592.0" font-size="12.5" font-weight="700" fill="#9a3412" text-anchor="start">RegRem Engine sends nothing anywhere. The bank sends the closure package itself.</text>
+<text x="20.0" y="629.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">Shaded: RegRem Engine. Dashed box: the AI assistant, which drafts and never signs.</text>
+<text x="20.0" y="644.5" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">Arrows: files moving. Numbers: the order of the work. The check ties each figure, date</text>
+<text x="20.0" y="660.0" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">and quotation to the evidence page it cites. It does not judge whether the fix works,</text>
+<text x="20.0" y="675.5" font-size="12.5" font-weight="normal" fill="#5b6470" text-anchor="start">and a person still reads each sentence against its page. Every case here is invented.</text></svg>

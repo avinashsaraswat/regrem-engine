@@ -1,8 +1,36 @@
 # RegRem Engine
 
-RegRem Engine checks the closure memo a bank writes to show that a regulatory finding is fixed, tying every figure, date and quotation to the evidence page it cites. Whatever does not match goes on one short list, and the finding owner rules on each row before anyone signs. The name is short for regulatory remediation. The check itself is deterministic, with no AI inside it.
+**Check a bank's proof of a fix before it goes to the regulator.**
 
-It is for the people who build and test closure packages, such as remediation consultants, the bank staff who own findings, internal audit and the engineers who make their tools. It is plain Python 3.9 or later with no packages to install, the finding tool opens no network connection, and every case in this repository is invented.
+When a bank regulator finds a serious problem at a bank, it writes it up as a finding and sets a date for the fix. The bank fixes the problem, then proves it in a closure memo. The memo runs to pages of figures, dates and quotations, and each one points to a piece of evidence. If one number in that memo does not match its evidence, the package can come back, and the finding stays open.
+
+RegRem Engine is an open-source tool that checks that proof. It reads the closure memo and the evidence folder, ties every figure, date and quotation to the page it cites, and puts whatever does not match on one short list. The person who owns the finding rules on each item before anyone signs. Internal audit can rerun the same check later and get the same answer, because there is no AI inside it.
+
+![Five boxes in a row show remediation. The Supervisor examines the bank and writes up a finding, the bank plans and makes the fix, the bank proves it, and the Supervisor closes the finding or sends it back. Step 4 is highlighted. A panel below shows the bank writing the closure memo, RegRem Engine checking it against the evidence, the finding owner ruling and signing, and internal audit testing the fix.](docs/images/what-remediation-is.svg)
+
+A bank fixes a problem its regulator wrote up, then has to prove the fix. RegRem Engine works at the proving step, and people make every decision after it.
+
+
+What it gives a bank:
+
+- The owner gets one short list of the claims that do not match their evidence, so the reading starts where the problems are.
+- The owner signs a fingerprint of everything checked, and any later change to the memo or the evidence asks for a fresh signature.
+- Internal audit can repeat the test, since the same folder checked as of the same date gives the same result on any machine.
+- Nothing is installed beyond plain Python, and the tool opens no network connection.
+
+People still make the calls that matter. They decide whether the fix works, whether the evidence is the right evidence, and when the finding closes. The tool checks that each figure, date and quotation sits on the page the memo cites, and a person still reads each sentence against its page.
+
+![Three lines from a closure memo point to the evidence pages they cite. A quotation and a date match their pages. The figure 1,248 does not match the page's 1,284 and goes on the finding owner's list. A side panel lists five things a person still reads for and one known limit of the check.](docs/images/what-the-check-sees.svg)
+
+The check follows each figure, date and quotation in the memo to the page it cites. The right side shows what it cannot see, which is why a person still reads the memo.
+
+
+RegRem is short for regulatory remediation. Every case in this repository is invented, and no bank has used the tool yet. [Status](#status) says what has been tested.
+
+![Three panels show one finding. People at the bank build the proof, RegRem Engine checks it, and people decide. The Supervisor, outside the bank, closes the finding or sends it back.](docs/images/who-does-what.svg)
+
+People at the bank do the fix, write the memo and make every decision. RegRem Engine sits between them, and an AI assistant only drafts, where the bank allows one at all.
+
 
 ## Try it in five minutes
 
@@ -108,6 +136,10 @@ The one larger test so far used a bigger invented finding of 61 files and 173 pa
 
 ## How a finding is laid out
 
+![A table follows one finding through six steps, from the Supervisor's letter to closure. For each step it shows what happens, who leads, and in a shaded row what RegRem Engine does.](docs/images/one-finding-end-to-end.svg)
+
+One finding moves through six steps, from the Supervisor's letter to closure. The shaded row shows what the tool does at each step, and people still rule on the list, sign, test the fix and close the finding.
+
 Each finding is one folder that holds the regulator's letter, the plan, the evidence and the closure papers:
 
 ```text
@@ -141,6 +173,10 @@ Every file the check reads is plain text or a document it reads itself, so any A
 The reader takes a PDF with a text layer, a Word .docx file, an Excel .xlsx workbook, a CSV, an email saved as .eml, and plain text. It does no optical character recognition. The tool has no reader for Outlook .msg files, older Office formats, PowerPoint files or images. Each cited page of such a file is typed into its cover and checked by a second person, as a scan is.
 
 ## Fitting it to a bank
+
+![One approved machine inside a bank holds the finding folder, RegRem Engine and an optional AI assistant. The bank's own systems sit on one side and the people who act on the work on the other. The bank sends the closure package to the Supervisor.](docs/images/the-system.svg)
+
+The folder and the tool sit on one machine the bank has approved. The tool opens no network connection, and the bank sends the closure package to the Supervisor through its own channels.
 
 Three optional lists sit beside a finding or one folder up. The deny list, `denylist.txt`, holds names that must never print, and `role-words.txt` clears ordinary words the check took for names. A third, `size-assumptions.txt`, replaces the assumed hours with timed ones. The templates, plan columns and record fields are constants at the top of `finding/finding.py`.
 

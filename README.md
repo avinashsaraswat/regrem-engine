@@ -37,7 +37,7 @@ Memo check: 13 claims, 7 tie, 3 on the list, 1 cleared.
 ...
 ```
 
-In the first row of the memo check, the memo says the team reclassified 1,248 complaints and cites page 2 of evidence file EV-07, the intake procedure. That page says 1,284. Two digits were swapped when someone typed the figure, the kind of slip a reader checking by eye can pass. The check names the line, the cite and the figures the page holds nearby, and since a wrong figure is never cleared, someone fixes the memo.
+In the first row of the memo check, the memo says the team reclassified 1,248 complaints and cites page 2 of evidence file EV-07, the intake procedure. That page says 1,284. Two digits were swapped when someone typed the figure, the kind of slip a reader checking by eye can pass. The check names the line, the cite and the figures the page holds nearby. The owner rules `fix the memo` and someone corrects the figure. The tool would also accept `cleared` with a reason, so keeping a wrong figure off the cleared list is the owner's job.
 
 The other two rows are of a different kind. EV-12, the quality review, is still a draft, so the four claims that match its pages wait on a person's signature. The sample it reports also starts before the fix took effect, which mixes items from before and after the fix. The walk in [finding/DEMO.md](finding/DEMO.md) runs every command on both invented cases, and [finding/README.md](finding/README.md) explains the folder and every rule the check applies.
 
@@ -88,6 +88,17 @@ python3 -I finding/finding.py eval --library
 ```
 
 It ends with the line `Library cases: 21, 21 as expected, 6 of them a known limit.` Each known-limit case records something the check cannot see, so the limit stays written down.
+
+## Guides
+
+Six pages in docs/ show how the tool is used. Each one works on the invented cases, with commands you can rerun.
+
+- [docs/how-it-works.md](docs/how-it-works.md): three diagrams of where the check sits in remediation, one finding through the commands, and how the folders fit.
+- [docs/finding-owner.md](docs/finding-owner.md): for the person who owns a finding, how to read the list, rule on a row and sign.
+- [docs/weekly-run.md](docs/weekly-run.md): one finding from Monday's check to Thursday's board cutoff, with who acts on each line.
+- [docs/internal-audit.md](docs/internal-audit.md): a half-day plan for testing a closure package, including errors you plant yourself.
+- [docs/first-week-engineer.md](docs/first-week-engineer.md): five days of fitting the kit to a bank, from the deny list to a site version and its acceptance.
+- [docs/measuring-it.md](docs/measuring-it.md): how to time a finding by hand, replace the size assumptions and set a stop rule before a live run.
 
 ## Status
 

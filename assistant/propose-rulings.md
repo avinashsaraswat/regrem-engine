@@ -14,7 +14,7 @@ Line 16 | sample period for M2 #106ddd50 | fix the evidence | Head of Complaints
 
 - Propose one of three: `cleared`, `fix the memo` or `fix the evidence`.
 - Propose `cleared` only when the page supports the memo and the check could not see why, such as a figure the page writes in words. Give the reason in one sentence a stranger could check.
-- Propose `fix the memo` when the memo is wrong, with the right figure and its page. A wrong figure is never cleared.
+- Propose `fix the memo` when the memo is wrong, with the right figure and its page. Never propose `cleared` for a wrong figure. The tool would accept it, so this rule is yours and the owner's to keep.
 - Propose `fix the evidence` when the document has to change or be signed again.
 - Keep the second cell exactly as the row prints it after "To rule, name:", such as `1,248 #972adb19` or `sample period for M2 #106ddd50`. The mark after the # stands for the claim, its cite and its sentence, so a ruling clears that claim and no other. It follows the claim if the memo moves. Change the sentence or the cite and the row returns to the list with a new mark.
 - The fourth cell is the owner's role. Write the fifth as YYYY-MM-DD, and the owner types the date on accepting the line.

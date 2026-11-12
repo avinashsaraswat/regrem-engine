@@ -4,7 +4,7 @@ Issues and pull requests are welcome, with one rule that comes before everything
 
 ## Never post real material
 
-Never put confidential supervisory information or a real bank document in an issue, a pull request, a test or a library case. The same goes for text from a real finding and for a real person's or institution's name. That includes screenshots and screens pasted from a real finding folder. Use invented names, figures and dates instead. Every case in this repository is invented and has to stay that way, and an invented example shows a problem just as well.
+Never put confidential supervisory information or a document from a real financial institution in an issue, a pull request, a test or a library case. The same goes for text from a real finding and for a real person's or institution's name. That includes screenshots and screens pasted from a real finding folder. Use invented names, figures and dates instead. Every case in this repository is invented and has to stay that way, and an invented example shows a problem just as well.
 
 ## Reporting a problem
 

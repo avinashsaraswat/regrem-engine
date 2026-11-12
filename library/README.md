@@ -30,7 +30,7 @@ A case marked `known_limit` records what the check cannot see, such as a wrong f
 
 ## Adding a case
 
-1. Write the miss in your own words, with invented names, figures and dates. A case never holds text from a real finding, a real bank document or confidential supervisory information.
+1. Write the miss in your own words, with invented names, figures and dates. A case never holds text from a real finding, a document from a real financial institution or confidential supervisory information.
 2. Put it in `cases/` as one JSON file in the form above, and run `finding/finding eval --library`.
 3. If the check gets it wrong, either fix the check in the same change or add `"known_limit": true` with a `why` that says what the check cannot see.
 4. Refresh RELEASE.json at the version it already names, as in `python3 -I finding/release.py 0.7.0`, run both self-tests, and open a pull request as [CONTRIBUTING.md](../CONTRIBUTING.md) describes.

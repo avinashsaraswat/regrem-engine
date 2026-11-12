@@ -1,6 +1,6 @@
 # Measuring whether it saved time
 
-This page is for whoever at the bank will be asked whether RegRem Engine saved the team time. Nobody can answer that yet, because nobody has timed the tool and every case in this repository is invented.
+This page is for whoever at the financial institution will be asked whether RegRem Engine saved the team time. Nobody can answer that yet, because nobody has timed the tool and every case in this repository is invented.
 
 ## Time one finding by hand first
 
@@ -16,7 +16,7 @@ python3 -I finding/finding.py size finding/cases/MRA-CMP-07
 
 For each finding it counts milestones, evidence files, claims on the memo check, rows to rule on and months from the letter to the last committed date. It then turns those counts into hours by hand and with the kit, both marked assumed. By hand, every claim is checked on each of three memo versions. With the kit, someone still reads every claim against its cited page once, rules on each row and types any page the reader cannot read. Both sides count one rework round.
 
-The closing line lists every minute and hour behind those sums. With the shipped values the kit side comes out near half the hand side on both invented cases. That ratio follows from minutes someone chose, so it says nothing about your bank. The rework round is the largest single part, 8.0 of the 11.5 kit hours on IA-CMP-02, which makes rework the first thing to time.
+The closing line lists every minute and hour behind those sums. With the shipped values the kit side comes out near half the hand side on both invented cases. That ratio follows from minutes someone chose, so it says nothing about your institution. The rework round is the largest single part, 8.0 of the 11.5 kit hours on IA-CMP-02, which makes rework the first thing to time.
 
 ## Replace the assumptions with timed figures
 
@@ -61,10 +61,10 @@ No signature covers this file. Its totals are the kit side of the comparison.
 
 ## Write the stop rule before the first live finding
 
-Agree in writing who decides whether the team keeps the tool and what sends it back to the hand method. Name one person at the bank and a date for the comparison, such as ten business days after the first signature. Typical results that end the trial are reviewers checking for as long as the hand record took, or internal audit returning more items than on the hand finding. A miss found after the package left that the check had passed ends it too. If one happens, the team goes back to working by hand and writes down why.
+Agree in writing who decides whether the team keeps the tool and what sends it back to the hand method. Name one person at the institution and a date for the comparison, such as ten business days after the first signature. Typical results that end the trial are reviewers checking for as long as the hand record took, or internal audit returning more items than on the hand finding. A miss found after the package left that the check had passed ends it too. If one happens, the team goes back to working by hand and writes down why.
 
 ## The honest baseline
 
-The only test beyond the shipped cases used a larger invented finding, 61 files and 173 pages long, held outside this repository. In the first of three trial runs on it, the check working alone found 1 of the 13 planted traps. An AI agent acting as reviewer found all 11 traps that run tested, and the remaining 2 went untested. The same agent had drafted the memo it then reviewed. AI agents ran all three trials, no bank has used the tool, and nobody timed any of it.
+The only test beyond the shipped cases used a larger invented finding, 61 files and 173 pages long, held outside this repository. In the first of three trial runs on it, the check working alone found 1 of the 13 planted traps. An AI agent acting as reviewer found all 11 traps that run tested, and the remaining 2 went untested. The same agent had drafted the memo it then reviewed. AI agents ran all three trials, no institution has used the tool, and nobody timed any of it.
 
 So the time baseline is your team's hand record, because the tool has none yet. For catch rate, the `eval` command plants errors in a memo one at a time and lists each miss by line. Treat the check as a floor under a person's reading of each sentence against its cited page.

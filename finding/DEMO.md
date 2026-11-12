@@ -87,7 +87,7 @@ Refused: the Concern in finding.md is not the text first checked on 2026-11-04. 
 
 If the first paste was wrong, `finding/finding check ../findings/DEMO-02 --repaste --today 2026-11-04` records the correction and keeps the evidence record, the deny list and any signature. Every later page says the text was corrected and on what date, and the folder's log holds the line.
 
-The first check also puts the bank's name and any run of two or three capitalised words from the letter on the deny list, and a page that would print one is refused. A run that holds a role word or a document word, such as Head or Procedure, is a title and stays off the list, so a bank's file named for a procedure the letter cites keeps its name. If a term on the list is an ordinary word or a title, the refusal says to add it to `role-words.txt` beside finding.md, and the next check clears it. That holds when the term sits in the name of a bank's file too, because renaming the file breaks its link to the bank's records. A word of the bank's name clears the same way, and the page then counts it. The bank's full name never clears, so its refusal does not offer the file. `finding/finding check ../findings/DEMO-02 --names` prints the list, for the person who asks. Every other page prints only its count. Remove the folder:
+The first check also puts the financial institution's name and any run of two or three capitalised words from the letter on the deny list, and a page that would print one is refused. A run that holds a role word or a document word, such as Head or Procedure, is a title and stays off the list, so an institution's file named for a procedure the letter cites keeps its name. If a term on the list is an ordinary word or a title, the refusal says to add it to `role-words.txt` beside finding.md, and the next check clears it. That holds when the term sits in the name of one of the institution's files too, because renaming the file breaks its link to the institution's records. A word of the institution's name clears the same way, and the page then counts it. The institution's full name never clears, so its refusal does not offer the file. `finding/finding check ../findings/DEMO-02 --names` prints the list, for the person who asks. Every other page prints only its count. Remove the folder:
 
 ```
 rm -r ../findings/DEMO-02
@@ -152,7 +152,7 @@ Needs a person:
   The board: its approval of closure.
 ```
 
-Under Milestones, M1 is present and signed. M2 lists two files in plan.md, EV-07 the intake procedure and EV-08 the register of staff trained on it. EV-07 is signed, but EV-08 was revised after its signature, so M2 is unsigned. M3 is unsigned because its quality review is still a draft, and M4 has no evidence at all. All three are SLIPPED. The board summary counts each quarter's due and signed milestones and names the board minutes that approved the plan. The commitment table is the bank's response in the Supervisor's five-part form. The closure lines show a draft memo that internal audit has not tested, no closure record and no board approval yet. The memo check and its list come in step 7. The deny list line counts the names the check keeps off every page, and the last block names what needs a person, grouped by who.
+Under Milestones, M1 is present and signed. M2 lists two files in plan.md, EV-07 the intake procedure and EV-08 the register of staff trained on it. EV-07 is signed, but EV-08 was revised after its signature, so M2 is unsigned. M3 is unsigned because its quality review is still a draft, and M4 has no evidence at all. All three are SLIPPED. The board summary counts each quarter's due and signed milestones and names the board minutes that approved the plan. The commitment table is the institution's response in the Supervisor's five-part form. The closure lines show a draft memo that internal audit has not tested, no closure record and no board approval yet. The memo check and its list come in step 7. The deny list line counts the names the check keeps off every page, and the last block names what needs a person, grouped by who.
 
 ## 4. Change a signed file
 
@@ -310,7 +310,7 @@ This folder may hold confidential supervisory information. Keep it on a machine 
 Refused: sign needs a terminal.
 ```
 
-The terminal test stops a script by accident and proves nobody's identity, and the bank's access controls supply that. The walk's `--today` works on sign only because this folder opens with a shipped case's SYNTHETIC line. `finding new` writes none, so a real finding is signed on the machine's date.
+The terminal test stops a script by accident and proves nobody's identity, and the institution's access controls supply that. The walk's `--today` works on sign only because this folder opens with a shipped case's SYNTHETIC line. `finding new` writes none, so a real finding is signed on the machine's date.
 
 Sign a copy of IA-CMP-02 by typing at the terminal:
 

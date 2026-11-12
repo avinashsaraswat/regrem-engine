@@ -2,7 +2,7 @@
 
 Report a security weakness privately, through GitHub's private vulnerability reporting on this repository. On the repository page, open the Security tab and choose "Report a vulnerability". Please do not open a public issue for it.
 
-Never put confidential supervisory information, a real bank document, text from a real finding or a real person's name in a report. Describe the weakness with an invented example, as the cases in this repository do.
+Never put confidential supervisory information, a document from a real financial institution, text from a real finding or a real person's name in a report. Describe the weakness with an invented example, as the cases in this repository do.
 
 ## What counts
 

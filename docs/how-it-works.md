@@ -6,11 +6,11 @@ The first diagram places the check inside remediation, the second walks one find
 
 ```mermaid
 flowchart TD
-    subgraph work["The bank's work"]
+    subgraph work["The institution's work"]
         direction LR
         A["1. Finding<br/>The issuer writes<br/>up a weakness and<br/>a date for the fix"]
         B["2. Plan<br/>Milestones, owner<br/>roles and dates,<br/>which the board<br/>approves"]
-        C["3. Work and evidence<br/>The bank makes<br/>the fix and files<br/>signed evidence"]
+        C["3. Work and evidence<br/>The institution<br/>makes the fix and<br/>files signed evidence"]
         D["4. Closure memo<br/>Cites a page for<br/>every figure, date<br/>and quotation"]
         A --> B --> C --> D
     end
@@ -32,7 +32,7 @@ flowchart TD
     class K,L shade
 ```
 
-Remediation is the work a bank does to fix a weakness someone has written up, and to show with evidence that it did. The issuer is the Supervisor, the bank's internal audit, or for a weakness the bank found on its own, the bank's issue-management owner. The shaded check runs between the memo and the owner's signature, and it reads the plan and the evidence, so a milestone counts only while its evidence stays signed. Whether the fix works is for internal audit to test, and only the issuer can close the finding.
+Remediation is the work a financial institution does to fix a weakness someone has written up, and to show with evidence that it did. The issuer is the Supervisor, the institution's internal audit, or for a weakness the institution found on its own, the institution's issue-management owner. The shaded check runs between the memo and the owner's signature, and it reads the plan and the evidence, so a milestone counts only while its evidence stays signed. Whether the fix works is for internal audit to test, and only the issuer can close the finding.
 
 ## One finding through the commands
 
@@ -66,8 +66,8 @@ Each shaded box is a command, run from the folder that holds finding/, where `fi
 
 ```mermaid
 flowchart TD
-    P["The team<br/>the finding owner, other<br/>bank roles and whoever<br/>the bank brings in"]
-    AS["assistant/<br/>a written procedure<br/>for each drafting job,<br/>for any AI assistant<br/>the bank allows"]
+    P["The team<br/>the finding owner, other<br/>roles at the institution<br/>and whoever it brings in"]
+    AS["assistant/<br/>a written procedure<br/>for each drafting job,<br/>for any AI assistant<br/>the institution allows"]
     FD["The finding folder<br/>finding.md, plan.md,<br/>evidence/ with covers,<br/>closure/memo.md,<br/>rulings.md, record.md"]
     subgraph check["The check, no AI model"]
         FT["finding/finding.py<br/>new, covers, check,<br/>eval, sign, size,<br/>--version"]
@@ -90,8 +90,8 @@ flowchart TD
     class FT,DR,EN shade
 ```
 
-The procedures in [assistant/](../assistant/README.md) tell whatever AI assistant the bank allows to draft into the folder and never to write the rulings or the record, or to sign. The finding tool reads the folder through its document reader and five files from [tieout/](../tieout/README.md). No AI model sits on that path, so one folder checked as of one date always gives the same page. The engine's optional model step lives in tieout/providers.py, off by default, and the finding tool never imports it. Each release has to pass all 21 invented cases in [library/](../library/README.md), and the six marked as a known limit keep a written record of what the check cannot see.
+The procedures in [assistant/](../assistant/README.md) tell whatever AI assistant the institution allows to draft into the folder and never to write the rulings or the record, or to sign. The finding tool reads the folder through its document reader and five files from [tieout/](../tieout/README.md). No AI model sits on that path, so one folder checked as of one date always gives the same page. The engine's optional model step lives in tieout/providers.py, off by default, and the finding tool never imports it. Each release has to pass all 21 invented cases in [library/](../library/README.md), and the six marked as a known limit keep a written record of what the check cannot see.
 
 ## Limits
 
-The check looks for each claim only on the page its cite names, and it never sets two documents side by side. So a wrong figure ties whenever the cited page holds that same figure somewhere, and a person reads every sentence against its page. Every case in this repository is invented, and no bank has run the tool on a real finding. The [walk in finding/DEMO.md](../finding/DEMO.md) runs every command shown here, and [finding/README.md](../finding/README.md) sets out each rule the check applies.
+The check looks for each claim only on the page its cite names, and it never sets two documents side by side. So a wrong figure ties whenever the cited page holds that same figure somewhere, and a person reads every sentence against its page. Every case in this repository is invented, and no institution has run the tool on a real finding. The [walk in finding/DEMO.md](../finding/DEMO.md) runs every command shown here, and [finding/README.md](../finding/README.md) sets out each rule the check applies.

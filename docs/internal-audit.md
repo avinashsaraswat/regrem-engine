@@ -1,6 +1,6 @@
 # Testing a closure package
 
-This guide is for internal audit, model risk and anyone else the bank asks to test a closure package that RegRem Engine helped prepare. The check is deterministic code with no AI model inside, so a rerun on the same folder and date gives the page the team got. You can also make it fail on purpose before you rely on it. It looks for each figure and date written in digits, and each quotation, on the evidence page its cite names. Whether the fix works stays with you.
+This guide is for internal audit, model risk and anyone else the financial institution asks to test a closure package that RegRem Engine helped prepare. The check is deterministic code with no AI model inside, so a rerun on the same folder and date gives the page the team got. You can also make it fail on purpose before you rely on it. It looks for each figure and date written in digits, and each quotation, on the evidence page its cite names. Whether the fix works stays with you.
 
 Run the commands from the kit root, the folder that holds finding/. They use the invented case IA-CMP-02, and on a real package you give the folder's own path. Windows users run `py -I finding\finding.py` in place of `finding/finding`.
 
@@ -8,7 +8,7 @@ Run the commands from the kit root, the folder that holds finding/. They use the
 
 ### 1. Copy the folder (15 minutes)
 
-Work on a copy kept on a machine the bank approves. Copy the whole folder, so the hidden `.finding-state.json` that records which files were signed comes too. A copy made with `cp -R folder/* copy` leaves it behind.
+Work on a copy kept on a machine the institution approves. Copy the whole folder, so the hidden `.finding-state.json` that records which files were signed comes too. A copy made with `cp -R folder/* copy` leaves it behind.
 
 ```sh
 cp -R finding/cases/IA-CMP-02 audit-02
@@ -20,7 +20,7 @@ cp -R finding/cases/IA-CMP-02 audit-02
 finding/finding --version
 ```
 
-On the published kit it reports that every file matches the release. A changed kit names each changed file or shows a site version such as 0.7.0+site.1. Then ask the team for the bank's log of each change.
+On the published kit it reports that every file matches the release. A changed kit names each changed file or shows a site version such as 0.7.0+site.1. Then ask the team for the institution's log of each change.
 
 ### 3. Rerun the check and confirm the fingerprint (30 minutes)
 
@@ -68,9 +68,9 @@ The memo check now reads `14 claims, 9 tie, 5 on the list.` The quotation row sh
 
 An empty list means every claim was found on its cited page. A person still reads for five things:
 
-- A version in force that is later than the version the bank approved.
+- A version in force that is later than the version the institution approved.
 - Figures that disagree between two documents, since each can tie to its own page.
-- A scanned page whose typed text disagrees with the bank's own records.
+- A scanned page whose typed text disagrees with the institution's own records.
 - Work done before the control meant to precede it, such as staff handling complaints before their training.
 - A status report claiming more than its evidence supports.
 
@@ -82,4 +82,4 @@ In the live folder's closure/record.md, fill internal audit's reference, date an
 
 ## Limits
 
-Every case here is invented, and the kit has not been run on a real finding. The counts above come from one small invented memo and predict nothing about your bank's papers. The check is a floor under a reviewer's reading. Whether the fix works, and whether the finding closes, stays with internal audit and the issuer.
+Every case here is invented, and the kit has not been run on a real finding. The counts above come from one small invented memo and predict nothing about your institution's papers. The check is a floor under a reviewer's reading. Whether the fix works, and whether the finding closes, stays with internal audit and the issuer.

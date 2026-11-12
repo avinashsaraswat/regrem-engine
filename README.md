@@ -1,17 +1,17 @@
 # RegRem Engine
 
-**Check a bank's proof of a fix before it goes to the regulator.**
+**Check a financial institution's proof of a fix before it goes to the regulator.**
 
-When a bank regulator finds a serious problem at a bank, it writes it up as a finding and sets a date for the fix. The bank fixes the problem, then proves it in a closure memo. The memo runs to pages of figures, dates and quotations, and each one points to a piece of evidence. If one number in that memo does not match its evidence, the package can come back, and the finding stays open.
+When a financial regulator finds a serious problem at a bank, insurer, broker-dealer or other financial institution, it writes up a finding and sets a date for the fix. The institution fixes the problem, then proves it in a closure memo. The memo runs to pages of figures, dates and quotations, and each one points to a piece of evidence. If one number in that memo does not match its evidence, the package can come back, and the finding stays open.
 
 RegRem Engine is an open-source tool that checks that proof. It reads the closure memo and the evidence folder, ties every figure, date and quotation to the page it cites, and puts whatever does not match on one short list. The person who owns the finding rules on each item before anyone signs. Internal audit can rerun the same check later and get the same answer, because there is no AI inside it.
 
-![Five boxes in a row show remediation. The Supervisor examines the bank and writes up a finding, the bank plans and makes the fix, the bank proves it, and the Supervisor closes the finding or sends it back. Step 4 is highlighted. A panel below shows the bank writing the closure memo, RegRem Engine checking it against the evidence, the finding owner ruling and signing, and internal audit testing the fix.](docs/images/what-remediation-is.svg)
+![Five boxes in a row show remediation. The Supervisor examines the institution and writes up a finding, the institution plans and makes the fix, the institution proves it, and the Supervisor closes the finding or sends it back. Step 4 is highlighted. A panel below shows the institution writing the closure memo, RegRem Engine checking it against the evidence, the finding owner ruling and signing, and internal audit testing the fix.](docs/images/what-remediation-is.svg)
 
-A bank fixes a problem its regulator wrote up, then has to prove the fix. RegRem Engine works at the proving step, and people make every decision after it.
+An institution fixes a problem its regulator wrote up, then has to prove the fix. RegRem Engine works at the proving step, and people make every decision after it.
 
 
-What it gives a bank:
+What it gives an institution:
 
 - The owner gets one short list of the claims that do not match their evidence, so the reading starts where the problems are.
 - The owner signs a fingerprint of everything checked, and any later change to the memo or the evidence asks for a fresh signature.
@@ -25,11 +25,11 @@ People still make the calls that matter. They decide whether the fix works, whet
 The check follows each figure, date and quotation in the memo to the page it cites. The right side shows what it cannot see, which is why a person still reads the memo.
 
 
-RegRem is short for regulatory remediation. Every case in this repository is invented, and no bank has used the tool yet. [Status](#status) says what has been tested.
+RegRem is short for regulatory remediation. Every case in this repository is invented, and no institution has used the tool yet. [Status](#status) says what has been tested.
 
-![Three panels show one finding. People at the bank build the proof, RegRem Engine checks it, and people decide. The Supervisor, outside the bank, closes the finding or sends it back.](docs/images/who-does-what.svg)
+![Three panels show one finding. People at the institution build the proof, RegRem Engine checks it, and people decide. The Supervisor, outside the institution, closes the finding or sends it back.](docs/images/who-does-what.svg)
 
-People at the bank do the fix, write the memo and make every decision. RegRem Engine sits between them, and an AI assistant only drafts, where the bank allows one at all.
+People at the institution do the fix, write the memo and make every decision. RegRem Engine sits between them, and an AI assistant only drafts, where the institution allows one at all.
 
 
 ## Try it in five minutes
@@ -75,7 +75,7 @@ An empty list means each figure and date written in digits, and each quotation, 
 
 The check has no AI model inside it, so it gives the same answer on every run. It also checks the record around the memo. A milestone counts only while its evidence is signed and unchanged, and a line saying the finding is closed stays on the list until the closer's entry is recorded. The owner signs a fingerprint of the memo, rulings, board approval, letter, plan, evidence and the tool's own code, and any later change to those asks for a fresh signature.
 
-A person still reads the memo. The check ties each claim to its own cited page and never compares one document with another, so two documents that disagree can both pass. A wrong figure that happens to sit on the cited page ties too. Figures written in words, bare years and dates with two-digit years are named on the page as not checked. Whether the fix works stays with the bank, internal audit tests it, and only the issuer closes the finding. The [Check section](finding/README.md#check) lists what a reviewer still reads for.
+A person still reads the memo. The check ties each claim to its own cited page and never compares one document with another, so two documents that disagree can both pass. A wrong figure that happens to sit on the cited page ties too. Figures written in words, bare years and dates with two-digit years are named on the page as not checked. Whether the fix works stays with the institution, internal audit tests it, and only the issuer closes the finding. The [Check section](finding/README.md#check) lists what a reviewer still reads for.
 
 ## The eval anyone can rerun
 
@@ -125,7 +125,7 @@ Six pages in docs/ show how the tool is used. Each one works on the invented cas
 - [docs/finding-owner.md](docs/finding-owner.md): for the person who owns a finding, how to read the list, rule on a row and sign.
 - [docs/weekly-run.md](docs/weekly-run.md): one finding from Monday's check to Thursday's board cutoff, with who acts on each line.
 - [docs/internal-audit.md](docs/internal-audit.md): a half-day plan for testing a closure package, including errors you plant yourself.
-- [docs/first-week-engineer.md](docs/first-week-engineer.md): five days of fitting the kit to a bank, from the deny list to a site version and its acceptance.
+- [docs/first-week-engineer.md](docs/first-week-engineer.md): five days of fitting the kit to a financial institution, from the deny list to a site version and its acceptance.
 - [docs/measuring-it.md](docs/measuring-it.md): how to time a finding by hand, replace the size assumptions and set a stop rule before a live run.
 
 ## Status
@@ -166,25 +166,25 @@ The tool has seven commands:
 
 ## Drafting with an AI assistant
 
-Every file the check reads is plain text or a document it reads itself, so any AI assistant a bank allows can draft into the folder. The pages in [assistant/](assistant/README.md) give one written procedure for each drafting job, covering the plan, the evidence covers, the closure memo, proposed rulings and answers to internal audit. The assistant never types a signature line, never writes the rulings or the record, and never signs. The check then reads what it wrote, and a person rules on whatever is left.
+Every file the check reads is plain text or a document it reads itself, so any AI assistant an institution allows can draft into the folder. The pages in [assistant/](assistant/README.md) give one written procedure for each drafting job, covering the plan, the evidence covers, the closure memo, proposed rulings and answers to internal audit. The assistant never types a signature line, never writes the rulings or the record, and never signs. The check then reads what it wrote, and a person rules on whatever is left.
 
 ## What it reads
 
 The reader takes a PDF with a text layer, a Word .docx file, an Excel .xlsx workbook, a CSV, an email saved as .eml, and plain text. It does no optical character recognition. The tool has no reader for Outlook .msg files, older Office formats, PowerPoint files or images. Each cited page of such a file is typed into its cover and checked by a second person, as a scan is.
 
-## Fitting it to a bank
+## Fitting it to a financial institution
 
-![One approved machine inside a bank holds the finding folder, RegRem Engine and an optional AI assistant. The bank's own systems sit on one side and the people who act on the work on the other. The bank sends the closure package to the Supervisor.](docs/images/the-system.svg)
+![One approved machine inside the institution holds the finding folder, RegRem Engine and an optional AI assistant. The institution's own systems sit on one side and the people who act on the work on the other. The institution sends the closure package to the Supervisor.](docs/images/the-system.svg)
 
-The folder and the tool sit on one machine the bank has approved. The tool opens no network connection, and the bank sends the closure package to the Supervisor through its own channels.
+The folder and the tool sit on one machine the institution has approved. The tool opens no network connection, and the institution sends the closure package to the Supervisor through its own channels.
 
 Three optional lists sit beside a finding or one folder up. The deny list, `denylist.txt`, holds names that must never print, and `role-words.txt` clears ordinary words the check took for names. A third, `size-assumptions.txt`, replaces the assumed hours with timed ones. The templates, plan columns and record fields are constants at the top of `finding/finding.py`.
 
-A change to the tool's code changes every finding's fingerprint, and every page then names each kit file that differs from its release. Running `python3 -I finding/release.py` marks the kit as a site version such as 0.7.0+site.1, so a changed kit never reads as the published release. From then on the pages show only the site version, so a bank keeps its own log of which files changed.
+A change to the tool's code changes every finding's fingerprint, and every page then names each kit file that differs from its release. Running `python3 -I finding/release.py` marks the kit as a site version such as 0.7.0+site.1, so a changed kit never reads as the published release. From then on the pages show only the site version, so the institution keeps its own log of which files changed.
 
 ## Delivering it through a forward-deployed team
 
-Forward-deployed engineering is the industry's name for engineers placed with the team that uses a tool, to fit it where it runs. A bank's own engineering group or a firm's team placed with a bank could deliver this kit that way, since the work is fitting it to each bank's files. Until the release file is refreshed, every page names the kit files that changed. Running `python3 -I finding/release.py` then marks the kit as a site version, and the bank's own change log keeps the list of changed files. The eval and the library print what the check misses, and someone other than the engineer still reads and accepts what each change does. The page [docs/forward-deployed.md](docs/forward-deployed.md) sets out the three controls such a team needs, why the arrangement could change how remediation is delivered, and its limits. No bank has used the kit this way.
+Forward-deployed engineering is the industry's name for engineers placed with the team that uses a tool, to fit it where it runs. An institution's own engineering group or a firm's team placed with an institution could deliver this kit that way, since the work is fitting it to each institution's files. Until the release file is refreshed, every page names the kit files that changed. Running `python3 -I finding/release.py` then marks the kit as a site version, and the institution's own change log keeps the list of changed files. The eval and the library print what the check misses, and someone other than the engineer still reads and accepts what each change does. The page [docs/forward-deployed.md](docs/forward-deployed.md) sets out the three controls such a team needs, why the arrangement could change how remediation is delivered, and its limits. No institution has used the kit this way.
 
 ## Tests
 
@@ -206,7 +206,7 @@ The first runs 1,166 expectations in the finding tool and the second runs 77 in 
 
 ## Contributing and security
 
-Never post confidential supervisory information, a real bank document or anything from a real finding in an issue or a pull request. An invented example shows a problem just as well. [CONTRIBUTING.md](CONTRIBUTING.md) says how to propose a change, and [SECURITY.md](SECURITY.md) says how to report a weakness privately.
+Never post confidential supervisory information, a document from a real financial institution or anything from a real finding in an issue or a pull request. An invented example shows a problem just as well. [CONTRIBUTING.md](CONTRIBUTING.md) says how to propose a change, and [SECURITY.md](SECURITY.md) says how to report a weakness privately.
 
 ## Licence
 

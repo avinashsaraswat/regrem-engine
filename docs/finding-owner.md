@@ -79,7 +79,7 @@ Signed by the Head of Complaints on 2026-11-04, a date typed with --today on a m
 
 The fingerprint is one SHA-256 hash over the memo, your rulings, the letter, the plan, every evidence file, the board's approval and the tool's own code. Sign writes your role, the date, the full hash and the release into closure/record.md. Change any of those files later and the page asks for a fresh signature. Entries that internal audit or the closer add afterwards leave it standing. On a real finding, sign refuses `--today` and uses the machine's date.
 
-A signature records a role and proves no identity. The terminal prompt only stops a script from signing by accident, so the bank's access controls decide who may run sign.
+A signature records a role and proves no identity. The terminal prompt only stops a script from signing by accident, so the financial institution's access controls decide who may run sign.
 
 ## Before you sign
 

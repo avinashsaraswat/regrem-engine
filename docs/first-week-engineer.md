@@ -1,6 +1,6 @@
 # An engineer's first week
 
-This page is for the one engineer, on the bank's staff or brought in by it, who fits RegRem Engine to the bank in a week. By day 5 the tool runs on the bank's approved machine and refuses to print any name on its deny list. You also know which of the bank's evidence formats it reads, and any code change shows as a site version. Every case and name below is invented.
+This page is for the one engineer, on a financial institution's staff or brought in by it, who fits RegRem Engine to that institution in a week. By day 5 the tool runs on the institution's approved machine and refuses to print any name on its deny list. You also know which of the institution's evidence formats it reads, and any code change shows as a site version. Every case and name below is invented.
 
 Every command here runs from the kit root, where finding/ sits. Windows users replace `finding/finding` with `py -I finding\finding.py`. Keep findings beside the kit, such as in `../findings`, because `finding new` refuses a path inside it.
 
@@ -28,28 +28,28 @@ Pass the same `--today` each time you save a check, or the day counts on the mil
 
 ## Day 2: the deny list and role words
 
-Run `finding/finding new ../findings/TRY-01` and fill finding.md and plan.md with an invented letter in the bank's style, using its role titles and system names. Then:
+Run `finding/finding new ../findings/TRY-01` and fill finding.md and plan.md with an invented letter in the institution's style, using its role titles and system names. Then:
 
 ```sh
 finding/finding check ../findings/TRY-01 --today 2026-11-04
 finding/finding check ../findings/TRY-01 --names
 ```
 
-The first full check puts the bank's name and its distinctive words on the deny list. It also adds runs of capitalised words from the letter, such as a system's name. Pages print only a count, and `--names` prints the list.
+The first full check puts the institution's name and its distinctive words on the deny list. It also adds runs of capitalised words from the letter, such as a system's name. Pages print only a count, and `--names` prints the list.
 
 Ask the finding owner's office for every term that must never print, such as legal and trading names, systems and projects. Write them one a line in `denylist.txt`, beside finding.md for one finding or in `../findings/` for all of them. Matching ignores case and accents.
 
-Ordinary words the check collected, such as a team called Records Desk, go in `role-words.txt` in either place. The page then reads `Deny list: 6 names; role-words.txt left out 1.` The deny list wins over role words, and the bank's full name never clears. One word in `role-words.txt` clears every run holding it, so the owner's office reads the `--names` output.
+Ordinary words the check collected, such as a team called Records Desk, go in `role-words.txt` in either place. The page then reads `Deny list: 6 names; role-words.txt left out 1.` The deny list wins over role words, and the institution's full name never clears. One word in `role-words.txt` clears every run holding it, so the owner's office reads the `--names` output.
 
 ## Day 3: evidence and size assumptions
 
-Copy invented documents in the bank's real formats into evidence/, each name starting with its evidence id, and draft the covers:
+Copy invented documents in the institution's real formats into evidence/, each name starting with its evidence id, and draft the covers:
 
 ```sh
 finding/finding covers ../findings/TRY-01
 ```
 
-A file name holding a deny-list term stops it. In a trial run, `EV-02 Case Tracker aging export.csv` was refused, and covers ran once Case Tracker went into `role-words.txt`. Put a system name there only when the owner's office agrees it may print, because renaming the file instead breaks its link to the bank's records.
+A file name holding a deny-list term stops it. In a trial run, `EV-02 Case Tracker aging export.csv` was refused, and covers ran once Case Tracker went into `role-words.txt`. Put a system name there only when the owner's office agrees it may print, because renaming the file instead breaks its link to the institution's records.
 
 `finding size` prints assumed hours by hand and with the kit. Put timed figures in `size-assumptions.txt`, beside the finding or one folder up, using the wording in finding/README.md:
 
@@ -62,7 +62,7 @@ hours a status report: 3
 
 ## Day 4: templates and record fields
 
-A plan column the bank adds needs no code, because the check reads past it. Templates, plan columns and record fields are constants near the top of `finding/finding.py`, such as TEMPLATE_PLAN, PLAN_COLUMNS and RECORD_FIELDS. A new record line goes in both RECORD_FIELDS and TEMPLATE_RECORD. The owner's signature covers it unless it is also added to UNSIGNED_RECORD_FIELDS, and the page prints nothing from it until code does. Renaming a field the check reads needs code and a self-test case.
+A plan column the institution adds needs no code, because the check reads past it. Templates, plan columns and record fields are constants near the top of `finding/finding.py`, such as TEMPLATE_PLAN, PLAN_COLUMNS and RECORD_FIELDS. A new record line goes in both RECORD_FIELDS and TEMPLATE_RECORD. The owner's signature covers it unless it is also added to UNSIGNED_RECORD_FIELDS, and the page prints nothing from it until code does. Renaming a field the check reads needs code and a self-test case.
 
 Then refresh the release file:
 
@@ -90,7 +90,7 @@ diff ../acceptance/MRA-CMP-07.txt ../acceptance/MRA-CMP-07-site.txt
 
 In a trial that added one plan template line and one record field, only the release on the Finding line differed. A change to what the tool prints also means editing the expected screens in `finding/selftest.py`, and the accepter reads that edit.
 
-The tool keeps no log of site changes. Keep one page inside the bank with each site version, its date, the reason and the accepter. Add the hashes before and after, the release that signed each folder and the bank role that owns the kit.
+The tool keeps no log of site changes. Keep one page inside the institution with each site version, its date, the reason and the accepter. Add the hashes before and after, the release that signed each folder and which of the institution's roles owns the kit.
 
 ## What stays open
 

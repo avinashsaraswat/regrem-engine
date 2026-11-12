@@ -9,7 +9,8 @@
 <circle cx="40" cy="102" r="12" fill="#9a3412"/>
 <text x="40" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">1</text>
 <text x="32" y="134" font-size="14" fill="#1f1e1d">The Supervisor</text>
-<text x="32" y="152" font-size="14" fill="#1f1e1d">examines the bank.</text>
+<text x="32" y="152" font-size="14" fill="#1f1e1d">examines the</text>
+<text x="32" y="170" font-size="14" fill="#1f1e1d">financial institution.</text>
 <text x="107.2" y="224" font-size="13" fill="#5b6470" text-anchor="middle">The Supervisor</text>
 <path d="M197.4 142 L211.4 142" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
 
@@ -29,8 +30,8 @@
 <rect x="412.8" y="82" width="174.4" height="120" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
 <circle cx="432.8" cy="102" r="12" fill="#9a3412"/>
 <text x="432.8" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">3</text>
-<text x="424.8" y="134" font-size="14" fill="#1f1e1d">The bank plans the</text>
-<text x="424.8" y="152" font-size="14" fill="#1f1e1d">fix and makes it.</text>
+<text x="424.8" y="134" font-size="14" fill="#1f1e1d">The institution plans</text>
+<text x="424.8" y="152" font-size="14" fill="#1f1e1d">the fix and makes it.</text>
 <text x="500" y="224" font-size="13" fill="#5b6470" text-anchor="middle">Finding owner,</text>
 <text x="500" y="239" font-size="13" fill="#5b6470" text-anchor="middle">business teams</text>
 <path d="M590.2 142 L604.2 142" stroke="#5b6470" stroke-width="2" marker-end="url(#arrow)"/>
@@ -40,8 +41,8 @@
 <rect x="609.2" y="82" width="174.4" height="120" rx="8" fill="#fdf0e8" stroke="#9a3412" stroke-width="2"/>
 <circle cx="629.2" cy="102" r="12" fill="#9a3412"/>
 <text x="629.2" y="107" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">4</text>
-<text x="621.2" y="134" font-size="14" fill="#1f1e1d">The bank proves the</text>
-<text x="621.2" y="152" font-size="14" fill="#1f1e1d">fix with signed</text>
+<text x="621.2" y="134" font-size="14" fill="#1f1e1d">The institution proves</text>
+<text x="621.2" y="152" font-size="14" fill="#1f1e1d">the fix with signed</text>
 <text x="621.2" y="170" font-size="14" fill="#1f1e1d">evidence and a</text>
 <text x="621.2" y="188" font-size="14" fill="#1f1e1d">closure memo.</text>
 <text x="696.4" y="224" font-size="13" fill="#5b6470" text-anchor="middle">Finding owner,</text>
@@ -61,14 +62,14 @@
 <path d="M30 262 H682.4 L696.4 249 L710.4 262 H970 A10 10 0 0 1 980 272 V424 A10 10 0 0 1 970 434 H30 A10 10 0 0 1 20 424 V272 A10 10 0 0 1 30 262 Z" fill="#fafafa" stroke="#9a3412" stroke-width="1.5"/>
 <circle cx="48" cy="285" r="12" fill="#9a3412"/>
 <text x="48" y="290" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">4</text>
-<text x="68" y="290" font-size="14" font-weight="600" fill="#1f1e1d">Inside step 4: how the bank proves the fix</text>
-<rect x="752" y="278" width="14" height="14" rx="3" fill="#fdf0e8" stroke="#9a3412" stroke-width="1.5"/>
-<text x="772" y="289.5" font-size="13" fill="#5b6470">RegRem Engine</text>
-<rect x="880" y="278" width="14" height="14" rx="3" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
-<text x="900" y="289.5" font-size="13" fill="#5b6470">The bank</text>
+<text x="68" y="290" font-size="14" font-weight="600" fill="#1f1e1d">How the institution proves the fix in step 4</text>
+<rect x="721" y="278" width="14" height="14" rx="3" fill="#fdf0e8" stroke="#9a3412" stroke-width="1.5"/>
+<text x="741" y="289.5" font-size="13" fill="#5b6470">RegRem Engine</text>
+<rect x="849" y="278" width="14" height="14" rx="3" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
+<text x="869" y="289.5" font-size="13" fill="#5b6470">The institution</text>
 
 <rect x="40" y="302" width="200" height="116" rx="8" fill="#ffffff" stroke="#c9cdd3" stroke-width="1"/>
-<text x="52" y="326" font-size="13.5" font-weight="700" fill="#1f1e1d">The bank</text>
+<text x="52" y="326" font-size="13.5" font-weight="700" fill="#1f1e1d">The institution</text>
 <text x="52" y="346" font-size="13.5" fill="#1f1e1d">writes the closure memo.</text>
 <text x="52" y="364" font-size="13.5" fill="#1f1e1d">Each claim in it cites</text>
 <text x="52" y="382" font-size="13.5" fill="#1f1e1d">an evidence page.</text>
@@ -94,7 +95,7 @@
 <text x="772" y="364" font-size="13.5" fill="#1f1e1d">works.</text>
 
 <!-- Footnote -->
-<text x="20" y="468" font-size="14" font-weight="600" fill="#1f1e1d">Remediation is steps 3 and 4: the bank's work to fix a problem the Supervisor wrote up, and to prove the fix</text>
+<text x="20" y="468" font-size="14" font-weight="600" fill="#1f1e1d">Remediation is steps 3 and 4: the institution's work to fix a problem the Supervisor wrote up, and to prove the fix</text>
 <text x="20" y="487" font-size="14" font-weight="600" fill="#1f1e1d">with evidence the Supervisor accepts.</text>
 <text x="20" y="513" font-size="13.5" fill="#5b6470">RegRem Engine has no AI model inside, so it gives the same answer on every run. It never judges whether the fix works.</text>
 <text x="20" y="531" font-size="13.5" fill="#5b6470">Internal audit tests that, and a person still reads the memo. Every case in this repository is invented.</text>

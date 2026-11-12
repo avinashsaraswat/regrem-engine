@@ -1,0 +1,17 @@
+{
+  "name": "cite-to-a-missing-page",
+  "kind": "citation",
+  "why": "A page number past the end of the document.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "Sample size was 60 items."
+      ]
+    }
+  ],
+  "memo": "The sample held 60 items [EV-01 p4].",
+  "expect": {
+    "list": 1
+  }
+}

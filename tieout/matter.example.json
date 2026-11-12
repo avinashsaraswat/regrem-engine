@@ -1,0 +1,14 @@
+{
+  "matter_id": "SYN-2026-001",
+  "expert": "Dana Example",
+  "draft": "report/draft.docx",
+  "tag_mode": "comments",
+  "date_order": "mdy",
+  "provider": "rules",
+  "model": "",
+  "max_calls": 40,
+  "max_tokens": 16000,
+  "chunk_paragraphs": 6,
+  "replay_from": "",
+  "key_env": "TIEOUT_API_KEY"
+}

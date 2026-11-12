@@ -1,0 +1,23 @@
+{
+  "name": "figure-from-another-document",
+  "kind": "figure",
+  "why": "A figure lifted from a document the memo did not cite.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "Sample size was 60 items."
+      ]
+    },
+    {
+      "id": "EV-02",
+      "pages": [
+        "Error count was 7 items."
+      ]
+    }
+  ],
+  "memo": "The review found 7 errors [EV-01 p1].",
+  "expect": {
+    "list": 1
+  }
+}

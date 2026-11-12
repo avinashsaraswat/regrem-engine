@@ -1,0 +1,9 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+1. Definitions
+
+"Units" means Series K valve assemblies conforming to the Specifications in Schedule A.
+"Contract Year" means each twelve month period beginning on the Effective Date or an
+anniversary of it. "Term" has the meaning given in Section 9.1.
+
+2. Orders. Buyer shall issue purchase orders through Supplier's order portal no later than
+the tenth business day of the month before delivery.

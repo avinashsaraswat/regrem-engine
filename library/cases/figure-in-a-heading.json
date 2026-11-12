@@ -1,0 +1,20 @@
+{
+  "name": "figure-in-a-heading",
+  "kind": "figure",
+  "why": "A figure in a heading, with no cite.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "Sample size was 60 items."
+      ]
+    }
+  ],
+  "memo": "## 61 items were sampled\n\nThe sample held 60 items [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "has no cite"
+    ]
+  }
+}

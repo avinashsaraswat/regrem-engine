@@ -1,0 +1,6 @@
+# Keep LF line endings on every platform. The finding tool and the engine hash exact file bytes,
+# so a checkout that rewrote line endings would break RELEASE.json and the invented matter's hashes.
+* text=auto eol=lf
+*.pdf binary
+*.docx binary
+*.xlsx binary

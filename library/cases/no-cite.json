@@ -1,0 +1,20 @@
+{
+  "name": "no-cite",
+  "kind": "citation",
+  "why": "A figure with no cite after it.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "Sample size was 60 items."
+      ]
+    }
+  ],
+  "memo": "The sample held 60 items.",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "has no cite"
+    ]
+  }
+}

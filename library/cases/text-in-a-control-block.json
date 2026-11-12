@@ -1,0 +1,20 @@
+{
+  "name": "text-in-a-control-block",
+  "kind": "figure",
+  "why": "A sentence typed straight after a Tested control block.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "The fix took effect on 2026-03-17. The sample ran from 2026-03-17 to 2026-03-31 and held 60 items."
+      ]
+    }
+  ],
+  "memo": "Tested control: M1, the sample\nFix effective: 2026-03-17 [EV-01 p1]\nSample period: 2026-03-17 to 2026-03-31 [EV-01 p1]\nThe sample held 61 items [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "the page does not hold it"
+    ]
+  }
+}

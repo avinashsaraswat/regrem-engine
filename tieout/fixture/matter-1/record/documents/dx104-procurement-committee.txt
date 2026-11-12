@@ -1,0 +1,38 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+=== OSTL0004012 ===
+PROCUREMENT COMMITTEE
+Series K sourcing review
+July 11, 2023
+=== OSTL0004013 ===
+Agenda: current spend; options; exit cost; quality record; recommendation; decision.
+Prepared by Procurement for the committee members only.
+=== OSTL0004014 ===
+Current spend
+
+Brindlecote Series K spend at the minimum commitment is $7.01 million a year at the 2023
+price. Garrowfield has quoted a lower price for the same specification.
+=== OSTL0004015 ===
+Options
+
+Option A: remain with Brindlecote to the end of the term. Option B: dual source. Option C:
+exit Brindlecote and move all Series K volume to Garrowfield.
+=== OSTL0004016 ===
+Exit cost
+
+Legal estimates exposure to Brindlecote for lost profits of $3 million to $5 million if the
+agreement ends early without cause.
+=== OSTL0004017 ===
+Quality record
+
+Brindlecote on-time delivery for the first half of 2023 was 97.6%, above the Ostmarren
+supplier standard.
+=== OSTL0004018 ===
+Recommendation
+
+Adopt Option C. Issue notice by the end of September and cite delivery performance as the
+reason for exit. Time the notice so that Garrowfield supply is in place first.
+=== OSTL0004019 ===
+Decision
+
+The committee approved Option C on July 11, 2023 and asked the Chief Operating Officer to sign
+the notice when Garrowfield qualification is complete.

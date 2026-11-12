@@ -1,0 +1,3 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+Method note. Fixed overhead, depreciation on the Series K line and selling expense are
+excluded because they do not change with volume over the remaining term of the agreement.

@@ -1,0 +1,11 @@
+{
+  "signed_by": "",
+  "date": "",
+  "endpoint_base_url": "https://gateway.synthetic.example/v1",
+  "proxy_host": "",
+  "ca_file": "",
+  "timeout_seconds": 60,
+  "candidate_snippets": false,
+  "receipt_detail": "full",
+  "ledger_keeper": "the engagement partner's assistant"
+}

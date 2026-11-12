@@ -1,0 +1,21 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+=== OSTL0004008 ===
+SUMMARY OF SUPPLY AGREEMENT
+Ostmarren Logistics Corp. and Garrowfield Flow Controls LLC
+
+Signed August 17, 2023. Five year term from the first delivery. First deliveries are
+scheduled for November 2023, subject to qualification of Garrowfield parts.
+=== OSTL0004009 ===
+Commercial terms
+
+Garrowfield price per Unit: $109.90.
+Saving against the current Brindlecote price: 9.7%.
+=== OSTL0004010 ===
+Projected savings
+
+At the volume of the current Brindlecote minimum commitment, the projected annual saving is
+$682,560 before transition costs.
+=== OSTL0004011 ===
+Qualification
+
+Garrowfield parts completed qualification testing on 2023-09-15, with no open findings.

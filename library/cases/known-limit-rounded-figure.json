@@ -1,0 +1,18 @@
+{
+  "name": "known-limit-rounded-figure",
+  "kind": "figure",
+  "known_limit": true,
+  "why": "A rounded figure ties the fuller figure on the page.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "Total 12.84 units."
+      ]
+    }
+  ],
+  "memo": "The total was 12.8 units [EV-01 p1].",
+  "expect": {
+    "list": 0
+  }
+}

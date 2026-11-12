@@ -1,0 +1,20 @@
+{
+  "name": "quotation-reworded",
+  "kind": "quotation",
+  "why": "A quotation tidied by whoever drafted the memo.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "A complaint that mentions a fee is classified as a fee dispute first."
+      ]
+    }
+  ],
+  "memo": "A complaint is \"classified as a fee complaint first\" [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "the page does not hold"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "text-under-a-heading",
+  "kind": "figure",
+  "why": "Text straight under a heading, with no blank line between them.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "Sample size was 60 items."
+      ]
+    }
+  ],
+  "memo": "## M1, the sample\nThe sample held 61 items [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "the page does not hold it"
+    ]
+  }
+}

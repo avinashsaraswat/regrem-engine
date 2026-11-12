@@ -1,0 +1,7 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+3.3 Shortfall. If Buyer purchases fewer Units in a calendar month than the Minimum
+Purchase Commitment, Supplier may invoice the shortfall at the price then in effect.
+
+4. Delivery and Acceptance. Supplier shall deliver Units within five business days of the
+requested date. Buyer shall inspect Units on receipt and may reject nonconforming Units by
+written notice within ten business days.

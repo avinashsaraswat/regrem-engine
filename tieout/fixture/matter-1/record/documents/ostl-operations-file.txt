@@ -1,0 +1,34 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+=== OSTL0004020 ===
+SUPPLIER SCORECARD, BRINDLECOTE VALVE WORKS, Q2 2023
+
+On-time delivery: 97.9%. Defect rate: 0.31%. Scorecard rating: preferred supplier.
+=== OSTL0004021 ===
+SUPPLIER SCORECARD, BRINDLECOTE VALVE WORKS, Q3 2023
+
+On-time delivery: 96.8%. Defect rate: 0.27%. Scorecard rating: preferred supplier.
+=== OSTL0004022 ===
+From: Ruben Esterby
+To: Imogen Fairlaw
+Date: 2023-07-12
+
+The committee's decision is made and we move to Garrowfield. I will keep Brindlecote informed
+of nothing until the notice goes out.
+=== OSTL0004023 ===
+TERMINAL DEMAND MEMO
+
+Terminal demand for Series K is stable at roughly 4,900 Units per month across the network,
+with no terminal reporting a decline.
+=== OSTL0004024 ===
+Terminal demand outlook
+
+Operations expects network demand for Series K of 58,800 Units over the next calendar year.
+=== OSTL0004025 ===
+LITIGATION HOLD NOTICE
+
+Issued October 2, 2023 to Procurement, Operations and the office of the Chief Operating
+Officer. Preserve all records about the Brindlecote supply relationship.
+=== OSTL0004026 ===
+Inventory at termination
+
+Series K Units held across the terminal network on the effective date of termination: 6,150.

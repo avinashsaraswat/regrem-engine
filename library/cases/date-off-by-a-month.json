@@ -1,0 +1,20 @@
+{
+  "name": "date-off-by-a-month",
+  "kind": "date",
+  "why": "An approval date a month away from the minute.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "The committee approved the taxonomy on 2026-02-20."
+      ]
+    }
+  ],
+  "memo": "The committee approved the taxonomy on 2026-03-20 [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "the page does not hold it"
+    ]
+  }
+}

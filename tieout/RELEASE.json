@@ -1,0 +1,17 @@
+{
+ "code_files": {
+  "claims.py": "05d838f6576e120727f7ee007cc1cc36345d0764d5ed3e020e3b940139305e77",
+  "docx_reader.py": "f731b954ec8c99609ea6b4bad89fd51aca04108c2c332993bb6a3b9761fd2f8f",
+  "gate.py": "bf767d9c357016e1cd4c7ace424f4576245a53269586cc9750bb08e2fd50e9c9",
+  "measure.py": "ea1325ad874f17d0c4a7ac3676249fd662a9a2678442c88976fbb0faa3edacb4",
+  "providers.py": "b13f0a5008dd2e7ab86b155e29ad91e42e3beaa55f8716de359fbe4d1ddaceda",
+  "record.py": "eca9883fe18b78c5e602eb85cfd849f08de61712e3efe45901ddb0ed46d48b8e",
+  "tieout.py": "4eaf10de44a1f74e5c933b07d8d036fadce4bf5eff4d651135e71d241a0efea0",
+  "verify.py": "244da1b022be6a1f9f299d69a5f35fda862a5c253ea41bfe53ca56d80764378e",
+  "words.py": "07747d2f561709a9f4220a982097e6bda055ebebe853908aecb3dc3b4468a935"
+ },
+ "code_sha256": "1cdc1e477781ad4e5a4d8a828958ea6df5556a57f763e331f25017d2f29f78c3",
+ "regenerate": "python3 -I tieout/gate.py release",
+ "stage": 3,
+ "version": "0.3.3"
+}

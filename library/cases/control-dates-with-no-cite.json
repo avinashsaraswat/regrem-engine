@@ -1,0 +1,20 @@
+{
+  "name": "control-dates-with-no-cite",
+  "kind": "date",
+  "why": "A Fix effective and a Sample period line with no cite, so nothing ties the dates.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "The fix took effect on 2026-03-17."
+      ]
+    }
+  ],
+  "memo": "Tested control: M1, the sample\nFix effective: 2025-01-01\nSample period: 2025-02-01 to 2025-03-01",
+  "expect": {
+    "list": 3,
+    "contains": [
+      "has no cite"
+    ]
+  }
+}

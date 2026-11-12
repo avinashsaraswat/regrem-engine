@@ -1,0 +1,181 @@
+{"_synthetic": "SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.",
+ "about": "Labels over report/draft-untagged.md for measure --proposer, derived in code from the tagged draft, report/draft.md. Spans are verbatim from the twin. The runner never opens key/.",
+ "quotations": [
+  {
+   "para": 14,
+   "sentence": 2,
+   "span": "\"The Minimum Purchase Commitment is the essence of this Agreement . . . in reliance on it\"",
+   "cite": "PX-1 at 3"
+  },
+  {
+   "para": 14,
+   "sentence": 3,
+   "span": "\"the Supplier's lost profits on the Minimum Purchase Commitment ... are a foreseeable consequence of a wrongful termination by Buyer\"",
+   "cite": "PX-1 at 6"
+  },
+  {
+   "para": 18,
+   "sentence": 1,
+   "span": "\"[Ostmarren's] terminals will keep drawing Series K at the contract rate\"",
+   "cite": "PX-6"
+  },
+  {
+   "para": 20,
+   "sentence": 3,
+   "span": "\"[i]ssue notice by the end of September and cite delivery performance as the reason for exit\"",
+   "cite": "DX-104 at 7"
+  },
+  {
+   "para": 20,
+   "sentence": 4,
+   "span": "\"I would not say late deliveries were the reason\"",
+   "cite": "Esterby Dep. at 32:3-4"
+  },
+  {
+   "para": 22,
+   "sentence": 3,
+   "span": "\"Garrowfield offered a lower price per unit, and the committee wanted to move the volume\"",
+   "cite": "Esterby Dep. 31:20-21"
+  },
+  {
+   "para": 23,
+   "sentence": 2,
+   "span": "“[c]ontinuing the relationship is not in its commercial interest”",
+   "cite": "DX-101 at 1"
+  },
+  {
+   "para": 23,
+   "sentence": 3,
+   "span": "“The notice talked about late deliveries, and that was simply not what our own records showed”",
+   "cite": "Prewett Tr. 14:10-12"
+  },
+  {
+   "para": 23,
+   "sentence": 4,
+   "span": "\"The notice was timed so that we would have supply … We could not leave the terminals without parts\"",
+   "cite": "Esterby Dep. 32:20-22"
+  },
+  {
+   "para": 30,
+   "sentence": 4,
+   "span": "\"mentioned in the deck\"",
+   "cite": "Esterby Dep. 32:1"
+  },
+  {
+   "para": 31,
+   "sentence": 2,
+   "span": "\"[t]he committee's decision is made and we move to Garrowfield\"",
+   "cite": "OSTL0004022"
+  },
+  {
+   "para": 32,
+   "sentence": 1,
+   "span": "\"within sixty days after receiving notice describing the breach in reasonable detail\"",
+   "cite": "PX-1 at 5"
+  },
+  {
+   "para": 32,
+   "sentence": 2,
+   "span": "\"never received a notice of breach or a request to cure\"",
+   "cite": "Prewett Dep. 14:18-19"
+  },
+  {
+   "para": 37,
+   "sentence": 4,
+   "span": "\"is spread across several smaller accounts\"",
+   "cite": "Prewett Dep. 15:24-25"
+  },
+  {
+   "footnote": 4,
+   "sentence": 1,
+   "span": "\"costs most of a shift each time\"",
+   "cite": "Prewett Dep. 13:19-20"
+  }
+ ],
+ "words": [
+  {
+   "para": 19,
+   "sentence": 2,
+   "span": "four thousand eight hundred",
+   "value": "4800",
+   "cite": "DX-102 at 2"
+  },
+  {
+   "para": 19,
+   "sentence": 2,
+   "span": "the first quarter of 2024",
+   "value": "2024-Q1",
+   "cite": "DX-102 at 2"
+  },
+  {
+   "para": 28,
+   "sentence": 3,
+   "span": "seventy-five",
+   "value": "75",
+   "cite": "PX-4 at 2"
+  }
+ ],
+ "not_a_claim": [
+  {
+   "para": 3,
+   "sentence": 1,
+   "span": "November 6, 2026",
+   "reason": "date_of_report"
+  },
+  {
+   "para": 6,
+   "sentence": 1,
+   "span": "41",
+   "reason": "count_in_prose"
+  }
+ ],
+ "scare_quotes": [
+  {
+   "span": "\"Brindlecote\""
+  },
+  {
+   "span": "\"Ostmarren\""
+  },
+  {
+   "span": "\"timing issue\""
+  }
+ ],
+ "hints": [
+  {
+   "para": 21,
+   "sentence": 3,
+   "span": "2023-09-15",
+   "true_location": "DX-103 at 4"
+  },
+  {
+   "para": 27,
+   "sentence": 5,
+   "span": "4,734",
+   "true_location": "calc: (shipments.csv!B17 + shipments.csv!B18 + shipments.csv!B19) / 3"
+  },
+  {
+   "para": 36,
+   "sentence": 4,
+   "span": "51.6%",
+   "true_location": "calc: model.csv!B9 / model.csv!B6 * 100"
+  },
+  {
+   "para": 37,
+   "sentence": 3,
+   "span": "($1.2 million)",
+   "true_location": "calc: 0 - model.csv!B10"
+  },
+  {
+   "para": 38,
+   "sentence": 2,
+   "span": "6,150",
+   "true_location": "OSTL0004026"
+  },
+  {
+   "para": 38,
+   "sentence": 2,
+   "span": "58,800",
+   "true_location": "OSTL0004024"
+  }
+ ]
+}

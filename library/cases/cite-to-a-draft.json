@@ -1,0 +1,21 @@
+{
+  "name": "cite-to-a-draft",
+  "kind": "citation",
+  "why": "A figure cited to a document nobody signed.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "status": "DRAFT",
+      "pages": [
+        "The review found 31 misclassified complaints."
+      ]
+    }
+  ],
+  "memo": "The review found 31 misclassified complaints [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "which is a draft"
+    ]
+  }
+}

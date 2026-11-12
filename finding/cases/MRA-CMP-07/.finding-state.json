@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "first_check": "2026-02-10",
+  "checked": "2026-11-04",
+  "parts": {
+    "Concern": "1a04aedfdde8df76320b1936d7ce1c6ffaedec62845cdac8b1ba542923cedd0b",
+    "Cause": "ef118c53f6e6c31c48fa2dadbc195a3408bd491614aa7a04349407b0a240e285",
+    "Consequence": "3b739e002a0749ac8a2fd3799121ff9136830bdc03ed358ee91c30efe8a154ed",
+    "Corrective action": "0f9336a745be7cd0640a727b8ae1078b00d99d8c4b6b9a1932b2b8df16c66961",
+    "Commitment": "4c05a3c20011480f6f2129fb9f48090ff1e32dcb31561bdcf20ed607440ffa0a"
+  },
+  "frozen": {
+    "Identifier": "MRA-CMP-07",
+    "Issuer": "the Supervisor",
+    "Letter date": "2026-01-15",
+    "Kind of matter": "supervisory finding",
+    "Owner role": "Head of Complaints"
+  },
+  "evidence": {
+    "evidence/E-PLAN-1-board-minutes.md": {
+      "sha256": "998005be6c3258d462d7996e165a49e60a3ae17c90d217be1748fdb6bf09b3e2",
+      "signed": "2026-02-10"
+    },
+    "evidence/EV-03-complaint-taxonomy.md": {
+      "sha256": "5288368137813fa4e2013bd2ccf2182133b3c28697c2c3de527d6ac43a0b4659",
+      "signed": "2026-02-20"
+    },
+    "evidence/EV-04-committee-minutes.md": {
+      "sha256": "386cf6c66668ad1dda07d7cb045e71cb4c9609c0aeff2c7378398483350e4842",
+      "signed": "2026-02-20"
+    },
+    "evidence/EV-07-intake-procedure.md": {
+      "sha256": "df84bbbac744124c4d5c1ea4e51732eb2336ae1fb8b474c901bd445c4712baba",
+      "signed": "2026-03-14"
+    },
+    "evidence/EV-08-training-register.md": {
+      "sha256": "f0bd61e9df7aa0b501e1e00a691d9766f5fa45cae036fe675a738ff79f0509b8",
+      "signed": "2026-03-14"
+    },
+    "evidence/EV-12-quality-review.md": {
+      "sha256": "72c6940e265a82bd71afa40484b88ebfb630af99c6bf1f94f30acff7d4cc2c48",
+      "signed": null
+    }
+  },
+  "ids": {
+    "E-PLAN-1": {
+      "sha256": [
+        "998005be6c3258d462d7996e165a49e60a3ae17c90d217be1748fdb6bf09b3e2"
+      ],
+      "signed": "2026-02-10"
+    },
+    "EV-03": {
+      "sha256": [
+        "5288368137813fa4e2013bd2ccf2182133b3c28697c2c3de527d6ac43a0b4659"
+      ],
+      "signed": "2026-02-20"
+    },
+    "EV-04": {
+      "sha256": [
+        "386cf6c66668ad1dda07d7cb045e71cb4c9609c0aeff2c7378398483350e4842"
+      ],
+      "signed": "2026-02-20"
+    },
+    "EV-07": {
+      "sha256": [
+        "df84bbbac744124c4d5c1ea4e51732eb2336ae1fb8b474c901bd445c4712baba"
+      ],
+      "signed": "2026-03-14"
+    },
+    "EV-08": {
+      "sha256": [
+        "f0bd61e9df7aa0b501e1e00a691d9766f5fa45cae036fe675a738ff79f0509b8"
+      ],
+      "signed": "2026-03-14"
+    }
+  },
+  "plan": {
+    "approved": "2026-02-10",
+    "dates": {
+      "M1": "2026-02-28",
+      "M2": "2026-03-15",
+      "M3": "2026-04-30",
+      "M4": "2026-06-30"
+    }
+  },
+  "deny": {
+    "identifier": "MRA-CMP-07",
+    "names": [
+      "Wrenfield Example Bank",
+      "Wrenfield",
+      "Example"
+    ]
+  },
+  "signature": null
+}

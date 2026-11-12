@@ -1,0 +1,15 @@
+# SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+item,value,unit
+months_in_damages_period,16,months
+minimum_monthly_units,4800,units
+lost_units,76800,units
+contract_price,121.75,usd
+lost_revenue,9350400,usd
+variable_cost_per_unit,58.92,usd
+avoided_variable_cost,4525056,usd
+lost_profit_before_mitigation,4825344,usd
+mitigation_profit,1203100,usd
+net_lost_profit,3622244,usd
+discount_rate,9.5,pct
+present_value_factor,0.943810,factor
+present_value_of_net_lost_profit,3418710.11,usd

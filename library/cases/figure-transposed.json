@@ -1,0 +1,20 @@
+{
+  "name": "figure-transposed",
+  "kind": "figure",
+  "why": "Two digits transposed when the figure was typed into the memo.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "The team reclassified 1,284 complaints in the quarter."
+      ]
+    }
+  ],
+  "memo": "The team reclassified 1,248 complaints [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "the page does not hold it"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+Mitigation limits
+
+The released capacity could not be fully resold because the other customers order a
+different seat material, and retooling the line between materials takes most of a shift.

@@ -1,0 +1,4 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+Register notes. The register is exported from the Supplier's billing system. Amounts are
+stated in United States dollars and exclude sales tax. Disputed items are tracked by the
+credit team and are not netted against paid invoices.

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# The log that check --repaste writes when it runs on a shipped case
+finding/cases/*/closure/finding-log.jsonl

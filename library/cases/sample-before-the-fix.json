@@ -1,0 +1,20 @@
+{
+  "name": "sample-before-the-fix",
+  "kind": "sample",
+  "why": "A sample drawn across the date the fix took effect.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "The fix took effect on 2026-03-17. The sample ran from 2026-01-05 to 2026-03-31 and held 60 items."
+      ]
+    }
+  ],
+  "memo": "Tested control: M2, the reissued procedure\nFix effective: 2026-03-17 [EV-01 p1]\nSample period: 2026-01-05 to 2026-03-31 [EV-01 p1]",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "before the fix took effect"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bracket-in-a-quotation",
+  "kind": "quotation",
+  "why": "A bracketed word inside a quotation is no cite, so the quotation is still read.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "The Bank shall promptly acknowledge every complaint in writing."
+      ]
+    }
+  ],
+  "memo": "It says \"shall [not] send anything to anyone\" [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "the page does not hold"
+    ]
+  }
+}

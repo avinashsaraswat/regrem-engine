@@ -1,0 +1,36 @@
+# The finding tool's self-test and the engine's self-test, on Linux, macOS and Windows with Python 3.9 and 3.13.
+# The steps use the standard library, write nothing in the repository and read no secret.
+name: selftest
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    name: selftest (${{ matrix.os }}, Python ${{ matrix.python }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-latest, windows-latest]  # setup-python has no Python 3.9 for Ubuntu 26.04
+        python: ["3.9", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: engine self-test
+        run: python -I tieout/selftest.py
+      - name: finding self-test
+        run: python -I finding/selftest.py
+      - name: release check
+        run: python -I finding/finding.py --version

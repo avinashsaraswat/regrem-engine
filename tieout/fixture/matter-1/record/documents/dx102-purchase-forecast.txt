@@ -1,0 +1,25 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+=== OSTL0004003 ===
+OSTMARREN LOGISTICS CORP.
+Twelve Month Series K Purchase Forecast
+Issued 2023-04-03 by Procurement. Internal planning document.
+=== OSTL0004004 ===
+Forecast by quarter, Series K Units from Brindlecote Valve Works
+
+Q2 2023: 14,400 Units.
+Q3 2023: 14,400 Units.
+Q4 2023: 4,800 Units.
+Q1 2024: no Units planned.
+=== OSTL 0004005 ===
+Forecast assumptions
+
+The forecast assumes that the second supplier completes qualification by mid-September 2023
+and that volume moves to the second supplier from the start of November.
+=== OSTL0004006 ===
+Forecast accuracy
+
+Procurement's purchase forecasts for the prior year were within 4.2% of actual purchases
+across all Series K suppliers.
+=== OSTL0004007 ===
+Approval. Approved by Ruben Esterby, Vice President, Procurement, on April 3, 2023, for
+circulation to the procurement committee only.

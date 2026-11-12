@@ -1,0 +1,4 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+Invoice BV-INV-C, issued 10/31/2023, Units 4,725, amount $575,268.75, status paid.
+Shortfall invoice BV-SF-C, issued 11/15/2023, for 75 Units short in October, amount
+$9,131.25, status disputed.

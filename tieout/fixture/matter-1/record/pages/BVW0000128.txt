@@ -1,0 +1,5 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+OSTMARREN ACCOUNT CORRESPONDENCE LOG
+
+Entries are made by the account manager on the day of each call or meeting. The log is kept
+in the customer relationship system and exported for production.

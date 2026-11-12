@@ -1,0 +1,5 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+INVOICE REGISTER EXCERPT, OSTMARREN ACCOUNT
+
+Invoice BV-INV-A, issued 8/31/2023, Units 4,610, amount $561,267.50, status paid.
+Invoice BV-INV-B, issued 9/29/2023, Units 4,812, amount $585,861.00, status paid.

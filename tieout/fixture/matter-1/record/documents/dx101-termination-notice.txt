@@ -1,0 +1,18 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+=== OSTL0004001 ===
+OSTMARREN LOGISTICS CORP.
+September 28, 2023
+
+Hollis Varnell, Chief Executive Officer, Brindlecote Valve Works, Inc.
+
+Re: Notice of Termination
+
+Ostmarren Logistics Corp. hereby terminates the Master Supply Agreement dated March 14, 2022,
+effective October 31, 2023. Ostmarren has concluded that continuing the relationship is not
+in its commercial interest in light of repeated delays in the delivery of Units.
+=== OSTL0004002 ===
+Ostmarren will accept and pay for Units ordered for delivery on or before the effective
+date of termination. Ostmarren will issue no further purchase orders under the Agreement.
+
+Sincerely,
+Imogen Fairlaw, Chief Operating Officer

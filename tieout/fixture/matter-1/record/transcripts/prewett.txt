@@ -1,0 +1,101 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+[12:1] Q. Ms. Prewett, what is your position at
+[12:2] Brindlecote Valve Works?
+[12:3] A. I am the Chief Financial Officer. I have held
+[12:4] that position since the spring of 2019.
+[12:5] Q. Are you familiar with the Ostmarren account?
+[12:6] A. Yes. I reviewed the account every month with
+[12:7] the sales and operations leads.
+[12:8] Q. What was the minimum purchase commitment
+[12:9] under the supply agreement?
+[12:10] A. Four thousand eight hundred units a month, every
+[12:11] month of the term.
+[12:12] Q. Did Ostmarren meet that commitment in 2022?
+[12:13] A. It did. Every month in 2022 was at or above
+[12:14] the minimum.
+[12:15] Q. When did that change?
+[12:16] A. In the summer of 2023. July was the first month
+[12:17] below the minimum, at 4,780 units.
+[12:18] Q. Did you discuss the shortfall with anyone at
+[12:19] Ostmarren?
+[12:20] A. I called Ruben Esterby on August 4, 2023. He told
+[12:21] me the July number was a timing issue at one
+[12:22] terminal.
+[12:23] Q. Did you believe him?
+[12:24] A. At the time, yes. He had told me in June that
+[12:25] they were confident in the volumes.
+[13:1] Q. Let me show you what has been marked as PX-6.
+[13:2] Do you recognise it?
+[13:3] A. Yes. That is the email Ruben sent me in June.
+[13:4] Q. What did you understand it to mean?
+[13:5] A. That Ostmarren would keep buying at the contract
+[13:6] rate for the rest of the term. We kept the second
+[13:7] shift on the Series K line because of it.
+[13:8] Q. What did the second shift cost?
+[13:9] A. Roughly $1.1 million a year in labour, but that
+[13:10] cost is in the variable cost study as direct
+[13:11] labour.
+[13:12] Q. Turning to mitigation. What did Brindlecote do
+[13:13] after the termination?
+[13:14] A. We offered the released capacity to every
+[13:15] existing customer and to new accounts. We
+[13:16] replaced some of the volume, not all of it.
+[13:17] Q. Why not all of it?
+[13:18] A. The other customers use a different seat
+[13:19] material. Changing the line over costs most of a
+[13:20] shift each time, so we could not run small mixed
+[13:21] orders profitably.
+[13:22] Q. What discount rate does Brindlecote use for
+[13:23] capital decisions?
+[13:24] A. Our weighted average cost of capital was 9.5%
+[13:25] for fiscal 2023, and the board uses a range of
+[14:1] 8.5% to 10.5% when it tests a project.
+[14:2] Q. Who sets that range?
+[14:3] A. The board's finance committee, once a year,
+[14:4] on my recommendation.
+[14:5] Q. When did Brindlecote receive the notice of
+[14:6] termination?
+[14:7] A. On September 28, 2023. It came by courier and
+[14:8] by email the same day.
+[14:9] Q. What was your reaction?
+[14:10] A. Surprise. Our deliveries had been on time. The
+[14:11] notice talked about late deliveries, and that was
+[14:12] simply not what our own records showed.
+[14:13] Q. What did the records show?
+[14:14] A. On-time delivery above 96% in every quarter of
+[14:15] the account.
+[14:16] Q. Did Ostmarren ever send a written notice of
+[14:17] breach before the termination?
+[14:18] A. No. We never received a notice of breach or a
+[14:19] request to cure.
+[14:20] Q. Did Ostmarren pay the October invoice?
+[14:21] A. They paid for the units, not the shortfall.
+[14:22] Q. How many units were short in October?
+[14:23] A. Seventy-five.
+[14:24] Q. And the shortfall invoice is still open?
+[14:25] A. Yes, it is disputed.
+[15:1] Q. Have you calculated Brindlecote's lost profits?
+[15:2] A. No. We retained an outside expert for that.
+[15:3] Q. Did you provide the expert with the variable
+[15:4] cost study?
+[15:5] A. Yes, and the shipment data and the capacity
+[15:6] plan. Finance prepared the shipment data from the
+[15:7] billing system.
+[15:8] Q. Is the shipment data complete?
+[15:9] A. It covers every Series K shipment to Ostmarren
+[15:10] from the first in April 2022 to the last on
+[15:11] October 31, 2023.
+[15:12] Q. Anything excluded?
+[15:13] A. Returns. There were very few, under one tenth
+[15:14] of one percent of units.
+[15:15] MR. HALE: Objection, form.
+[15:16] Q. You may answer.
+[15:17] A. I have answered.
+[15:18] Q. Nothing further on that topic. Let's take a
+[15:19] short break.
+[15:20] (Recess taken.)
+[15:21] Q. Back on the record. Ms. Prewett, are you
+[15:22] aware of any customer that took over the
+[15:23] Ostmarren volume?
+[15:24] A. No single customer. The mitigation is spread
+[15:25] across several smaller accounts.

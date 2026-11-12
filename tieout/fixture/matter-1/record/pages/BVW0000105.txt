@@ -1,0 +1,9 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+9. Term and Termination
+
+9.1 Term. This Agreement begins on the Effective Date and continues for thirty six months,
+ending on March 13, 2025, unless terminated earlier under this Section 9.
+
+9.2 Termination for Cause. Either party may terminate this Agreement on written notice if the
+other party materially breaches it and fails to cure the breach within sixty days after
+receiving notice describing the breach in reasonable detail.

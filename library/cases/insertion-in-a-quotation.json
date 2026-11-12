@@ -1,0 +1,20 @@
+{
+  "name": "insertion-in-a-quotation",
+  "kind": "quotation",
+  "why": "The engine leaves a word in square brackets out of the comparison, so an added word that changes the meaning would tie. A quotation with an insertion goes on the list for a person.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "The Bank shall promptly acknowledge every complaint in writing."
+      ]
+    }
+  ],
+  "memo": "It says \"shall [not] promptly acknowledge every complaint\" [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "holds an insertion the check cannot compare"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "date-with-two-readings",
+  "kind": "date",
+  "why": "A slash date that reads two ways, with only one reading on the page.",
+  "evidence": [
+    {
+      "id": "EV-01",
+      "pages": [
+        "Signed on 2026-04-03."
+      ]
+    }
+  ],
+  "memo": "It was signed on 03/04/2026 [EV-01 p1].",
+  "expect": {
+    "list": 1,
+    "contains": [
+      "reads two ways"
+    ]
+  }
+}

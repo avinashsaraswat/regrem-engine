@@ -1,0 +1,14 @@
+{"_synthetic": "SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.",
+ "matter_id": "SYN-2026-001",
+ "expert": "Dana Example",
+ "draft": "report/draft.md",
+ "tag_mode": "inline",
+ "date_order": "mdy",
+ "provider": "rules",
+ "model": "",
+ "max_calls": 40,
+ "max_tokens": 2000,
+ "chunk_paragraphs": 6,
+ "replay_from": "",
+ "key_env": "TIEOUT_API_KEY"
+}

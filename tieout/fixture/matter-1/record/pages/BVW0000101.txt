@@ -1,0 +1,10 @@
+SYNTHETIC: invented test matter; every company, person, figure and date in this file is made up.
+MASTER SUPPLY AGREEMENT
+
+This Master Supply Agreement (the "Agreement") is entered into as of March 14, 2022 (the
+"Effective Date") by and between Brindlecote Valve Works, Inc. ("Supplier") and Ostmarren
+Logistics Corp. ("Buyer").
+
+Recitals. Supplier manufactures Series K precision valve assemblies. Buyer distributes
+industrial flow components to fleet and terminal operators and wishes to secure a dependable
+supply of Series K assemblies for the term of this Agreement.

@@ -14,7 +14,7 @@ python3 -I finding/selftest.py
 python3 -I tieout/selftest.py
 ```
 
-Expect `RegRem Engine 0.7.0`, then `selftest: PASS (1166 expectations)` and `selftest: PASS (77 expectations)`. Save a baseline outside the kit, checking a copy of the case. A check with a new date rewrites a shipped case's state file, and `--version` then names it as a changed test file.
+Expect `RegRem Engine 0.7.1`, then `selftest: PASS (1166 expectations)` and `selftest: PASS (77 expectations)`. Save a baseline outside the kit, checking a copy of the case. A check with a new date rewrites a shipped case's state file, and `--version` then names it as a changed test file.
 
 ```sh
 mkdir -p ../acceptance/cases
@@ -71,7 +71,7 @@ finding/finding --version
 python3 -I finding/release.py
 ```
 
-Before the refresh, `--version` prints `Changed since this release: finding/finding.py.`, each check page names the file, and the self-test fails. The refresh prints `RELEASE.json: 0.7.0+site.1, 8 files, 45 test files`, and a later change steps to 0.7.0+site.2. From then on every full check page and every signature names the site version. Copy RELEASE.json aside before each refresh to keep the old hashes.
+Before the refresh, `--version` prints `Changed since this release: finding/finding.py.`, each check page names the file, and the self-test fails. The refresh prints `RELEASE.json: 0.7.1+site.1, 8 files, 45 test files`, and a later change steps to 0.7.1+site.2. From then on every full check page and every signature names the site version. Copy RELEASE.json aside before each refresh to keep the old hashes.
 
 A code change moves every fingerprint too, so make it between findings, before anyone signs.
 

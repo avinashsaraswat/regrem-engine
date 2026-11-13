@@ -1,9 +1,9 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "files": {
     "finding/documents.py": "ebac5caeccb0eb28ec20386deba3622382b7c23894f32be946def24670074714",
     "finding/finding": "3c40b04d1eb3828e69aaa0e6842a1fc0248cb8e286b97d2cdc4fc71cbaa8ea47",
-    "finding/finding.py": "7521901d14102750d3e033ffbac92d9b64ced270eacda1e7284ef027f3ad3b4e",
+    "finding/finding.py": "141e1600f5ee304abd24b75c5540177cb48d08f761283da160fd939534d35db7",
     "tieout/claims.py": "05d838f6576e120727f7ee007cc1cc36345d0764d5ed3e020e3b940139305e77",
     "tieout/docx_reader.py": "f731b954ec8c99609ea6b4bad89fd51aca04108c2c332993bb6a3b9761fd2f8f",
     "tieout/record.py": "eca9883fe18b78c5e602eb85cfd849f08de61712e3efe45901ddb0ed46d48b8e",
@@ -32,9 +32,9 @@
     "finding/cases/MRA-CMP-07/evidence/EV-12-quality-review.md": "72c6940e265a82bd71afa40484b88ebfb630af99c6bf1f94f30acff7d4cc2c48",
     "finding/cases/MRA-CMP-07/finding.md": "1704dffd66309dbb1a9c793e8ebdfcda6d998957f3fd70ade45dc4c4d1a13c91",
     "finding/cases/MRA-CMP-07/plan.md": "dfcbf101b1a6c880653b0b5921c431c7ca75a6b5566c1c8c55918a688c179223",
-    "finding/release.py": "54f73e7c1c3289e2eb03e431a22dfefe9133d6d0fc63bda357dd6c500b42812f",
+    "finding/release.py": "4afe301f9c85989fe0d72d91a9f0227c2272895d28ce92f122fc190c63c8fcd1",
     "finding/samples/EV-30-sample-listing.pdf": "376036f52299cd0c0762b4de63cea9830a45c87219023aada7fd62254fe3a598",
-    "finding/selftest.py": "0a93088d0fe09948025584b7a2462097289d8ddd2027055f660d96ba1d0c6109",
+    "finding/selftest.py": "797f46fe9a57a79e65d47a2551db2530c62ea3458dfd706ed9de7979c93e1e45",
     "library/cases/bracket-in-a-quotation.json": "e3bd7a73b098baa60d339a98f0c64abb823469142baa13bcf8539e88eea1e2b4",
     "library/cases/cite-to-a-draft.json": "b9e3f352a8829cfec426da54742419449310cd20581140fa68e7a078c6a5ed19",
     "library/cases/cite-to-a-missing-page.json": "8044acc85b27eec9ab10a37a48869a1508b1a6430c56f92a59fe792468204475",

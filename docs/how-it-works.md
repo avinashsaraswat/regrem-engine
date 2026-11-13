@@ -60,7 +60,7 @@ flowchart TD
     class N,CV,C,E,S shade
 ```
 
-Each shaded box is a command, run from the folder that holds finding/, where `finding` is short for `finding/finding`, and on Windows you type `py -I finding\finding.py` in its place. On the invented case MRA-CMP-07, checked as of 2026-11-04, the first row is a memo figure of 1,248 where the cited page says 1,284. A ruling is one line in closure/rulings.md, and the check prints each cleared row with its reason, so clearing that figure would stay in plain sight. On the other invented case, IA-CMP-02, nothing holds the signature back, so the check prints the fingerprint a381fa0f, and `sign` refuses piped input because it runs only at a terminal.
+Each shaded box is a command, run from the folder that holds finding/, where `finding` is short for `finding/finding`, and on Windows you type `py -I finding\finding.py` in its place. On the invented case MRA-CMP-07, checked as of 2026-11-04, the first row is a memo figure of 1,248 where the cited page says 1,284. A ruling is one line in closure/rulings.md, and the check prints each cleared row with its reason, so clearing that figure would stay in plain sight. On the other invented case, IA-CMP-02, nothing holds the signature back, so the check prints the fingerprint e8196695, and `sign` refuses piped input because it runs only at a terminal.
 
 ## How the pieces fit
 

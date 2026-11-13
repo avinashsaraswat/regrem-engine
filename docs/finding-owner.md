@@ -15,7 +15,7 @@ python3 -I finding/finding.py check finding/cases/MRA-CMP-07 --today 2026-11-04
 The `--today` option fixes the date so your screen matches this one, trimmed where it shows `...`:
 
 ```text
-Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.0.
+Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.1.
 ...
 Memo check: 13 claims, 7 tie, 3 on the list, 1 cleared.
   Line 8: 1,248 is cited to EV-07 p2, and the page does not hold it; the nearest figures on the page are 1,284 and 2. To rule, name: 1,248 #972adb19
@@ -69,12 +69,12 @@ python3 -I finding/finding.py sign walk-02 --today 2026-11-04
 ```
 
 ```text
-Ready to sign: the folder's fingerprint is a381fa0f. Internal audit records this as what it tests.
+Ready to sign: the folder's fingerprint is e8196695. Internal audit records this as what it tests.
 
 Type the finding owner's role to sign: Head of Complaints
-Fingerprint a381fa0fb6127b44856ff31c8aec81ebd754e9dc6f80c8d6ba23aee16c39ec41
-Type its first eight characters to confirm: a381fa0f
-Signed by the Head of Complaints on 2026-11-04, a date typed with --today on a machine dated 2026-11-11, fingerprint a381fa0f. Written to closure/record.md.
+Fingerprint e8196695310808ca7b781c85652770d0806694a69b43af902624a8cbdd086be9
+Type its first eight characters to confirm: e8196695
+Signed by the Head of Complaints on 2026-11-04, a date typed with --today on a machine dated 2026-11-12, fingerprint e8196695. Written to closure/record.md.
 ```
 
 The fingerprint is one SHA-256 hash over the memo, your rulings, the letter, the plan, every evidence file, the board's approval and the tool's own code. Sign writes your role, the date, the full hash and the release into closure/record.md. Change any of those files later and the page asks for a fresh signature. Entries that internal audit or the closer add afterwards leave it standing. On a real finding, sign refuses `--today` and uses the machine's date.

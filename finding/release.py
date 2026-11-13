@@ -1,9 +1,9 @@
 """Write the kit's RELEASE.json: its version, a hash of every file a finding's page depends on, and a
 hash of each test asset.
 
-Purpose: `python3 -I finding/release.py 0.7.0` sets a numbered release. With no version it refreshes the
+Purpose: `python3 -I finding/release.py 0.7.1` sets a numbered release. With no version it refreshes the
   hashes at the version already in RELEASE.json when nothing moved. When a hash moved it steps to a site
-  version, 0.7.0 to 0.7.0+site.1 and then 0.7.0+site.2, so a kit a bank changed never reads as the published
+  version, 0.7.1 to 0.7.1+site.1 and then 0.7.1+site.2, so a kit an institution changed never reads as the published
   release; the site change log records each step. `finding --version` and every page read this file, and
   the self-test fails until it is current.
 Reads: the files named by KIT_FILES and TEST_ASSETS in finding.py. Writes: RELEASE.json at the kit root.
@@ -21,7 +21,7 @@ sys.path.insert(0, str(KIT / "finding"))
 import finding  # noqa: E402
 
 VERSION = re.compile(r"\d+(?:\.\d+)*(?:\+site\.\d+)?")
-USAGE = "usage: python3 -I finding/release.py [version, such as 0.7.0]"
+USAGE = "usage: python3 -I finding/release.py [version, such as 0.7.1]"
 
 
 def next_version(current, files, tests):

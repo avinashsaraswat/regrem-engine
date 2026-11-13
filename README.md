@@ -34,20 +34,20 @@ People at the institution do the fix, write the memo and make every decision. Re
 
 ## Try it in five minutes
 
-Clone or download the whole repository, because the tool reads the folders beside it. Then run one command from its root folder:
+You need Python 3.9 or later and nothing else. Clone the repository, or on its GitHub page choose Code, then Download ZIP, and unzip it. Keep the whole repository together, because the tool reads the folders beside it. Open a terminal, use `cd` to move into the repository's root folder, the one that holds this README, and run one command:
 
 ```sh
 python3 -I finding/finding.py check finding/cases/MRA-CMP-07 --today 2026-11-04
 ```
 
-On Windows, type `py -I finding\finding.py` in place of `python3 -I finding/finding.py`. The `--today` option fixes the date, so your screen matches this page.
+On Windows, type `py -I finding\finding.py` in place of `python3 -I finding/finding.py`. The `--today` option fixes the date, so your screen matches this page. Keep it on while you try the two shipped cases. A check with any other date rewrites the case's hidden state file, and `--version` and the self-test then report that case as changed. To try other dates, copy the case out of the repository first and check the copy.
 
 MRA-CMP-07 is an invented supervisory finding on complaint handling, nearly nine months into its remediation plan. The command prints each milestone's state, a draft board summary and the memo check, and it exits 1 because people still have work to do. This is the screen, trimmed where it shows `...`:
 
 ```text
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
-Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.0.
+Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.1.
 
 Milestones
 M1 Approve revised complaint taxonomy. Head of Complaints, committed 2026-02-28. Present and signed on 2026-02-20.
@@ -65,17 +65,17 @@ Memo check: 13 claims, 7 tie, 3 on the list, 1 cleared.
 ...
 ```
 
-In the first row of the memo check, the memo says the team reclassified 1,248 complaints and cites page 2 of evidence file EV-07, the intake procedure. That page says 1,284. Two digits were swapped when someone typed the figure, the kind of slip a reader checking by eye can pass. The check names the line, the cite and the figures the page holds nearby. The owner rules `fix the memo` and someone corrects the figure. The tool would also accept `cleared` with a reason, so keeping a wrong figure off the cleared list is the owner's job.
+In the first row of the memo check, the memo says the team reclassified 1,248 complaints and cites page 2 of evidence file EV-07, the intake procedure. That page says 1,284. Two digits were swapped when someone typed the figure, the kind of slip a reader checking by eye can pass. The check names the line, the cite and the figures the page holds nearby. The owner rules `fix the memo` by adding one line to closure/rulings.md, and someone corrects the figure. The line gives the memo line, the name printed after `To rule, name:`, the ruling, the owner's role, a date and a reason, and [docs/finding-owner.md](docs/finding-owner.md) shows one. The tool would also accept `cleared` with a reason, so keeping a wrong figure off the cleared list is the owner's job.
 
-The other two rows are of a different kind. EV-12, the quality review, is still a draft, so the four claims that match its pages wait on a person's signature. The sample it reports also starts before the fix took effect, which mixes items from before and after the fix. The walk in [finding/DEMO.md](finding/DEMO.md) runs every command on both invented cases, and [finding/README.md](finding/README.md) explains the folder and every rule the check applies.
+The other two rows are of a different kind. EV-12, the quality review, is still a draft, so the four claims that match its pages wait on a person's signature. The sample it reports also starts before the fix took effect, which mixes items from before and after the fix. The summary line counts rows and claims separately. The 13 claims are the 7 that tie, the 1,248, the 4 on the EV-12 row and the 1 the owner cleared. The sample-period row is a check on the record and holds no claim. The walk in [finding/DEMO.md](finding/DEMO.md) runs every command on both invented cases, and [finding/README.md](finding/README.md) explains the folder and every rule the check applies.
 
 ## What it proves, and what it leaves to a person
 
 An empty list means each figure and date written in digits, and each quotation, was found on the page its cite names. For a PDF with a text layer, a Word file, an Excel workbook, a CSV or a saved email, the tool reads that page from the document itself. A scanned page has no text, so a person types it into the file's cover and a second person checks the typing before anyone signs.
 
-The check has no AI model inside it, so it gives the same answer on every run. It also checks the record around the memo. A milestone counts only while its evidence is signed and unchanged, and a line saying the finding is closed stays on the list until the closer's entry is recorded. The owner signs a fingerprint of the memo, rulings, board approval, letter, plan, evidence and the tool's own code, and any later change to those asks for a fresh signature.
+The check has no AI model inside it, so it gives the same answer on every run. It also checks the record around the memo. A milestone counts only while its evidence is signed and unchanged, and a line saying the finding is closed stays on the list until the closer's entry is recorded. The owner signs a fingerprint of the memo, rulings, board approval, letter, plan, evidence and the tool's own code, and any later change to those asks for a fresh signature. A signature records a role and proves no identity, so the institution's access controls decide who may sign and who may edit the rulings.
 
-A person still reads the memo. The check ties each claim to its own cited page and never compares one document with another, so two documents that disagree can both pass. A wrong figure that happens to sit on the cited page ties too. Figures written in words, bare years and dates with two-digit years are named on the page as not checked. Whether the fix works stays with the institution, internal audit tests it, and only the issuer closes the finding. The [Check section](finding/README.md#check) lists what a reviewer still reads for.
+A person still reads the memo. The check ties each claim to its own cited page and never compares one document with another, so two documents that disagree can both pass. A wrong figure that happens to sit on the cited page ties too. Figures written in words, bare years and dates with two-digit years are named on the page as not checked. Whether the fix works stays with the institution, internal audit tests it, and only the issuer closes the finding. The issuer is whoever wrote the finding up: the Supervisor, which is this page's word for the regulator, the institution's internal audit, or its own issue-management owner. The [Check section](finding/README.md#check) lists what a reviewer still reads for.
 
 ## The eval anyone can rerun
 
@@ -86,7 +86,7 @@ python3 -I finding/finding.py eval finding/cases/IA-CMP-02
 ```
 
 ```text
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
 Eval of the memo check on IA-CMP-02. Nothing in the folder changed.
 Planted 38 errors, one at a time, in the 13 claims that tie today.
@@ -130,9 +130,9 @@ Six pages in docs/ show how the tool is used. Each one works on the invented cas
 
 ## Status
 
-This is version 0.7.0, the first public release. Every case in it is invented, no bank has used it, and it has never run on a real finding. It was built with AI assistance under the author's direction.
+This is version 0.7.1, which follows the first public release, 0.7.0. Every case in it is invented, no financial institution has used it, and it has never run on a real finding. It was built with AI assistance under the author's direction.
 
-The one larger test so far used a bigger invented finding of 61 files and 173 pages, which is kept out of this repository. In the first of three trial runs by AI agents, the check on its own caught 1 of the 13 traps planted in it. An AI agent reading the documents as the reviewer caught all 11 traps the run exercised, and the other 2 were never tried. That reviewer was the same agent that drafted the memo. So treat the check as a floor under a reviewer's reading, and keep a person reading each sentence against its page.
+The one larger test so far used a bigger invented finding of 61 files and 173 pages, which is kept out of this repository. In the first of three trial runs by AI agents, the check on its own caught 1 of the 13 traps planted in it. Most of those traps were problems between documents or versions, such as a superseded procedure left beside the current one, a figure restated in a later pack and a scan that differed from the other records. The check compares no document with another, and it sees a later version only when a person records the revision on the file's cover. The eval above plants only slips inside a single claim, which is why its count is higher. An AI agent reviewing the documents caught all 11 traps the run exercised, while the other 2 were never tried, because the memo did not cite the files that held them. That reviewer was the same agent that drafted the memo, so its result says little about an independent reviewer. Only the first run was scored against the traps. So treat the check as a floor under a reviewer's reading, and keep a person reading each sentence against its page.
 
 ## How a finding is laid out
 
@@ -140,7 +140,7 @@ The one larger test so far used a bigger invented finding of 61 files and 173 pa
 
 One finding moves through six steps, from the Supervisor's letter to closure. The shaded row shows what the tool does at each step, and people still rule on the list, sign, test the fix and close the finding.
 
-Each finding is one folder that holds the regulator's letter, the plan, the evidence and the closure papers:
+Each finding is one folder that holds the regulator's letter, the plan, the evidence and the closure papers. Someone at the institution, the preparer, builds that folder before the first check. The letter is pasted under five headings: Concern, Cause, Consequence, Corrective action and Commitment. The memo is a plain-text file, and each claim ends with a cite typed exactly as `[EV-07 p2]`, which names page 2 of evidence file EV-07. A memo written in Word is exported or retyped into that form. Each evidence file is renamed to start with its id and gets a short cover, which the `covers` command drafts. The folder looks like this:
 
 ```text
 MRA-CMP-07/
@@ -180,7 +180,7 @@ The folder and the tool sit on one machine the institution has approved. The too
 
 Three optional lists sit beside a finding or one folder up. The deny list, `denylist.txt`, holds names that must never print, and `role-words.txt` clears ordinary words the check took for names. A third, `size-assumptions.txt`, replaces the assumed hours with timed ones. The templates, plan columns and record fields are constants at the top of `finding/finding.py`.
 
-A change to the tool's code changes every finding's fingerprint, and every page then names each kit file that differs from its release. Running `python3 -I finding/release.py` marks the kit as a site version such as 0.7.0+site.1, so a changed kit never reads as the published release. From then on the pages show only the site version, so the institution keeps its own log of which files changed.
+A change to the tool's code changes every finding's fingerprint, and every page then names each kit file that differs from its release. Running `python3 -I finding/release.py` marks the kit as a site version such as 0.7.1+site.1, so a changed kit never reads as the published release. From then on the pages show only the site version, so the institution keeps its own log of which files changed.
 
 ## Delivering it through a forward-deployed team
 
@@ -198,7 +198,7 @@ The first runs 1,166 expectations in the finding tool and the second runs 77 in 
 ## What is in this repository
 
 - [finding/](finding/README.md): the tool, its document reader, two invented findings, a sample PDF and the self-test.
-- [tieout/](tieout/README.md): the tie-out engine that ties a claim to its page, with its own self-test and invented matter. Its optional model step is off by default, and the finding tool never imports it.
+- [tieout/](tieout/README.md): the tie-out engine that ties a claim to its page, with its own self-test and invented matter. The engine started as a tool for checking a draft expert report against its record, and it still carries one optional step from that tool that can call an AI model. That step is off by default, the finding tool does not load it, and no finding command can reach it.
 - [library/](library/README.md): 21 invented eval cases, one for each kind of miss.
 - [assistant/](assistant/README.md): the written procedure for each drafting job an AI assistant does.
 - [docs/forward-deployed.md](docs/forward-deployed.md): the three controls a forward-deployed team delivering the kit would need, as a concept.

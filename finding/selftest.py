@@ -56,7 +56,7 @@ BANNED_OS = re.compile(r"^(?:system|popen|fork|forkpty|posix_spawnp?|exec\w*|spa
 NOW = "2026-11-04"
 
 EXPECTED_MRA = """\
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
 Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-04, kit release KITRELEASE.
 
@@ -73,7 +73,7 @@ Quarterly progress:
   Quarter ending 2026-06-30: 4 milestones due, 1 signed, 3 below signed.
 Plan approval: board minutes E-PLAN-1, signed by the Company Secretary on 2026-02-10.
 
-Commitment table, the bank's response in the Supervisor's five-part form, from plan.md
+Commitment table, the institution's response in the Supervisor's five-part form, from plan.md
 Concern, Cause and Consequence: as written in finding.md.
 Corrective action:
 | Milestone | Owner role | Committed date |
@@ -444,7 +444,7 @@ SITE_RUN = "FINDING_SELFTEST_SITE_COPY"  # set for the run test_site_copy_passes
 
 
 def pages(*rels):
-    """The text of each documentation page named, from the kit root, or None when one is not in this copy. A bank
+    """The text of each documentation page named, from the kit root, or None when one is not in this copy. An institution
     may bring the kit in without its pages, so the check that reads them is skipped, and the run says how many."""
     paths = [HERE.parent / rel for rel in rels]
     if not all(path.is_file() for path in paths):
@@ -1575,7 +1575,7 @@ def test_reader_word(root):
         code, out, _ = check(folder)
         screens.append(out)
         expect("Refused" not in out and "the Word file is password protected, or is an old .doc file. Type it into the cover" in out,
-               "a folder named after the bank does not turn an unreadable Word file into a deny-list refusal", out)
+               "a folder named after the institution does not turn an unreadable Word file into a deny-list refusal", out)
     expect(screens[0] == screens[1], "the screen is the same whatever the folder is called", diff_hint(screens[0], screens[1]))
     got = read("locked.xlsx", ole)
     expect(got["problem"] == "the workbook is password protected, or is an old .xls file",
@@ -3114,7 +3114,7 @@ def sign_folder(folder, today=NOW):
 
 
 def test_evidence_ids(root):
-    """A bank's evidence id may hold several number groups and many digits."""
+    """An institution's evidence id may hold several number groups and many digits."""
     for eid in ("EV-2026-0042", "EV-10000000", "EV-20260042", "DOC20260042", "BN-00012345", "EV-9999999"):
         folder = ia(root, "id-" + eid)
         typed_evidence(folder, eid + "-note.md", eid, "Total 5,555 items.")
@@ -3607,15 +3607,15 @@ def test_role_words(root):
 
     bank = ia_with(root, "role-capital", capital, None)
     code, out, _ = check(bank)
-    expect(code == 1 and out == refusal('Refused: "Quillmere" ' + DENIED + CLEARS), "a word of the bank's name is refused, "
+    expect(code == 1 and out == refusal('Refused: "Quillmere" ' + DENIED + CLEARS), "a word of the institution's name is refused, "
            "and the refusal offers role-words.txt", out)
     edit(bank / "plan.md", "| Chief Quillmere Officer |", "| Quillmere Bank QA lead |")
     finding.write_text(bank / "role-words.txt", "Quillmere\nQuillmere Bank\n")
     code, out, _ = check(bank)
-    expect(code == 1 and out == refusal('Refused: "Quillmere Bank" ' + DENIED), "the bank's full name stays denied, and "
+    expect(code == 1 and out == refusal('Refused: "Quillmere Bank" ' + DENIED), "the institution's full name stays denied, and "
            "its refusal never offers role-words.txt", out)
 
-    def community(files):  # a bank named with ordinary words, and a milestone that uses one of them
+    def community(files):  # an institution named with ordinary words, and a milestone that uses one of them
         files["finding.md"] = files["finding.md"].replace("Institution: Wrenfield Example Bank",
                                                           "Institution: First Fenmoor Trust Bank")
         files["plan.md"] = files["plan.md"].replace("| M2 Reissue intake procedure |",
@@ -3628,9 +3628,9 @@ def test_role_words(root):
         finding.write_text(trust / "role-words.txt", words)
         code, out, _ = check(trust)
         expect((out == refusal('Refused: "First" ' + DENIED + CLEARS)) == refused and (refused or (
-            "M2 Reissue intake procedure for First line staff." in out and "; role-words.txt cleared 1 word of the bank's "
+            "M2 Reissue intake procedure for First line staff." in out and "; role-words.txt cleared 1 word of the institution's "
             "name.\n" in out and "First" not in state_of(trust)["deny"]["names"])),
-            "role-words.txt clears a word of the bank's name, never its full name, and the page counts it: " + repr(words),
+            "role-words.txt clears a word of the institution's name, never its full name, and the page counts it: " + repr(words),
             out[-700:])
 
 
@@ -3683,7 +3683,7 @@ def test_deny_on_every_page(root):
     append_to(name / "closure" / "memo.md", '\nThe note says "for example the letter" today.\n')
     code, out, _ = check(name)
     expect('"for example the letter" has no cite.' in out and "Refused" not in out,
-           "a word of the bank's name matches exactly, so an ordinary word still prints", out[-300:])
+           "a word of the institution's name matches exactly, so an ordinary word still prints", out[-300:])
 
 
 def test_names_harvested(root):
@@ -3707,7 +3707,7 @@ def test_names_harvested(root):
     folder = ia_with(root, "names-state", person)
     state = state_of(folder)
     expect(state["deny"]["names"] == ["Wrenfield Example Bank", "Wrenfield", "Example", "Priya Natarajan", "Senior Management Team"],
-           "the state keeps the bank's name, its words and the runs from the letter", json.dumps(state["deny"]))
+           "the state keeps the institution's name, its words and the runs from the letter", json.dumps(state["deny"]))
 
     removed = ia_with(root, "names-removed", person, None)
     finding.write_text(removed / "role-words.txt", "Natarajan\n")
@@ -3834,7 +3834,7 @@ def test_state_lost(root):
     edit(label / "finding.md", "Kind of matter: supervisory finding", "Kind of matter: internal audit finding")
     for args in (["check", str(label), "--today", NOW], ["check", str(label), "--repaste", "--today", NOW]):
         code, out, _ = run(args)
-        expect(code == 1 and "the finding owner and the bank's lawyers decide" in out and "delete" not in out,
+        expect(code == 1 and "the finding owner and the institution's lawyers decide" in out and "delete" not in out,
                "a relabel names who decides and prints no way round: " + " ".join(args[0:1] + args[2:3]), out)
 
     signed = ia(root, "lost-signed")
@@ -4004,8 +4004,8 @@ def test_size_fit(root):
 
 
 def test_kinds_and_plan_columns(root):
-    """A self-identified issue is a kind of its own, closed by the bank's issue-management owner, and a plan column
-    the bank adds is read past, wherever it sits."""
+    """A self-identified issue is a kind of its own, closed by the institution's issue-management owner, and a plan column
+    the institution adds is read past, wherever it sits."""
     def self_identified(files):
         files["finding.md"] = files["finding.md"].replace("Issuer: the Head of Internal Audit", "Issuer: the Head of Compliance").replace(
             "Kind of matter: internal audit finding", "Kind of matter: self-identified issue")
@@ -4024,7 +4024,7 @@ def test_kinds_and_plan_columns(root):
     closed = ia_with(root, "kind-self-closed", self_identified)
     append_to(closed / "closure" / "memo.md", "\nThe finding is closed.\n")
     code, out, _ = check(closed)
-    expect(code == 1 and "only the bank's issue-management owner closes a self-identified issue." in out,
+    expect(code == 1 and "only the institution's issue-management owner closes a self-identified issue." in out,
            "only the issue-management owner closes a self-identified issue", out)
     def as_supervisor(files):
         self_identified(files)
@@ -4055,7 +4055,7 @@ def test_kinds_and_plan_columns(root):
     wide = build(root, "plan-columns-added", files, "2026-02-10")
     code, out, _ = check(wide)
     expect(code == 1 and out.split("Commitment: ")[0] == plain.split("Commitment: ")[0],
-           "plan columns the bank adds, in the middle and at the end, change nothing on the page", out[:1200])
+           "plan columns the institution adds, in the middle and at the end, change nothing on the page", out[:1200])
     saved = finding.PLAN_COLUMNS
     try:
         finding.PLAN_COLUMNS = saved + ("Risk rating",)
@@ -4129,25 +4129,25 @@ def test_recheck_readers(root):
 
 
 def test_recheck_names_on_pages(root):
-    """A file name, a bank's name in capitals and a role word each get the right refusal, or none."""
+    """A file name, an institution's name in capitals and a role word each get the right refusal, or none."""
     bad = with_document(root, "recheck-word-name", "EV-30-Wrenfield-listing.docx", b"PK\x03\x04garbage not a zip at all" + b"\0" * 200,
                         "The listing held 9,999 items [EV-30 p1].")
     code, out, _ = check(bad)
     expect(code == 1 and "Refused" not in out and "the check cannot read that page: the Word file could not be read: not a readable "
-           ".docx (File is not a zip file)" in out, "an unreadable Word file named with a word of the bank's name gets its row", out[-500:])
+           ".docx (File is not a zip file)" in out, "an unreadable Word file named with a word of the institution's name gets its row", out[-500:])
     code, out, _ = run(["covers", str(bad)])
-    expect(code == 1 and out == refusal('Refused: "Wrenfield" ' + IN_A_FILE_NAME), "covers says to rename a file whose name holds the bank's name", out)
+    expect(code == 1 and out == refusal('Refused: "Wrenfield" ' + IN_A_FILE_NAME), "covers says to rename a file whose name holds the institution's name", out)
     full = with_memo(root, "recheck-full-name", 'The memo notes "Wrenfield Example Bank signed this memo" [EV-21 p1].\n')
     expect(check(full)[1] == refusal('Refused: "Wrenfield Example Bank" ' + DENIED),
-           "a quotation of the bank's full name is named as the full name, with no role-words hint", check(full)[1])
+           "a quotation of the institution's full name is named as the full name, with no role-words hint", check(full)[1])
     caps = with_memo(root, "recheck-capitals", 'The memo notes "WRENFIELD EXAMPLE BANK signed this memo" [EV-21 p1].\n')
     expect(check(caps)[1] == refusal('Refused: "Wrenfield Example Bank" ' + DENIED),
-           "the bank's name in capitals is refused on the check page", check(caps)[1])
+           "the institution's name in capitals is refused on the check page", check(caps)[1])
     listing = ia(root, "recheck-capitals-covers")
     (listing / "evidence" / "EV-30-WRENFIELD-listing.csv").write_bytes(b"a,b\n1,2\n")
     code, out, _ = run(["covers", str(listing)])
     expect(code == 1 and out == refusal('Refused: "Wrenfield" ' + IN_A_FILE_NAME)
-           and not (listing / "evidence" / "EV-30-WRENFIELD-listing.csv.md").exists(), "covers refuses the bank's name in capitals in a file name", out)
+           and not (listing / "evidence" / "EV-30-WRENFIELD-listing.csv.md").exists(), "covers refuses the institution's name in capitals in a file name", out)
 
 
 def test_recheck_typed_and_signed(root):
@@ -4274,7 +4274,7 @@ def test_signing_record(root):
                                if key + ":" in text else text + key + ": " + title + "\n")
             out = check(folder)[1]
             expect("Refused" not in out and "{} dated 2026-11-04, recorded by the {}.\n".format(label, title) in out,
-                   "a record role written as a bank title records: " + title, out[-600:])
+                   "a record role written as an institution title records: " + title, out[-600:])
     folder = ia(root, "sr-record-name")
     finding.write_text(folder / "denylist.txt", "Tom Reyes\n")
     edit(folder / "closure" / "record.md", "Board approval recorded by (role): Company Secretary",
@@ -4287,7 +4287,7 @@ def test_signing_record(root):
     folder = ia(root, "sr-owner-frozen")
     edit(folder / "finding.md", "Owner role: Head of Complaints", "Owner role: Engagement Manager")
     frozen = refusal("Refused: the Owner role in finding.md is not the role first checked on 2026-04-17. The owner rules on the "
-                     "list and signs, so the role does not change after the first check; restore it. If the bank has named a new "
+                     "list and signs, so the role does not change after the first check; restore it. If the institution has named a new "
                      "owner, internal audit decides whether to start .finding-state.json again, which drops the record of signed "
                      "files and the signature.")
     code, out, _ = check(folder)
@@ -5261,7 +5261,7 @@ def test_larger_case_three(root):
     (titled / "evidence" / "EV-60-Complaint Handling Procedure v3.csv").write_bytes(b"a,b\n1,2\n")
     out = run(["covers", str(titled)])[1]
     expect("Refused" not in out and "evidence/EV-60-Complaint Handling Procedure v3.csv: 1 page" in out,
-           "covers runs on a file that keeps the bank's name, when the name holds a title from the letter", out)
+           "covers runs on a file that keeps the institution's name, when the name holds a title from the letter", out)
     state = state_of(titled)
     state["deny"]["names"].append("Complaint Handling Procedure")
     finding.write_text(titled / finding.STATE_NAME, json.dumps(state, indent=2) + "\n")
@@ -5279,7 +5279,7 @@ def test_larger_case_three(root):
     (person / "evidence" / "EV-61-Wrenfield Example Bank extract.csv").write_bytes(b"a,b\n1,2\n")
     code, out, _ = run(["covers", str(person)])
     expect(code == 1 and out == refusal('Refused: "Wrenfield Example Bank" ' + RENAME),
-           "role-words.txt clears the run, and the bank's full name in a file name keeps the rename refusal", out)
+           "role-words.txt clears the run, and the institution's full name in a file name keeps the rename refusal", out)
 
     work = root / "r3-new"
     work.mkdir()
@@ -5330,12 +5330,12 @@ def test_larger_case_four(root):
     (intake / "evidence" / "EV-07 TM Alert Backlog MI - Mar 2026 v2 FINAL.xlsx").write_bytes(
         book_bytes(root, [("MI", None, '<sheetData><row r="1"><c r="A1"><v>4977</v></c></row></sheetData>')]))
     code, out, _ = run(["covers", str(intake)])
-    rename = ". Rename it to start with an evidence id plan.md lists or an EV id, such as EV-12, and keep the bank's name after the id."
+    rename = ". Rename it to start with an evidence id plan.md lists or an EV id, such as EV-12, and keep the file's own name after the id."
     expect(code == 1 and all(line_of(out, "evidence/" + name).endswith(rename) and not (intake / "evidence" / (name + ".md")).exists()
-                             for name in bank), "a bank's own reference number raises no id, and the screen says what to do", out)
+                             for name in bank), "an institution's own reference number raises no id, and the screen says what to do", out)
     expect(line_of(out, "evidence/EV-07 TM Alert").endswith("Draft cover written for evidence id EV-07.")
            and line_of(out, "evidence/CHG-2026-03952").endswith("Draft cover written for evidence id CHG-2026-03952."),
-           "an EV id or an id the plan lists, with the bank's name after it, gets its cover", out)
+           "an EV id or an id the plan lists, with the file's own name after it, gets its cover", out)
     expect(all(line_of(out, "evidence/" + name).endswith(". Another file's name starts with EV-40 too, so this file gets no cover; "
                                                           "give each its own evidence id.") and not (intake / "evidence" / (name + ".md")).exists()
                for name in ("EV-40 backlog report.csv", "EV-40 sign-off.csv")), "two files that start with one id get no cover", out)
@@ -5382,7 +5382,7 @@ def test_larger_case_four(root):
 
 def test_larger_case_five(root):
     """What a larger invented finding showed, part five: a document approved by a separate record counts on that
-    record's date, material a bank never signs ties and never counts toward a milestone, and a milestone's date and
+    record's date, material an institution never signs ties and never counts toward a milestone, and a milestone's date and
     lateness come from the file plan.md marks done."""
     folder = ia(root, "t2-approved")
     method, approval = folder / "evidence" / "EV-27-qa-method.md", folder / "evidence" / "EV-29-approval.md"
@@ -5614,7 +5614,7 @@ def test_pages_against_the_tool(root):
            "the covers procedure says what to do with two files that hold the same bytes")
     status = page_section(readme, "## Status")
     expect(all(s in status for s in ("61 files and 173 pages", "1 of the 13 traps", "caught all 11 traps the run exercised",
-                                     "the other 2 were never tried", "the same agent that drafted the memo", "no bank has used it",
+                                     "the other 2 were never tried", "the same agent that drafted the memo", "no financial institution has used it",
                                      "built with AI assistance under the author's direction"))
            and "caught all 13" not in readme, "the front page states the larger run's result and who reviewed it", status[-500:])
 

@@ -7,7 +7,7 @@ Run every command from the kit root, the folder that holds finding/. On Windows,
 Every check, and every refusal about a finding, starts with this line:
 
 ```
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 ```
 
 `finding/finding new ../findings/DEMO-01` run a second time prints only its refusal, `Refused: ../findings/DEMO-01 already exists.`, because it has read no finding, and so does `new` on a path inside the kit. The tool sends nothing anywhere. Keeping the folder on an approved machine is up to the people using it.
@@ -67,7 +67,7 @@ finding/finding check ../findings/DEMO-02 --today 2026-11-04
 It prints the full screen, opening with this and ending with what needs a person:
 
 ```
-Finding DEMO-02, a supervisory finding from the Supervisor dated 2026-09-14. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.0.
+Finding DEMO-02, a supervisory finding from the Supervisor dated 2026-09-14. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.1.
 
 Milestones
 M1 Issue the retention procedure. Head of Complaints, committed 2027-01-31 proposed. Not started.
@@ -102,9 +102,9 @@ finding/finding check finding/cases/MRA-CMP-07 --today 2026-11-04
 It prints this screen and exits 1:
 
 ```
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
-Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.0.
+Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-04, kit release 0.7.1.
 
 Milestones
 M1 Approve revised complaint taxonomy. Head of Complaints, committed 2026-02-28. Present and signed on 2026-02-20.
@@ -119,7 +119,7 @@ Quarterly progress:
   Quarter ending 2026-06-30: 4 milestones due, 1 signed, 3 below signed.
 Plan approval: board minutes E-PLAN-1, signed by the Company Secretary on 2026-02-10.
 
-Commitment table, the bank's response in the Supervisor's five-part form, from plan.md
+Commitment table, the institution's response in the Supervisor's five-part form, from plan.md
 Concern, Cause and Consequence: as written in finding.md.
 Corrective action:
 | Milestone | Owner role | Committed date |
@@ -224,10 +224,10 @@ Deny list: 3 names.
 Needs a person:
   Head of Complaints: the signature, which comes first.
   Internal audit: its reference in closure/record.md.
-Ready to sign: the folder's fingerprint is a381fa0f. Internal audit records this as what it tests.
+Ready to sign: the folder's fingerprint is e8196695. Internal audit records this as what it tests.
 ```
 
-The exit code is 1, because the owner has not signed. The invented evidence is plain text, so every tie counts as resting on typed text, and none sits on a page typed into a cover, so none needs a second person's Checked by line. The two figures written in words are left for a reader. The fingerprint changes with any release that changes the tool's code, and the Finding line names the release, so your screen matches this page only on release 0.7.0.
+The exit code is 1, because the owner has not signed. The invented evidence is plain text, so every tie counts as resting on typed text, and none sits on a page typed into a cover, so none needs a second person's Checked by line. The two figures written in words are left for a reader. The fingerprint changes with any release that changes the tool's code, and the Finding line names the release, so your screen matches this page only on release 0.7.1.
 
 ## 7. The list
 
@@ -305,7 +305,7 @@ echo "Head of Complaints" | finding/finding sign finding/cases/IA-CMP-02 --today
 ```
 
 ```
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
 Refused: sign needs a terminal.
 ```
@@ -325,7 +325,7 @@ It prints the check screen from step 6 and asks for the owner role:
 Type the finding owner's role to sign: Head of Complaints
 ```
 
-It then prints `Fingerprint` and a 64-character hash of the memo, rulings, board approval, letter, plan, evidence and the tool's own code, including the engine and the document reader. Type back its first eight characters when it asks `Type its first eight characters to confirm:`. Sign then writes the role, the date, the full fingerprint and the kit's release into closure/record.md and prints the signed line with the same eight characters. A run on 2026-11-10 printed `Signed by the Head of Complaints on 2026-11-04, a date typed with --today on a machine dated 2026-11-10, fingerprint a381fa0f. Written to closure/record.md.` When the typed date is not the machine's, the line and record.md give both. Each later check prints that line in place of `Signature: none yet.`
+It then prints `Fingerprint` and a 64-character hash of the memo, rulings, board approval, letter, plan, evidence and the tool's own code, including the engine and the document reader. Type back its first eight characters when it asks `Type its first eight characters to confirm:`. Sign then writes the role, the date, the full fingerprint and the kit's release into closure/record.md and prints the signed line with the same eight characters. A run on 2026-11-12 printed `Signed by the Head of Complaints on 2026-11-04, a date typed with --today on a machine dated 2026-11-12, fingerprint e8196695. Written to closure/record.md.` When the typed date is not the machine's, the line and record.md give both. Each later check prints that line in place of `Signature: none yet.`
 
 The tool's own code is part of the hash, so a new version of the tool gives a new fingerprint.
 
@@ -355,7 +355,7 @@ finding/finding covers walk-07
 ```
 
 ```
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
 evidence/EV-30-sample-listing.pdf: 3 pages, 2 with text; no text on page 3. Draft cover written for evidence id EV-30.
 
@@ -374,7 +374,7 @@ finding/finding eval finding/cases/IA-CMP-02
 ```
 
 ```
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
 Eval of the memo check on IA-CMP-02. Nothing in the folder changed.
 Planted 38 errors, one at a time, in the 13 claims that tie today.
@@ -404,7 +404,7 @@ finding/finding size finding/cases
 ```
 
 ```
-This folder may hold confidential supervisory information. Keep it on a machine the bank has approved, and share nothing from it outside the bank.
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
 
 IA-CMP-02: 2 milestones, 3 evidence files (0 with a separate cover), 13 claims on the memo check, 0 rows before rulings, 3 months.
   By hand, assumed: 22.0 hours. Checking claims 6.5, status reports 6.0, finding signed files 1.5, one rework round 8.0.
@@ -430,4 +430,4 @@ rm -r walk-07
 finding/finding --version
 ```
 
-It prints `RegRem Engine 0.7.0` and `Every file matches this release.`, or names the files that changed since. A full check names the release at the end of its Finding line, and sign writes it into the record. A Not ready or Refused screen does not print the release, and like every other screen it names any kit file that changed since.
+It prints `RegRem Engine 0.7.1` and `Every file matches this release.`, or names the files that changed since. A full check names the release at the end of its Finding line, and sign writes it into the record. A Not ready or Refused screen does not print the release, and like every other screen it names any kit file that changed since.

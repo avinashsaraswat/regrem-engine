@@ -2,7 +2,7 @@
 
 Purpose: `finding new` makes a finding folder from the templates below, outside the kit. `finding check` reads
   the folder (finding.md, plan.md, evidence/ and closure/) and prints each milestone's state from
-  its evidence files, a draft board summary, the bank's commitment table and the memo check: every
+  its evidence files, a draft board summary, the institution's commitment table and the memo check: every
   figure and date written in digits and every quotation in closure/memo.md tied to the evidence page
   it cites by the kit's own engine (tieout/verify.py, imported unchanged), with what did not tie on
   one list that a person's ruling in closure/rulings.md can clear. It refuses when the issuer's text changed after
@@ -39,8 +39,8 @@ import unicodedata
 from pathlib import Path
 
 CONFIDENTIAL = (
-    "This folder may hold confidential supervisory information. Keep it on a machine the bank "
-    "has approved, and share nothing from it outside the bank."
+    "This folder may hold confidential supervisory information. Keep it on a machine the institution "
+    "has approved, and share nothing from it outside the institution."
 )
 USAGE = ("usage: finding new [<path>/]<id> | finding check [<folder>] [--today YYYY-MM-DD] [--names | --repaste] | "
          "finding sign <folder> [--today YYYY-MM-DD] | finding covers <folder> | "
@@ -50,7 +50,7 @@ PARTS = ("Concern", "Cause", "Consequence", "Corrective action", "Commitment")
 FIELDS = ("Identifier", "Institution", "Issuer", "Letter date", "Kind of matter", "Owner role")
 SUPERVISORY = "supervisory finding"
 INTERNAL = "internal audit finding"
-# A weakness the bank found on its own. Its issue-management owner closes it.
+# A weakness the institution found on its own. Its issue-management owner closes it.
 SELF_IDENTIFIED = "self-identified issue"
 KINDS = (SUPERVISORY, INTERNAL, SELF_IDENTIFIED)
 PLAN_COLUMNS = (
@@ -232,7 +232,7 @@ CLOSED_RE = re.compile(r"(?<![A-Za-z0-9])closed(?![A-Za-z0-9])", re.IGNORECASE)
 CLOSURE_RE = re.compile(
     r"(?<![A-Za-z0-9])(?:closure\s+(?:(?:is|was|has|been|now|fully|formally)\s+)*(?:achieved|complete|completed)"
     r"|(?:achieved|completed)\s+(?:[A-Za-z]+\s+){0,2}?closure)(?![A-Za-z0-9])", re.IGNORECASE)
-# The words that make a sentence about closing mean this finding. A bank that uses another word adds it here.
+# The words that make a sentence about closing mean this finding. An institution that uses another word adds it here.
 CLOSED_SUBJECTS = {"finding", "matter", "remediation", "mra", "mria"}
 NEGATIONS = {"not", "never", "no", "cannot", "neither", "nor"}
 # Words before the subject that make a sentence a condition or a report of someone else's call.
@@ -251,7 +251,7 @@ DETERMINERS = {"the", "a", "an", "this", "that", "these", "those", "its", "our",
 CLOSED_FILLERS = {"out", "off", "down", "the", "this", "that", "our", "its", "said", "above", "supervisory", "internal",
                   "audit", "regulatory", "whole"}
 SENTENCE_CUT_RE = re.compile(r"[.;!?]+[\"”')\]]*\s|\n[ \t]*\n|\|")
-# The issuer words that mean the Supervisor wrote this. A bank whose Supervisor goes by another name adds it here.
+# The issuer words that mean the Supervisor wrote this. An institution whose Supervisor goes by another name adds it here.
 SUPERVISOR_WORDS = ("supervisor",)
 # A capitalised word: an upper-case letter, then letters with at least one lower-case letter,
 # optionally joined by hyphens or apostrophes. "MRA" and "I" are not capitalised words.
@@ -439,7 +439,7 @@ def cmd_version(args):
     return 0
 
 
-# ---------------------------------------------------------------- what a bank fits
+# ---------------------------------------------------------------- what an institution fits
 
 
 def fit_lines(folder, name):
@@ -580,7 +580,7 @@ def parse_plan(folder):
     start = None
     for i, line in enumerate(lines):
         cells = split_row(line)
-        if cells is not None and set(PLAN_COLUMNS) <= set(cells):  # a column the bank adds, in any place, is kept
+        if cells is not None and set(PLAN_COLUMNS) <= set(cells):  # a column the institution adds, in any place, is kept
             start, header = i, cells
             break
     if start is None:
@@ -790,7 +790,7 @@ def state_dates(folder, today=None):
 
 # Who closes each kind of finding, for the row on a line that claims the finding is closed.
 CLOSES = {INTERNAL: "internal audit closes an internal audit finding", SUPERVISORY: "the Supervisor closes a supervisory "
-          "finding", SELF_IDENTIFIED: "the bank's issue-management owner closes a self-identified issue"}
+          "finding", SELF_IDENTIFIED: "the institution's issue-management owner closes a self-identified issue"}
 
 
 def closed_rows(folder, today=None):
@@ -889,7 +889,7 @@ def parse_header(path):
             return None
         revised = max(dates)
     # In place of a person's signature, which wins where both stand: the evidence id of a separate record that approved
-    # the document, then a few words for material a bank never signs, then the system and as-at date of system output.
+    # the document, then a few words for material an institution never signs, then the system and as-at date of system output.
     signed = parse_signed(values.get("Signed by:", ""))
     approved = "" if signed[0] else (re.findall(r"[^\s,;]+", values.get("Approved by:", "")) or [""])[0]
     never = "" if signed[0] or approved else values.get("Never signed:", "")
@@ -1179,25 +1179,25 @@ def milestone_state(row, by_id, today):
 
 
 def institution_words(institution):
-    """The words of the bank's name that count alone: four letters or more, all capitals such as QX, or
+    """The words of the institution's name that count alone: four letters or more, all capitals such as QX, or
     holding an ampersand such as R&K."""
     words = re.findall(r"[A-Za-z][A-Za-z0-9&'’-]*", institution)
     return [w for w in words if w.upper() != "BANK" and (len(w) >= 4 or "&" in w or (len(w) >= 2 and w.isupper()))]
 
 
 def bank_name(fields):
-    """The bank's full name, folded for comparison. role-words.txt never clears it."""
+    """The institution's full name, folded for comparison. role-words.txt never clears it."""
     return fold(fields.get("Institution", "").strip()).casefold()
 
 
 def role_words_for(folder, fields):
-    """The lines of role-words.txt, less the bank's full name. A line may clear one word of it."""
+    """The lines of role-words.txt, less the institution's full name. A line may clear one word of it."""
     return {line for line in fit_lines(folder, "role-words.txt") if fold(line).casefold() != bank_name(fields)}
 
 
 def harvest_names(fields, parts, role_words=()):
-    """The bank's full name, each word of it that counts alone, and the runs of capitalised words in the letter
-    that hold no role word and no document word. role_words drops a run or a word of the bank's name, and never its
+    """The institution's full name, each word of it that counts alone, and the runs of capitalised words in the letter
+    that hold no role word and no document word. role_words drops a run or a word of the institution's name, and never its
     full name."""
     names = []
     institution = fields.get("Institution", "").strip()
@@ -1236,7 +1236,7 @@ def starts_sentence(text, pos):
 
 
 def first_denied(screen, names, flags=0):
-    """The term that starts first on the page, the longest where two start together, so a quotation of the bank's
+    """The term that starts first on the page, the longest where two start together, so a quotation of the institution's
     full name is named as the full name, never as its first word."""
     best = None
     for name in names:
@@ -1263,7 +1263,7 @@ def listed_terms(folder):
 
 
 def cleared_name(name, fields, role_words):
-    """True when role-words.txt clears a term the check took for a name. The bank's full name never clears, and
+    """True when role-words.txt clears a term the check took for a name. The institution's full name never clears, and
     denylist.txt wins, because page_names adds its lines back afterwards."""
     if fold(name).casefold() == bank_name(fields):
         return False  # a title an earlier check saved clears too, since the letter no longer gives it
@@ -1289,8 +1289,8 @@ def page_names(folder, fields, parts, state):
 
 def page_denied(folder, screen, names, identifier=None):
     """The first deny-list term a page would print. A word from the letter matches as written or in capitals,
-    because Trust in a bank's name must leave the word trust alone. A run of words from the letter, such as the
-    bank's full name, matches in any letter case. A line a person wrote in denylist.txt matches in any letter
+    because Trust in an institution's name must leave the word trust alone. A run of words from the letter, such as the
+    institution's full name, matches in any letter case. A line a person wrote in denylist.txt matches in any letter
     case and with or without accents."""
     if identifier:
         screen = screen.replace(identifier, " ")
@@ -1316,8 +1316,8 @@ def named_file(folder, screen, term):
 
 
 def deny_refusal(folder, fields, term, screen=""):
-    """role-words.txt clears neither denylist.txt nor the bank's full name, so their refusal never offers it. A bank's
-    file keeps the bank's own name, so a refusal over any other term offers role-words.txt before a rename."""
+    """role-words.txt clears neither denylist.txt nor the institution's full name, so their refusal never offers it. An institution's
+    file keeps its own name, so a refusal over any other term offers role-words.txt before a rename."""
     fix = "" if fold(term).casefold() in {fold(t).casefold() for t in listed_terms(folder)} | {bank_name(fields)} else ROLE_FIX
     if screen and named_file(folder, screen, term):
         return ('Refused: "{}" is on this finding\'s deny list, and the page would print it in the name of a file in this '
@@ -1335,7 +1335,7 @@ def deny_line(names, fields, parts):
     left = left_out_names(fields, parts, names)
     bank = [w for w in institution_words(fields.get("Institution", "")) if w in left]
     said = (["left out {}".format(len(left) - len(bank))] if len(left) > len(bank) else []) + (
-        ["cleared {} of the bank's name".format(plural(len(bank), "word"))] if bank else [])
+        ["cleared {} of the institution's name".format(plural(len(bank), "word"))] if bank else [])
     return "Deny list: {}{}.".format(plural(len(names), "name"), "; role-words.txt " + " and ".join(said) if said else "")
 
 
@@ -1464,17 +1464,17 @@ def check(folder, today):
 
 def frozen_refusal(name, first_check, issuer):
     """The refusal for text that moved after the first check. A wrong paste of the letter has a way to be corrected.
-    The issuer and the kind of matter decide what may leave the bank, and the owner role decides who rules and signs,
+    The issuer and the kind of matter decide what may leave the institution, and the owner role decides who rules and signs,
     so only people can undo them."""
     if name == "Owner role":
         return ("Refused: the Owner role in finding.md is not the role first checked on {}. The owner rules on the list "
-                "and signs, so the role does not change after the first check; restore it. If the bank has named a new "
+                "and signs, so the role does not change after the first check; restore it. If the institution has named a new "
                 "owner, internal audit decides whether to start {} again, which drops the record of signed files and the "
                 "signature.".format(first_check, STATE_NAME))
     lead = "Refused: the {} in finding.md is not the text first checked on {}. {} words do not change; restore them".format(
         name, first_check, capital_first(possessive(issuer)))
     if name in LABEL_FIELDS:
-        return lead + (". If the first paste was wrong, the finding owner and the bank's lawyers decide whether to start "
+        return lead + (". If the first paste was wrong, the finding owner and the institution's lawyers decide whether to start "
                        "{} again, which drops the record of signed files and the signature.".format(STATE_NAME))
     return lead + ", or run check --repaste if the first paste was wrong."
 
@@ -1758,7 +1758,7 @@ def run_check(folder, today):
         out.append("Plan approval: proposed, no signed board minutes {} yet.".format(PLAN_ID))
     out.append("")
 
-    out.append("Commitment table, the bank's response in {} five-part form, from plan.md".format(
+    out.append("Commitment table, the institution's response in {} five-part form, from plan.md".format(
         possessive(issuer)))
     out.append("Concern, Cause and Consequence: as written in finding.md.")
     out.append("Corrective action:")
@@ -2159,7 +2159,7 @@ def build_index(folder, entries):
     docs = documents_module()
     text_left, figures_left = docs.MAX_TEXT, docs.MAX_FIGURES  # the reader's caps for one file hold for all of them
     # Page numbers are internal and never printed: cites and screens use the label. Numbering each id in
-    # turn keeps them inside what the engine reads, however many digits a bank's id holds.
+    # turn keeps them inside what the engine reads, however many digits an institution's id holds.
     for entry in entries:
         eid = entry["id"]
         prefix, digits = bates_parts(eid)
@@ -2301,8 +2301,8 @@ def is_word_char(ch):
 
 def single_spans(block, skip=()):
     """[(open, close)] for each quotation in single marks, straight or curly, of three words or more. The opening
-    mark starts a word and the closing mark ends one, so an apostrophe inside or after a word, as in the bank's or
-    the banks', opens nothing. A pair inside a quotation in double marks is part of that quotation."""
+    mark starts a word and the closing mark ends one, so an apostrophe inside or after a word, as in the institution's or
+    the institutions', opens nothing. A pair inside a quotation in double marks is part of that quotation."""
     spans, start = [], None
     for i, ch in enumerate(block):
         if ch not in SINGLE_MARKS:
@@ -3097,7 +3097,7 @@ def cmd_sign(args):
 
 
 def append_log(folder, today, **values):
-    """One receipt line for the bank's own log, naming the finding's kind, its issuer and its first check, so
+    """One receipt line for the institution's own log, naming the finding's kind, its issuer and its first check, so
     close-out can read a relabel or a restart from the log. A log that cannot be written stops the run."""
     try:
         fields = parse_finding(folder)[0]
@@ -3186,7 +3186,7 @@ def describe_read(result, names=()):  # a word left out that is on the deny list
 
 def file_evidence_id(name, rows):
     """The evidence id a document's file name starts with, or None: one plan.md or the plan approval names, or an EV
-    id, so a bank's own reference number at the start of its name is no id. Every number group after EV belongs to
+    id, so an institution's own reference number at the start of its name is no id. Every number group after EV belongs to
     the id, so EV-2026-0042 stays whole. Where the plan lists a shorter id the name starts with, as with EV-12 on
     EV-12-2026-03-14-minutes.pdf, the plan's id wins, because a date can follow an id."""
     m = EVIDENCE_ID_RE.match(name)
@@ -3235,7 +3235,7 @@ def cmd_covers(args):
                 continue
             if eid is None or ids.count(eid) > 1 or eid in taken:
                 out.append("{}: {}. {}".format(rel, description, "Rename it to start with an evidence id plan.md lists or an "
-                           "EV id, such as EV-12, and keep the bank's name after the id." if eid is None else (
+                           "EV id, such as EV-12, and keep the file's own name after the id." if eid is None else (
                                "Another file's name starts with {} too".format(eid) if ids.count(eid) > 1 else
                                "{} carries {} already".format(taken[eid], eid)) + ", so this file gets no cover; give each its own evidence id."))
                 needs = True

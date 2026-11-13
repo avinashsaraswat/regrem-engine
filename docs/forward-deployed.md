@@ -12,7 +12,7 @@ A team that can change the tool that checks closure evidence is a risk as well a
 
 ### Every change visible
 
-RELEASE.json holds the sha256 of every file a finding's page depends on. Until that file is refreshed, `--version` and every check page name each kit file that differs from the release. Running `python3 -I finding/release.py` then marks the kit as a site version, such as 0.7.0+site.1, and each later signature records it. A changed kit therefore never reads as the published release. From then on the kit shows only that it is a site version. It keeps no log of site changes, so the list of changed files has to live in a log the institution keeps. The version and the file names show which files changed and say nothing of what a change does, so someone other than the engineer still reads each one.
+RELEASE.json holds the sha256 of every file a finding's page depends on. Until that file is refreshed, `--version` and every check page name each kit file that differs from the release. Running `python3 -I finding/release.py` then marks the kit as a site version, such as 0.7.1+site.1, and each later signature records it. A changed kit therefore never reads as the published release. From then on the kit shows only that it is a site version. It keeps no log of site changes, so the list of changed files has to live in a log the institution keeps. The version and the file names show which files changed and say nothing of what a change does, so someone other than the engineer still reads each one.
 
 ### The builder never accepts
 

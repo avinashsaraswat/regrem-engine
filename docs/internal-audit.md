@@ -20,7 +20,7 @@ cp -R finding/cases/IA-CMP-02 audit-02
 finding/finding --version
 ```
 
-On the published kit it reports that every file matches the release. A changed kit names each changed file or shows a site version such as 0.7.0+site.1. Then ask the team for the institution's log of each change.
+On the published kit it reports that every file matches the release. A changed kit names each changed file or shows a site version such as 0.7.1+site.1. Then ask the team for the institution's log of each change.
 
 ### 3. Rerun the check and confirm the fingerprint (30 minutes)
 
@@ -28,7 +28,7 @@ On the published kit it reports that every file matches the release. A changed k
 finding/finding check audit-02
 ```
 
-Your list should match the one the team showed you. The fingerprint is a hash of the letter, plan, evidence, memo, rulings and board approval, plus the tool's own code. This unsigned case prints it last, as `Ready to sign: the folder's fingerprint is a381fa0f.` A signed folder prints it on the signed line, and a `Changed since signing:` line names any covered file edited since. Compare the eight characters with the Fingerprint line in closure/record.md. For a second test, add `Internal audit tested fingerprint: a381fa0f` to the copy's record.md and check again. A match adds nothing to the page, and a mismatch names both values and asks internal audit for a fresh test.
+Your list should match the one the team showed you. The fingerprint is a hash of the letter, plan, evidence, memo, rulings and board approval, plus the tool's own code. This unsigned case prints it last, as `Ready to sign: the folder's fingerprint is e8196695.` A signed folder prints it on the signed line, and a `Changed since signing:` line names any covered file edited since. Compare the eight characters with the Fingerprint line in closure/record.md. For a second test, add `Internal audit tested fingerprint: e8196695` to the copy's record.md and check again. A match adds nothing to the page, and a mismatch names both values and asks internal audit for a fresh test.
 
 ### 4. Run the eval (20 minutes)
 

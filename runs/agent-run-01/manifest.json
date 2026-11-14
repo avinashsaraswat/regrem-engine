@@ -1,0 +1,80 @@
+{
+ "run": "agent-run-01",
+ "sealed": true,
+ "api": {
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta",
+  "model": "gemini-3.8-flash",
+  "note": "Filled by the owner on 2026-11-14 after the dry run and published with the seal. A reader who reruns the work uses their own key in MODEL_API_KEY."
+ },
+ "generation": {
+  "temperature": 1.0,
+  "maxOutputTokens": 16384,
+  "seed": 1,
+  "thinkingConfig": {
+   "thinkingBudget": null,
+   "thinkingLevel": ""
+  }
+ },
+ "offer_run_check": false,
+ "check_today": "",
+ "prices_usd_per_million_tokens": {
+  "input": 0.75,
+  "output": 3.75,
+  "input_long": null,
+  "output_long": null,
+  "long_above_prompt_tokens": null,
+  "source": "the model API's published pricing page, paid tier, standard rate in force through 2026-12-31",
+  "read_on": "2026-11-14"
+ },
+ "spend": {
+  "cap_usd": 20,
+  "thinking_tokens_bound_per_call": 32768,
+  "ledger": "spend-ledger.jsonl"
+ },
+ "limits": {
+  "max_turns_per_job": 60,
+  "tool_result_max_chars": 60000,
+  "write_max_bytes": 1000000,
+  "kit_timeout_seconds": 300,
+  "http_timeout_seconds": 300
+ },
+ "memo_repeats": 4,
+ "kit_release": "0.7.1",
+ "repo_commit": "652ed8ffa8c24c8a148e03fdb918b714442b864e",
+ "case_archive_sha256": "9f0ed36317f1fb70aeb92c4065e77f588c68dcfff845f363d55cdd00adf6e9e6",
+ "scorer_sha256": "6a728b1965e29522415def4e2501f3218dd90d379ab811ed755d860f5b6cb06a",
+ "prompts": [
+  {
+   "path": "prompts/plan.txt",
+   "sha256": "24627c3f61134df25af0bcc192c3ff322f409a485d7ec2e92d0c316ee60087d8"
+  },
+  {
+   "path": "prompts/covers.txt",
+   "sha256": "1e8d8c77753df6271332cc2a47fdde20340813930fb2d377bee519d86aed1be9"
+  },
+  {
+   "path": "prompts/memo.txt",
+   "sha256": "560775755fc6219cfb8012ada5c261969b576f6c8eafcdf28eda27d2bce33514"
+  },
+  {
+   "path": "prompts/cross-read.txt",
+   "sha256": "10707f5d61cf93cd09c38cb3dbfe5e61a543a51055cf02ecb1296f86c78b3bd1"
+  },
+  {
+   "path": "prompts/proposed-rulings.txt",
+   "sha256": "a8ce321c97bdb35c8001ee7de33e5d129dbd2ab66c4fccdc958cc839a27b12ce"
+  },
+  {
+   "path": "prompts/audit-answers.txt",
+   "sha256": "17953257fab6f52c0f3ae51a603cd22ca2045df6d9f6311c0418dde11b7571a3"
+  },
+  {
+   "path": "procedures/review-memo.md",
+   "sha256": "ab4557731ba7025803fce84ba4965201b45d431edb29706f7c17ef9d527ae194"
+  }
+ ],
+ "tools_sha256": {
+  "tools/agent_loop.py": "76383558434357fe9947223037a30487fc09a7e8b5404b7f6dca863130bbd573",
+  "tools/gate_diff.py": "65aedbb1135d14f4b2d5ca6fb968a4c784ab609b946bd7f3a9ddbb564b41495d"
+ }
+}

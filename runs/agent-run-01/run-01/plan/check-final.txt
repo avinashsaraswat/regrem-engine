@@ -1,0 +1,3 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+Not ready: plan.md has no milestone rows yet.

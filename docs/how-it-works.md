@@ -76,7 +76,7 @@ flowchart TD
         FT --> DR --> EN
         FT --> EN
     end
-    LIB["library/<br/>21 invented cases,<br/>one per kind of miss"]
+    LIB["library/<br/>21 invented cases,<br/>15 misses to list and<br/>6 known limits"]
     PR["tieout/providers.py<br/>optional model step,<br/>off by default"]
     OUT["The screen<br/>milestone states, a board<br/>summary and the list,<br/>for the team to act on"]
     AS -.->|drafts into| FD

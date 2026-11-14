@@ -6,6 +6,8 @@ When a financial regulator finds a serious problem at a bank, insurer, broker-de
 
 RegRem Engine is an open-source tool that checks that proof. It reads the closure memo and the evidence folder, ties every figure, date and quotation to the page it cites, and puts whatever does not match on one short list. The person who owns the finding rules on each item before anyone signs. Internal audit can rerun the same check later and get the same answer, because there is no AI inside it.
 
+Where an institution lets AI agents draft, RegRem Engine is an agent harness for regulatory remediation. Here a harness means the fixed check and record that every agent draft has to pass through. The agents are the AI assistants that [assistant/](assistant/README.md) writes procedures for, and they draft into the finding folder. The check and the record hold no AI, and named people rule, sign, test and close. This repository ships no agent, and no public agent run exists yet. The split is set out in [the walkthrough on Substack](https://avinashsaraswat.substack.com/p/better-outcomes-for-large-regulatory).
+
 ![Five boxes in a row show remediation. The Supervisor examines the institution and writes up a finding, the institution plans and makes the fix, the institution proves it, and the Supervisor closes the finding or sends it back. Step 4 is highlighted. A panel below shows the institution writing the closure memo, RegRem Engine checking it against the evidence, the finding owner ruling and signing, and internal audit testing the fix.](docs/images/what-remediation-is.svg)
 
 An institution fixes a problem its regulator wrote up, then has to prove the fix. RegRem Engine works at the proving step, and people make every decision after it.
@@ -65,9 +67,11 @@ Memo check: 13 claims, 7 tie, 3 on the list, 1 cleared.
 ...
 ```
 
+The M2 line on that screen shows a signature of 2026-03-14 on a training register that was revised on 2026-04-02, so the milestone waits on a fresh signature. The Substack walkthrough linked above checks the same case as of 2026-11-16, so it shows 246 days where this page shows 234. To see the document reader at work, go to step 11 of [finding/DEMO.md](finding/DEMO.md), "A document instead of a text file". There a PDF, finding/samples/EV-30-sample-listing.pdf, is checked through a cover.
+
 In the first row of the memo check, the memo says the team reclassified 1,248 complaints and cites page 2 of evidence file EV-07, the intake procedure. That page says 1,284. Two digits were swapped when someone typed the figure, the kind of slip a reader checking by eye can pass. The check names the line, the cite and the figures the page holds nearby. The owner rules `fix the memo` by adding one line to closure/rulings.md, and someone corrects the figure. The line gives the memo line, the name printed after `To rule, name:`, the ruling, the owner's role, a date and a reason, and [docs/finding-owner.md](docs/finding-owner.md) shows one. The tool would also accept `cleared` with a reason, so keeping a wrong figure off the cleared list is the owner's job.
 
-The other two rows are of a different kind. EV-12, the quality review, is still a draft, so the four claims that match its pages wait on a person's signature. The sample it reports also starts before the fix took effect, which mixes items from before and after the fix. The summary line counts rows and claims separately. The 13 claims are the 7 that tie, the 1,248, the 4 on the EV-12 row and the 1 the owner cleared. The sample-period row is a check on the record and holds no claim. The walk in [finding/DEMO.md](finding/DEMO.md) runs every command on both invented cases, and [finding/README.md](finding/README.md) explains the folder and every rule the check applies.
+The other two rows are of a different kind. EV-12, the quality review, is still a draft, so the four claims that match its pages wait on a person's signature. The sample it reports also starts before the fix took effect, which mixes items from before and after the fix. The summary line counts rows and claims separately. The 13 claims are the 7 that tie, the 1,248, the 4 on the EV-12 row and the 1 the owner cleared. The sample-period row is a check on the record and holds no claim. The walk in [finding/DEMO.md](finding/DEMO.md) runs every command on both invented cases, and [finding/README.md](finding/README.md) explains the folder and every rule the check applies. The walk and the library page type `finding/finding`, which is a shell wrapper for `python3 -I finding/finding.py` on macOS and Linux.
 
 ## What it proves, and what it leaves to a person
 
@@ -109,7 +113,7 @@ What the check did not catch, for a person to look for:
 
 The check caught 30 of the 38 planted errors and none of the 6 figures swapped for another figure on the same page, which is its known blind spot. Its two missed cites moved to a page that also holds the same date. Every miss is listed by line, so a person knows where to look.
 
-The library run checks the 21 invented cases in [library/](library/README.md), one for each kind of miss, against what each case says must happen:
+The library run checks the 21 invented cases in [library/](library/README.md) against what each case says must happen. They are 15 misses the check must put on the list and 6 known limits it cannot see:
 
 ```sh
 python3 -I finding/finding.py eval --library
@@ -161,7 +165,7 @@ The tool has seven commands:
 - `sign` records the owner's signature at a terminal.
 - `covers` drafts a cover for each document in evidence/.
 - `eval` tests the check on a memo, and `eval --library` runs the library.
-- `size` estimates the hours a finding takes, by hand and with the kit.
+- `size` prints a finding's counts and the hours they come to under assumed timings, by hand and with the kit.
 - `--version` confirms every file listed in [RELEASE.json](RELEASE.json) matches it.
 
 ## Drafting with an AI assistant
@@ -199,7 +203,7 @@ The first runs 1,166 expectations in the finding tool and the second runs 77 in 
 
 - [finding/](finding/README.md): the tool, its document reader, two invented findings, a sample PDF and the self-test.
 - [tieout/](tieout/README.md): the tie-out engine that ties a claim to its page, with its own self-test and invented matter. The engine started as a tool for checking a draft expert report against its record, and it still carries one optional step from that tool that can call an AI model. That step is off by default, the finding tool does not load it, and no finding command can reach it.
-- [library/](library/README.md): 21 invented eval cases, one for each kind of miss.
+- [library/](library/README.md): 21 invented eval cases, 15 misses the check must put on the list and 6 known limits it cannot see.
 - [assistant/](assistant/README.md): the written procedure for each drafting job an AI assistant does.
 - [docs/forward-deployed.md](docs/forward-deployed.md): the three controls a forward-deployed team delivering the kit would need, as a concept.
 - [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [LICENSE](LICENSE) and [NOTICE](NOTICE).

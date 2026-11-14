@@ -1,10 +1,10 @@
 # The library
 
-The library holds invented eval cases, one for each kind of miss a closure memo can hold. Each case says what the memo check must do about its miss, and every release has to pass all of them. Everything in this folder is invented.
+The library holds 21 invented eval cases. They are 15 misses the check must put on the list and 6 known limits it cannot see. Each case says what the memo check must do about its miss, and every release has to pass all of them. Everything in this folder is invented.
 
 ```text
 library/
-  cases/      one eval case per kind of miss, run by `finding/finding eval --library`
+  cases/      21 eval cases, 15 misses and 6 known limits, run by `finding/finding eval --library`
 ```
 
 ## A case

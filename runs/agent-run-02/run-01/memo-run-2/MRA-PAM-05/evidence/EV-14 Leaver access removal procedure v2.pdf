@@ -1,0 +1,107 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584] >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584] >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R] /Count 4 >>
+endobj
+4 0 obj
+<< /Length 1280 >>
+stream
+BT /F2 14 Tf 1 0 0 1 72 718 Tm (Leaver access removal procedure) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 695 Tm (Version) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 695 Tm (2.0) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 681 Tm (Owner) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 681 Tm (Head of Identity Services) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 667 Tm (Effective date) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 667 Tm (2026-03-16) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 653 Tm (Applies) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 653 Tm (Section 4 of the access management standard) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 628 Tm (1. Purpose) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 611 Tm (This procedure sets the steps the identity team follows to remove a leaver's access.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 587.5 Tm (2. Roles) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 570.5 Tm (-) Tj ET
+BT /F1 10 Tf 1 0 0 1 84 570.5 Tm (HR operations enters each employee's leaving date in the HR system.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 555 Tm (-) Tj ET
+BT /F1 10 Tf 1 0 0 1 84 555 Tm (The contractor management team tells the identity team when a contractor leaves.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 539.5 Tm (-) Tj ET
+BT /F1 10 Tf 1 0 0 1 84 539.5 Tm (The identity team removes access and keeps the record.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Leaver access removal procedure, version 2.0 - page 1 of 4) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 823 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (3. Employees) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (3.1 At 06:00 each business day the HR system sends the identity tool a leaver notice for each employee) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (whose leaving date has passed.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 668 Tm (3.2 The identity tool disables the leaver's directory account and records the time.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 649.5 Tm (3.3 For each account on a platform that does not sign in through the directory, the tool raises a task. The) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 636 Tm (platform team removes the account and closes the task.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 617.5 Tm (3.4 A notice that fails is sent again on the next run.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Leaver access removal procedure, version 2.0 - page 2 of 4) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 831 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (4. Contractors) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (4.1 Contractors are not recorded in the HR system, so the leaver feed does not cover them.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 681.5 Tm (4.2 The contractor management team emails the identity team on the contractor's last day. The identity) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 668 Tm (team disables the contractor's accounts when it reads the email.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 644.5 Tm (5. Records and reporting) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 627.5 Tm (5.1 The identity tool keeps the leaving date and the removal time for each employee leaver.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 609 Tm (5.2 Identity Services publishes the leaver removal MI each month.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Leaver access removal procedure, version 2.0 - page 3 of 4) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 545 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (6. Review of this procedure) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (The owner reviews this procedure at least once a year and after any change to section 4 of the access) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (management standard.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 658 Tm (Approved for issue.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 644 Tm (Head of Identity Services) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 630 Tm (Date: 2026-03-13) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Leaver access removal procedure, version 2.0 - page 4 of 4) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000525 00000 n 
+0000001045 00000 n 
+0000001121 00000 n 
+0000002453 00000 n 
+0000002589 00000 n 
+0000003463 00000 n 
+0000003599 00000 n 
+0000004481 00000 n 
+0000004617 00000 n 
+0000005214 00000 n 
+0000005352 00000 n 
+trailer
+<< /Size 13 /Root 12 0 R >>
+startxref
+5402
+%%EOF

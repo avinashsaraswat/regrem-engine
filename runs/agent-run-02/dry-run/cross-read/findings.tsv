@@ -1,0 +1,3 @@
+memo line	cite	value seen	problem
+7	[EV-07 p2]	March 2026	[EV-07 p2] states that between January and March the team reclassified 1,284 complaints that version 2 had logged as service issues, and [EV-12 p1] states the complaints were reclassified between 2026-01-05 and 2026-03-31.
+15	[EV-12 p1]	2026-01-05 to 2026-03-31	The sample period starts on 2026-01-05 [EV-12 p1], before the fix effective date of 2026-03-17 [EV-12 p2], and [EV-12 p1] covers complaints reclassified between 2026-01-05 and 2026-03-31 rather than complaints logged after the effective date under M2.

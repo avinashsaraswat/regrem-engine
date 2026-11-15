@@ -1,0 +1,39 @@
+{
+ "seat": "drafter",
+ "job": "covers",
+ "model": "the model in manifest.json",
+ "mock": false,
+ "status": "done",
+ "turns": 26,
+ "tool_calls": 24,
+ "check_runs_by_agent": 0,
+ "stopped": 0,
+ "stopped_writes": 0,
+ "stopped_reads": 0,
+ "stopped_by_kind": {},
+ "tokens": {
+  "prompt_tokens": 197352,
+  "candidates_tokens": 2666,
+  "thoughts_tokens": 5844,
+  "total_tokens": 205862
+ },
+ "usd": 0.179926,
+ "run_usd_after": 0.703196,
+ "cap_usd": 60.0,
+ "gate_ok": true,
+ "gate_summary": "gate, covers job in the drafter seat: 7 paths changed, 6 allowed, 1 written by the kit, 0 outside the job's allowlist.",
+ "saved": [
+  "covers-start.txt",
+  "check-first.txt",
+  "check-final.txt"
+ ],
+ "final_copies": [
+  "evidence/E-PLAN-1-board-minutes.md",
+  "evidence/EV-03-complaint-taxonomy.md",
+  "evidence/EV-04-committee-minutes.md",
+  "evidence/EV-07-intake-procedure.md",
+  "evidence/EV-08-training-register.md",
+  "evidence/EV-12-quality-review.md"
+ ],
+ "elapsed_seconds": 106.218
+}

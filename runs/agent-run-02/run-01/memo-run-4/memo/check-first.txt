@@ -1,0 +1,53 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+Finding MRA-PAM-05, a supervisory finding from the Supervisor dated 2026-01-20. Owner: Chief Information Security Officer. Checked as of 2026-11-14, kit release 0.7.1.
+Kit files changed since release 0.7.1: finding/__pycache__ (not part of the kit).
+
+Milestones
+M1 Revise and approve the access management standard. Chief Information Security Officer, committed 2026-03-31 proposed. Present and signed on 2026-03-27, the date of EV-01, which plan.md marks done.
+M2 Automate leaver notices; remove every leaver's access. Head of Identity Services, committed 2026-04-30 proposed. Present, unsigned: EV-04 is missing. SLIPPED by 198 days.
+M3 Remove or assign an owner to every orphaned account. Head of Infrastructure, committed 2026-05-31 proposed. Present on 2026-05-29, the date of EV-09, which plan.md marks done. EV-09 was produced by the orphaned accounts baseline and outcomes extract on 2026-05-29, with no signature.
+M4 Train reviewers; complete the first quarterly review. Head of Identity Services, committed 2026-06-30 proposed. Present and signed on 2026-05-12, the date of EV-12, which plan.md marks done. EV-13 was produced by the First quarterly review extract on 2026-05-11, with no signature. Never signed: EV-10 (training deck) and EV-19 (quick reference card).
+M5 Extend the quarterly review to the cloud hosting platform. Head of Cloud Engineering, committed 2026-09-30 proposed. Present, unsigned: EV-15 is a draft. SLIPPED by 45 days.
+
+Not counted
+evidence/CHG-2026-04417 HR leaver feed go-live record.pdf, which has no cover file CHG-2026-04417 HR leaver feed go-live record.pdf.md.
+evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf, which has no cover file E-PLAN-1 Board minutes 2026-02-12 (1).pdf.md.
+evidence/E-PLAN-1 Board minutes 2026-02-12.pdf, which has no cover file E-PLAN-1 Board minutes 2026-02-12.pdf.md.
+
+Board summary, a draft for the finding owner
+Flagged commitments: M2 slipped 198 days, M5 slipped 45 days.
+Quarterly progress:
+  Quarter ending 2026-03-31: 1 milestone due, 1 signed, 0 below signed.
+  Quarter ending 2026-06-30: 4 milestones due, 3 signed, 1 below signed.
+  Quarter ending 2026-09-30: 5 milestones due, 3 signed, 2 below signed.
+Plan approval: proposed, no signed board minutes E-PLAN-1 yet.
+
+Commitment table, the institution's response in the Supervisor's five-part form, from plan.md
+Concern, Cause and Consequence: as written in finding.md.
+Corrective action:
+| Milestone | Owner role | Committed date |
+| M1 Revise and approve the access management standard | Chief Information Security Officer | 2026-03-31 proposed |
+| M2 Automate leaver notices; remove every leaver's access | Head of Identity Services | 2026-04-30 proposed |
+| M3 Remove or assign an owner to every orphaned account | Head of Infrastructure | 2026-05-31 proposed |
+| M4 Train reviewers; complete the first quarterly review | Head of Identity Services | 2026-06-30 proposed |
+| M5 Extend the quarterly review to the cloud hosting platform | Head of Cloud Engineering | 2026-09-30 proposed |
+Commitment: full remediation by 2026-09-30 proposed.
+
+Closure memo: nothing written yet.
+Internal audit: none recorded.
+Supervisor closure: none recorded.
+Board approval: none recorded.
+Memo check: no memo.
+Signed before the first check on 2026-11-14, so a change before then cannot be seen: EV-01, EV-02, EV-03, EV-06 (approved by EV-07), EV-07, EV-08, EV-11, EV-12, EV-14, EV-16 and EV-20.
+Produced by a system, with no signature, before the first check on 2026-11-14, so a change before then cannot be seen: EV-05, EV-09, EV-13 and EV-18.
+Signature: none yet.
+Deny list: 2 names.
+
+Needs a person:
+  Head of Identity Services: M2.
+  Head of Cloud Engineering: M5.
+  The engagement team: the uncounted file evidence/CHG-2026-04417 HR leaver feed go-live record.pdf, the uncounted file evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf, the uncounted file evidence/E-PLAN-1 Board minutes 2026-02-12.pdf, the closure memo.
+  The board: its approval of the plan, its approval of closure.
+  Internal audit: its reference in closure/record.md.
+  The Supervisor: its closure notice.

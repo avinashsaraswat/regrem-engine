@@ -1,0 +1,83 @@
+{
+ "version": 1,
+ "files": {
+  ".finding-state.json": {
+   "kind": "file",
+   "sha256": "ebfc2882c214278435e0b34fedf2dc0252caf80c33b1d50d015968d1e8624ae3",
+   "size": 2834,
+   "text": "{\n  \"version\": 1,\n  \"first_check\": \"2026-11-14\",\n  \"checked\": \"2026-11-14\",\n  \"parts\": {\n    \"Concern\": \"1a04aedfdde8df76320b1936d7ce1c6ffaedec62845cdac8b1ba542923cedd0b\",\n    \"Cause\": \"ef118c53f6e6c31c48fa2dadbc195a3408bd491614aa7a04349407b0a240e285\",\n    \"Consequence\": \"3b739e002a0749ac8a2fd3799121ff9136830bdc03ed358ee91c30efe8a154ed\",\n    \"Corrective action\": \"0f9336a745be7cd0640a727b8ae1078b00d99d8c4b6b9a1932b2b8df16c66961\",\n    \"Commitment\": \"4c05a3c20011480f6f2129fb9f48090ff1e32dcb31561bdcf20ed607440ffa0a\"\n  },\n  \"frozen\": {\n    \"Identifier\": \"MRA-CMP-07\",\n    \"Issuer\": \"the Supervisor\",\n    \"Letter date\": \"2026-01-15\",\n    \"Kind of matter\": \"supervisory finding\",\n    \"Owner role\": \"Head of Complaints\"\n  },\n  \"evidence\": {\n    \"evidence/E-PLAN-1-board-minutes.md\": {\n      \"sha256\": \"998005be6c3258d462d7996e165a49e60a3ae17c90d217be1748fdb6bf09b3e2\",\n      \"signed\": \"2026-02-10\"\n    },\n    \"evidence/EV-03-complaint-taxonomy.md\": {\n      \"sha256\": \"5288368137813fa4e2013bd2ccf2182133b3c28697c2c3de527d6ac43a0b4659\",\n      \"signed\": \"2026-02-20\"\n    },\n    \"evidence/EV-04-committee-minutes.md\": {\n      \"sha256\": \"386cf6c66668ad1dda07d7cb045e71cb4c9609c0aeff2c7378398483350e4842\",\n      \"signed\": \"2026-02-20\"\n    },\n    \"evidence/EV-07-intake-procedure.md\": {\n      \"sha256\": \"df84bbbac744124c4d5c1ea4e51732eb2336ae1fb8b474c901bd445c4712baba\",\n      \"signed\": \"2026-03-14\"\n    },\n    \"evidence/EV-08-training-register.md\": {\n      \"sha256\": \"f0bd61e9df7aa0b501e1e00a691d9766f5fa45cae036fe675a738ff79f0509b8\",\n      \"signed\": \"2026-03-14\"\n    },\n    \"evidence/EV-12-quality-review.md\": {\n      \"sha256\": \"72c6940e265a82bd71afa40484b88ebfb630af99c6bf1f94f30acff7d4cc2c48\",\n      \"signed\": null\n    }\n  },\n  \"ids\": {\n    \"E-PLAN-1\": {\n      \"sha256\": [\n        \"998005be6c3258d462d7996e165a49e60a3ae17c90d217be1748fdb6bf09b3e2\"\n      ],\n      \"signed\": \"2026-02-10\"\n    },\n    \"EV-03\": {\n      \"sha256\": [\n        \"5288368137813fa4e2013bd2ccf2182133b3c28697c2c3de527d6ac43a0b4659\"\n      ],\n      \"signed\": \"2026-02-20\"\n    },\n    \"EV-04\": {\n      \"sha256\": [\n        \"386cf6c66668ad1dda07d7cb045e71cb4c9609c0aeff2c7378398483350e4842\"\n      ],\n      \"signed\": \"2026-02-20\"\n    },\n    \"EV-07\": {\n      \"sha256\": [\n        \"df84bbbac744124c4d5c1ea4e51732eb2336ae1fb8b474c901bd445c4712baba\"\n      ],\n      \"signed\": \"2026-03-14\"\n    },\n    \"EV-08\": {\n      \"sha256\": [\n        \"f0bd61e9df7aa0b501e1e00a691d9766f5fa45cae036fe675a738ff79f0509b8\"\n      ],\n      \"signed\": \"2026-03-14\"\n    }\n  },\n  \"plan\": {\n    \"approved\": \"2026-02-10\",\n    \"dates\": {\n      \"M1\": \"2026-02-28\",\n      \"M2\": \"2026-03-15\",\n      \"M3\": \"2026-04-30\",\n      \"M4\": \"2026-06-30\"\n    }\n  },\n  \"deny\": {\n    \"identifier\": \"MRA-CMP-07\",\n    \"names\": [\n      \"Wrenfield Example Bank\",\n      \"Wrenfield\",\n      \"Example\"\n    ]\n  },\n  \"signature\": null\n}\n"
+  },
+  "finding.md": {
+   "kind": "file",
+   "sha256": "1704dffd66309dbb1a9c793e8ebdfcda6d998957f3fd70ade45dc4c4d1a13c91",
+   "size": 1639,
+   "text": "SYNTHETIC. Everything in this folder is invented.\n# Finding MRA-CMP-07\nIdentifier: MRA-CMP-07\nInstitution: Wrenfield Example Bank\nIssuer: the Supervisor\nLetter date: 2026-01-15\nKind of matter: supervisory finding\nOwner role: Head of Complaints\n\n## Concern\n\nThe bank does not classify customer complaints consistently. In the second half of 2025, complaints that asked for a fee reversal were often logged as service issues. Those complaints missed the fee-review queue and were left out of the fee lines in complaint trend reports to the board.\n\n## Cause\n\nThe complaint taxonomy had no category for fee disputes. The intake procedure gave staff no rule for a complaint that mentions a fee, so each handler chose a category. No one reviewed the quality of complaint classification after intake.\n\n## Consequence\n\nThe board and senior management received complaint trend reports that understated fee complaints. Customers with valid fee disputes waited longer for an answer, and some may not have received a refund they were owed.\n\n## Corrective action\n\nThe bank must revise the complaint taxonomy to cover fee disputes, reissue the intake procedure with a rule for fee complaints and train intake staff on it, test classification quality on the complaints it reclassifies, and extend the taxonomy to every channel through which customers complain.\n\n## Commitment\n\nThe bank must send the Supervisor a written remediation plan approved by its board within 30 days of this letter, with an owner role and a committed date for each action. The Supervisor will consider the matter for closure only after internal audit has tested the remediation.\n"
+  },
+  "plan.md": {
+   "kind": "file",
+   "sha256": "99cb093dee51fb2a84008f8ba0914892fd6f57d16d0125c3dee5aa814415b6cb",
+   "size": 2772,
+   "text": "# Plan MRA-CMP-07\n\nOne row per milestone. Start each Milestone cell with its id, such as M1. Committed dates are\nYYYY-MM-DD, and the Evidence cell lists evidence ids separated by commas, such as EV-03, EV-04.\nPut (done) after the file whose date is the milestone's, the one that completes it, as in EV-04 (done).\n\n| Milestone | Owner role | Committed date | What is true when done | Evidence | Internal audit will test |\n|---|---|---|---|---|---|\n| M1 Approve revised complaint taxonomy | Head of Complaints | 2026-02-28 | The taxonomy has a fee dispute category and the committee has approved it | EV-03, EV-04 (done) | The approved taxonomy matches the version in use in the complaint system |\n| M2 Reissue intake procedure | Head of Complaints | 2026-03-15 | Version 3 of the intake procedure routes fee complaints to the fee-review queue and every intake handler is trained on it | EV-07, EV-08 (done) | A sample of complaints logged after the effective date follows the fee rule |\n| M3 Quality review of reclassified complaints | Complaints QA lead | 2026-04-30 | A signed quality review of a random sample of reclassified complaints, with the error rate and its causes | EV-12 (done) | The sample was random and the error rate is recomputed from the sample |\n| M4 Extend taxonomy to the mobile app chat channel | Head of Digital | 2026-06-30 | Complaints received through the mobile app chat channel are logged and classified against the taxonomy | EV-15 (done) | A sample of chat complaints is logged within one business day and classified correctly |\n\nLatest page setting each owner role and committed date:\n- M1: Head of Complaints from finding.md Owner role; 2026-02-28 approved by the board in E-PLAN-1 page 1.\n- M2: Head of Complaints from finding.md Owner role; 2026-03-15 approved by the board in E-PLAN-1 page 1.\n- M3: Complaints QA lead from EV-12 page 1; 2026-04-30 approved by the board in E-PLAN-1 page 1.\n- M4: Head of Digital from EV-04 page 1; 2026-06-30 approved by the board in E-PLAN-1 page 1.\n\nCause and Corrective action coverage:\n- Cause sentence 1 (\"The complaint taxonomy had no category for fee disputes.\"): milestone M1.\n- Cause sentence 2 (\"The intake procedure gave staff no rule for a complaint that mentions a fee, so each handler chose a category.\"): milestone M2.\n- Cause sentence 3 (\"No one reviewed the quality of complaint classification after intake.\"): milestone M3.\n- Corrective action sentence 1 (\"The bank must revise the complaint taxonomy to cover fee disputes, reissue the intake procedure with a rule for fee complaints and train intake staff on it, test classification quality on the complaints it reclassifies, and extend the taxonomy to every channel through which customers complain.\"): milestones M1, M2, M3, and M4.\n"
+  },
+  "closure/measures.md": {
+   "kind": "file",
+   "sha256": "91dfb9bb1b1cd1b61d4506bf2cbe355b5e871701d27b6bba0ffbfe6c98b15ff0",
+   "size": 454,
+   "text": "# Measures MRA-CMP-07\n\n<!-- What the Measures line on the check page counts. Hours booked to this finding, one line a month. One line each time internal audit sends something back, ending in missed by the check when the check had passed it:\nHours | 2026-10 | 38\nSent back | 2026-11-02 | Line 8 | the figure was the draft's | missed by the check\nPart hours such as 37.5 count. A line the check cannot read is named on the page and counts for nothing. -->\n"
+  },
+  "closure/memo.md": {
+   "kind": "file",
+   "sha256": "b24100163f6b15e835b5aeec2c09f7ccf031db233bc93a563c4687aed71cbb53",
+   "size": 591,
+   "text": "# Closure memo MRA-CMP-07\n\n<!-- Write the memo in paragraphs below. Put a bracketed cite such as [EV-12 p2] after every figure, date and quotation: the evidence id from the file's For: line, a space, p and the page number from its \"## Page 2\" heading. A file with no page headings is cited as [EV-12 p1]. For each control internal audit will test, add a block of three lines in this form, each date cited to the evidence page that holds it:\n\nTested control: M1, the acknowledgement letter procedure\nFix effective: 2026-05-04 [EV-21 p1]\nSample period: 2026-05-04 to 2026-05-22 [EV-21 p2]\n-->\n"
+  },
+  "closure/record.md": {
+   "kind": "file",
+   "sha256": "ac44c82f02de550054417ed9497660fcaa8bb6086202981b8c937fc22d4786ee",
+   "size": 424,
+   "text": "Internal audit reference:\nInternal audit date:\nInternal audit recorded by (role):\nInternal audit tested fingerprint:\nSupervisor closure notice:\nSupervisor closure date:\nSupervisor closure recorded by (role):\nIssue closure reference:\nIssue closure date:\nIssue closure recorded by (role):\nBoard approval reference:\nBoard approval date:\nBoard approval recorded by (role):\nSigned by (role):\nSigned on:\nFingerprint:\nKit release:\n"
+  },
+  "closure/rulings.md": {
+   "kind": "file",
+   "sha256": "aa64e6af3d5eae057bcda2499b991937376835a66847036962eff22122eab759",
+   "size": 704,
+   "text": "# Rulings MRA-CMP-07\n\n<!-- One line per row on the list, in this form, with the line number and the words after \"To rule, name:\" as the screen prints them:\nLine 8 | March 2026 #1a2b3c4d | cleared | Head of Complaints | 2026-11-04 | The page says January to March, and the plan year is 2026.\nThe ruling is cleared, fix the memo or fix the evidence. Only a cleared ruling by the finding owner's role, dated and with a reason, takes a row off the list. The mark after the # stands for the claim, its cite and its sentence, so a ruling clears that claim and no other. If the memo moves, a cleared ruling follows its claim to the new line. Change the sentence or the cite and the row returns to the list. -->\n"
+  },
+  "evidence/E-PLAN-1-board-minutes.md": {
+   "kind": "file",
+   "sha256": "998005be6c3258d462d7996e165a49e60a3ae17c90d217be1748fdb6bf09b3e2",
+   "size": 267,
+   "text": "SYNTHETIC. Everything in this folder is invented.\nWhat: E-PLAN-1 Board minutes approving the remediation plan\nFor: PLAN E-PLAN-1\nSigned by: Company Secretary, 2026-02-10\nStatus: FINAL\n\nThe board approved the remediation plan for MRA-CMP-07 with the dates in plan.md.\n"
+  },
+  "evidence/EV-03-complaint-taxonomy.md": {
+   "kind": "file",
+   "sha256": "5288368137813fa4e2013bd2ccf2182133b3c28697c2c3de527d6ac43a0b4659",
+   "size": 1018,
+   "text": "SYNTHETIC. Everything in this folder is invented.\nWhat: EV-03 Complaint taxonomy, revision 4\nFor: M1 EV-03\nSigned by: Head of Complaints, 2026-02-20\nStatus: FINAL\n\n# EV-03 Complaint taxonomy, revision 4\n\n## Page 1\n\nPurpose: every complaint is classified into one category and one subcategory at intake.\n\nChange from revision 3: a new category, fee dispute, with three subcategories.\n\n- Fee reversal request: the customer asks for a fee to be refunded.\n- Fee disclosure: the customer says a fee was not explained before it was charged.\n- Fee charged in error: the customer says a fee was applied to the wrong account or twice.\n\nA complaint that mentions a fee and a service failure is classified as a fee dispute first. The service failure is recorded as a secondary tag.\n\n## Page 2\n\nScope: phone, branch and web complaints. The mobile app chat channel is out of scope for this revision.\n\nApproval: approved by the Operational Risk Committee on 2026-02-20 (see EV-04). Signature: the Head of Complaints, on 2026-02-20.\n"
+  },
+  "evidence/EV-04-committee-minutes.md": {
+   "kind": "file",
+   "sha256": "386cf6c66668ad1dda07d7cb045e71cb4c9609c0aeff2c7378398483350e4842",
+   "size": 720,
+   "text": "SYNTHETIC. Everything in this folder is invented.\nWhat: EV-04 Operational Risk Committee minutes, meeting of 2026-02-20\nFor: M1 EV-04\nSigned by: Operational Risk Committee chair, 2026-02-20\nStatus: FINAL\n\n# EV-04 Operational Risk Committee minutes\n\n## Page 1\n\nMeeting of 2026-02-20. Present, by role: the committee chair, the Chief Risk Officer, the Head of Complaints, the Head of Digital and the Company Secretary.\n\nItem 3, complaint taxonomy. The Head of Complaints presented revision 4 of the complaint taxonomy (EV-03), which adds a fee dispute category. The committee approved revision 4 with effect from 2026-02-20 and asked the Head of Digital to bring a plan for the mobile app chat channel to a later meeting.\n"
+  },
+  "evidence/EV-07-intake-procedure.md": {
+   "kind": "file",
+   "sha256": "df84bbbac744124c4d5c1ea4e51732eb2336ae1fb8b474c901bd445c4712baba",
+   "size": 836,
+   "text": "SYNTHETIC. Everything in this folder is invented.\nWhat: EV-07 Complaint intake procedure, version 3\nFor: M2 EV-07\nSigned by: Head of Complaints, 2026-03-14\nStatus: FINAL\n\n# EV-07 Complaint intake procedure, version 3\n\n## Page 1\n\nOwner: Head of Complaints. Signed 2026-03-14.\n\nScope: every customer complaint received by phone, branch or web is logged in the complaint system within one business day and classified against the complaint taxonomy approved by the Operational Risk Committee.\n\n## Page 2\n\nChange from version 2: complaints that mention a fee reversal are now routed to the fee-review queue before classification. Between January and March the team reclassified 1,284 complaints that version 2 had logged as service issues.\n\nOpen item: the taxonomy does not yet cover complaints received through the mobile app chat channel.\n"
+  },
+  "evidence/EV-08-training-register.md": {
+   "kind": "file",
+   "sha256": "f0bd61e9df7aa0b501e1e00a691d9766f5fa45cae036fe675a738ff79f0509b8",
+   "size": 756,
+   "text": "SYNTHETIC. Everything in this folder is invented.\nWhat: EV-08 Intake procedure training register, version 3\nFor: M2 EV-08\nSigned by: Head of Complaints, 2026-03-14\nStatus: FINAL\nRevised: 2026-04-02\n\n# EV-08 Intake procedure training register, version 3\n\n## Page 1\n\nIntake handlers in scope: 48. Trained on version 3 of the intake procedure by 2026-03-13: 46. Not yet trained: 2, both on leave.\n\nTraining covered the fee dispute category, the fee rule and the fee-review queue. Each handler passed a ten-question check.\n\nSignature: the Head of Complaints, on 2026-03-14.\n\n## Page 2\n\nRevision of 2026-04-02: the 2 remaining handlers completed training on 2026-03-30 and 2026-04-01. The register now shows 48 of 48 trained. This revision has not been signed.\n"
+  },
+  "evidence/EV-12-quality-review.md": {
+   "kind": "file",
+   "sha256": "72c6940e265a82bd71afa40484b88ebfb630af99c6bf1f94f30acff7d4cc2c48",
+   "size": 686,
+   "text": "SYNTHETIC. Everything in this folder is invented.\nWhat: EV-12 Quality review results, first quarter\nFor: M3 EV-12\nSigned by: none\nStatus: DRAFT\n\n# EV-12 Quality review results, first quarter\n\n## Page 1\n\nPrepared by the Complaints QA lead. Draft, not signed.\n\nMethod: 240 complaints drawn at random from the complaints reclassified between 2026-01-05 and 2026-03-31. A second reviewer classified each one against revision 4 of the taxonomy without seeing the first classification.\n\n## Page 2\n\nSample: 240 complaints. Misclassified: 31, a rate of 12.9 percent. Most misclassifications were fee complaints logged as service issues before the version 3 procedure took effect on 2026-03-17.\n"
+  }
+ }
+}

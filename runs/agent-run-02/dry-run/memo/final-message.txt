@@ -1,0 +1,31 @@
+### Summary of Check Results
+
+The finding check verified that all 8 cited claims in `closure/memo.md` now tie directly to evidence pages (the previously mismatched figure 1,248 is now 1,284 and ties character-for-character). There are no remaining claims in the memo that mismatch evidence.
+
+The 3 remaining items on the check list properly await human action (rulings and document signatures).
+
+---
+
+### Questions and Actions for the Finding Owner (Head of Complaints) and Assignees
+
+1. **Re-rule on Line 7 (`March 2026`)**:
+   - As expected, updating the sentence with `1,284` updated the sentence hash. The existing ruling at `closure/rulings.md` line 4 referencing mark `#f2ba27f8` no longer matches.
+   - **Question for Head of Complaints**: Please update `closure/rulings.md` line 4 to reference the new mark:
+     ```text
+     Line 7 | March 2026 #ffa37a3f | cleared | Head of Complaints | 2026-11-16 | The page says January to March, and the plan year is 2026.
+     ```
+
+2. **Rule on Line 15 (`sample period for M2`)**:
+   - The sample period for the M2 control starts 2026-01-05, before the fix took effect on 2026-03-17.
+   - **Question for Head of Complaints**: Will you enter a ruling in `closure/rulings.md` to clear this row? Proposed ruling:
+     ```text
+     Line 15 | sample period for M2 #106ddd50 | cleared | Head of Complaints | 2026-11-16 | The sample spans the fix on purpose, to compare error rates before and after it.
+     ```
+
+3. **Pending Milestone Evidence & Signatures**:
+   - **M2 (Head of Complaints)**: `evidence/EV-08-training-register.md` was revised on 2026-04-02 after its 2026-03-14 signature. A fresh signature date is needed on the cover.
+   - **M3 (Complaints QA lead)**: `evidence/EV-12-quality-review.md` is an unsigned draft. Once finalized and signed (`Status: FINAL`), its 4 claims will convert to ties and clear the draft row.
+   - **M4 (Head of Digital)**: File `EV-15` covering chat channel complaints intake must be produced and signed.
+
+4. **Sign-off and Closure Records**:
+   - Once all rows are cleared and milestones signed, board closure approval and internal audit test references must be recorded in `closure/record.md`.

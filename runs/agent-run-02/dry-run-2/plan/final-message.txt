@@ -1,0 +1,5 @@
+`finding check` was run on the folder. The check read all four milestones from `plan.md` without printing any "Not ready" line, successfully meeting the procedure's passing criteria. Committed dates are displayed as `proposed` pending the board's formal approval of the plan via signed minutes (E-PLAN-1).
+
+### Questions for the finding owner:
+1. **Milestones and dates**: Do you confirm the four milestones, owner roles, and committed dates (M1: 2026-02-28, M2: 2026-03-15, M3: 2026-04-30, M4: 2026-06-30) as approved by the board?
+2. **Board approval (E-PLAN-1)**: When ready, the engagement team will need to complete the cover for `evidence/E-PLAN-1-board-minutes.md` (and remove the synthetic test line) so the board minutes can count as signed, which will freeze the committed dates from `proposed` to approved status.

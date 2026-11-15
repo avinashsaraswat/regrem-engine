@@ -1,0 +1,196 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584] >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584] >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] /Count 8 >>
+endobj
+4 0 obj
+<< /Length 1173 >>
+stream
+BT /F2 14 Tf 1 0 0 1 72 718 Tm (Access management standard) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 690 Tm (1. Document control) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 673 Tm (Version) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 673 Tm (4.0) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 659 Tm (Status) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 659 Tm (Approved) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 645 Tm (Owner) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 645 Tm (Chief Information Security Officer) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 631 Tm (Approved by) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 631 Tm (Board Risk Committee, 2026-03-26) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 617 Tm (Effective date) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 617 Tm (2026-04-01) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 603 Tm (Replaces) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 603 Tm (Version 3.2) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 589 Tm (Next review) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 589 Tm (2027-03-31) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 569 Tm (This standard is part of the Bank's information security policy framework. Where it conflicts with a local) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 555.5 Tm (procedure, this standard applies.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 1 of 8) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 1096 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (2. Purpose and scope) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (2.1 This standard sets how the Bank grants, reviews and removes access to its systems, so that each) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (person holds only the access their role needs, and no longer than they need it.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 668 Tm (2.2 It applies to every account on every Bank system, held by employees, contractors and third parties.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 649.5 Tm (2.3 It applies to every platform the Bank runs, including the core banking database, the payments) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 636 Tm (gateway, the customer channels, the data warehouse, the directory and servers, the network devices and) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 622.5 Tm (the cloud hosting platform.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 604 Tm (2.4 The Chief Information Security Officer owns this standard. Each platform owner applies it on their) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 590.5 Tm (platform.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 2 of 8) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1139 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (3. Definitions) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (Privileged account: an account that can change a system's configuration, its security settings, other) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (accounts or data that other people rely on.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 668 Tm (Orphaned account: a privileged account with no named owner.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 649.5 Tm (Leaver: an employee or contractor whose work for the Bank has ended.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 631 Tm (Leaving date: the last day a leaver works for the Bank.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 612.5 Tm (Business day: a day other than a Saturday, a Sunday or a bank holiday.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 594 Tm (Reviewer: the platform owner, or a person the platform owner names, who decides for each privileged) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 580.5 Tm (account whether it is still needed.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 562 Tm (Deputy reviewer: the reviewer who decides on an account that the usual reviewer cannot decide on.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 3 of 8) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 1076 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (4. Leavers) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (4.1 From 2026-04-01, the identity team removes a leaver's access within one business day of the leaving) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (date.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 668 Tm (4.2 For an employee, the HR system sends a leaver notice to the identity tool. For a contractor, the) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 654.5 Tm (contractor management team tells the identity team on the contractor's last day.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 636 Tm (4.3 A line manager who learns that a person has left, and sees no sign that their access was removed,) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 622.5 Tm (tells the identity team the same day.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 604 Tm (4.4 The identity team keeps a record of each leaver, the leaving date and the date each account was) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 590.5 Tm (removed, and reports how many leavers were removed outside the deadline each month.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 4 of 8) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 978 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (5. Privileged access) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (5.1 Each platform owner reviews every privileged account on it at least once in each calendar quarter.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 681.5 Tm (5.2 A reviewer completes the reviewer training before their first review.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 663 Tm (5.3 No reviewer certifies an account they hold. Such an account goes to the deputy reviewer.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 644.5 Tm (5.4 Access a reviewer decides to revoke is removed within 30 days of the decision.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 626 Tm (5.5 The review tool keeps each decision, its reviewer and its date for 7 years.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 607.5 Tm (5.6 An account without a named owner is dealt with under section 6, and joins the quarterly review once it) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 594 Tm (has one.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 5 of 8) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 565 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (6. Orphaned accounts) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (6.1 Every privileged account has a named owner.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 681.5 Tm (6.2 An account found with no named owner is removed, or assigned a named owner, within 120 days of) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 668 Tm (the date it was found.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 649.5 Tm (6.3 The platform owner records the outcome for each orphaned account, with its date.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 6 of 8) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 812 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (7. Governance) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (7.1 The Board Risk Committee approves this standard and any change to it.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 681.5 Tm (7.2 The Chief Information Security Officer may approve an exception to this standard for up to 90 days) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 668 Tm (from the date of approval. Each exception is recorded in the exceptions register with its reason and its) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 654.5 Tm (end date.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 636 Tm (7.3 The Chief Information Security Officer reviews this standard at least once a year and brings any) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 622.5 Tm (change to the Board Risk Committee.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 7 of 8) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 1204 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (8. Document history) Tj ET
+BT /F2 9 Tf 1 0 0 1 72 701 Tm (Version) Tj ET
+BT /F2 9 Tf 1 0 0 1 119.01 701 Tm (Approved on) Tj ET
+BT /F2 9 Tf 1 0 0 1 188.51 701 Tm (Approved by) Tj ET
+BT /F2 9 Tf 1 0 0 1 292.53 701 Tm (Change) Tj ET
+BT /F1 9 Tf 1 0 0 1 72 688.58 Tm (3.2) Tj ET
+BT /F1 9 Tf 1 0 0 1 119.01 688.58 Tm (2024-09-12) Tj ET
+BT /F1 9 Tf 1 0 0 1 188.51 688.58 Tm (Board Risk Committee) Tj ET
+BT /F1 9 Tf 1 0 0 1 292.53 688.58 Tm (Annual review; no change of substance) Tj ET
+BT /F1 9 Tf 1 0 0 1 72 676.16 Tm (4.0) Tj ET
+BT /F1 9 Tf 1 0 0 1 119.01 676.16 Tm (2026-03-26) Tj ET
+BT /F1 9 Tf 1 0 0 1 188.51 676.16 Tm (Board Risk Committee) Tj ET
+BT /F1 9 Tf 1 0 0 1 292.53 676.16 Tm (Adds the leaver deadline \(4.1\), the quarterly review) Tj ET
+BT /F1 9 Tf 1 0 0 1 292.53 663.74 Tm (of privileged access \(5.1 to 5.4\) and orphaned accounts \(6\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 634.32 Tm (Signed for issue by the owner of this standard.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 620.32 Tm (Chief Information Security Officer) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 606.32 Tm (Date: 2026-03-27) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Access management standard, version 4.0 - page 8 of 8) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000009 00000 n 
+0000000525 00000 n 
+0000001045 00000 n 
+0000001149 00000 n 
+0000002374 00000 n 
+0000002510 00000 n 
+0000003658 00000 n 
+0000003794 00000 n 
+0000004985 00000 n 
+0000005121 00000 n 
+0000006250 00000 n 
+0000006388 00000 n 
+0000007418 00000 n 
+0000007556 00000 n 
+0000008173 00000 n 
+0000008311 00000 n 
+0000009175 00000 n 
+0000009313 00000 n 
+0000010570 00000 n 
+0000010708 00000 n 
+trailer
+<< /Size 21 /Root 20 0 R >>
+startxref
+10758
+%%EOF

@@ -1,0 +1,5 @@
+The cross-reading of `closure/memo.md` against `finding.md`, `plan.md`, and all evidence documents and covers has been completed. The results have been written to `out/findings.tsv`.
+
+Two issues were identified:
+1. **Line 7 (`[EV-07 p2]`):** The memo states that 1,284 complaints were reclassified "In March 2026", whereas `[EV-07 p2]` states the reclassification occurred "Between January and March" (and `[EV-12 p1]` records the dates as between 2026-01-05 and 2026-03-31).
+2. **Line 15 (`[EV-12 p1]`):** The sample period for tested control M2 is listed as `2026-01-05 to 2026-03-31`, which starts before the fix effective date of 2026-03-17 `[EV-12 p2]`, and `[EV-12 p1]` covers complaints reclassified under M3 rather than complaints logged after the effective date under M2.

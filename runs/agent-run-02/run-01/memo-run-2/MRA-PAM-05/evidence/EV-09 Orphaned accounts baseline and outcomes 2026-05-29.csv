@@ -1,0 +1,215 @@
+orphan_id,platform,account_name,baseline_date,outcome,outcome_date,new_owner_staff_id
+OA-001,Core banking database,sys_core49,2026-02-27,removed,2026-03-13,
+OA-002,Payments gateway,sys_paym60,2026-02-27,removed,2026-03-27,
+OA-003,Customer channels,sys_cust67,2026-02-27,removed,2026-03-10,
+OA-004,Data warehouse,adm_data33,2026-02-27,assigned,2026-03-16,S13561
+OA-005,Directory and servers,bkp_dire85,2026-02-27,assigned,2026-03-18,S16464
+OA-006,Network devices,net_netw57,2026-02-27,removed,2026-03-03,
+OA-007,Core banking database,dba_core23,2026-02-27,removed,2026-03-19,
+OA-008,Payments gateway,bkp_paym13,2026-02-27,assigned,2026-03-23,S11797
+OA-009,Customer channels,app_cust16,2026-02-27,assigned,2026-04-23,S17957
+OA-010,Data warehouse,dba_data66,2026-02-27,removed,2026-03-04,
+OA-011,Directory and servers,dba_dire41,2026-02-27,removed,2026-03-03,
+OA-012,Network devices,dba_netw77,2026-02-27,assigned,2026-03-27,S19790
+OA-013,Core banking database,bkp_core30,2026-02-27,assigned,2026-03-27,S18006
+OA-014,Payments gateway,dba_paym95,2026-02-27,removed,2026-03-31,
+OA-015,Customer channels,sys_cust50,2026-02-27,removed,2026-03-31,
+OA-016,Data warehouse,net_data65,2026-02-27,assigned,2026-05-15,S13576
+OA-017,Directory and servers,sys_dire56,2026-02-27,assigned,2026-04-22,S18093
+OA-018,Network devices,svc_netw38,2026-02-27,removed,2026-03-18,
+OA-019,Core banking database,ops_core26,2026-02-27,removed,2026-03-11,
+OA-020,Payments gateway,net_paym32,2026-02-27,assigned,2026-03-27,S16678
+OA-021,Customer channels,svc_cust56,2026-02-27,assigned,2026-03-25,S11431
+OA-022,Data warehouse,adm_data69,2026-02-27,removed,2026-03-30,
+OA-023,Directory and servers,svc_dire70,2026-02-27,removed,2026-03-11,
+OA-024,Network devices,adm_netw12,2026-02-27,assigned,2026-04-27,S14621
+OA-025,Core banking database,app_core89,2026-02-27,assigned,2026-03-12,S18000
+OA-026,Payments gateway,dba_paym36,2026-02-27,removed,2026-03-13,
+OA-027,Customer channels,adm_cust26,2026-02-27,removed,2026-03-16,
+OA-028,Data warehouse,app_data83,2026-02-27,assigned,2026-05-01,S13385
+OA-029,Directory and servers,sys_dire70,2026-02-27,assigned,2026-03-10,S17292
+OA-030,Network devices,sys_netw14,2026-02-27,removed,2026-03-20,
+OA-031,Core banking database,bkp_core65,2026-02-27,removed,2026-03-05,
+OA-032,Payments gateway,bkp_paym61,2026-02-27,assigned,2026-03-25,S19638
+OA-033,Customer channels,sys_cust95,2026-02-27,assigned,2026-04-14,S14526
+OA-034,Data warehouse,ops_data30,2026-02-27,removed,2026-03-04,
+OA-035,Directory and servers,dba_dire83,2026-02-27,removed,2026-03-09,
+OA-036,Network devices,svc_netw68,2026-02-27,assigned,2026-03-11,S14840
+OA-037,Core banking database,adm_core83,2026-02-27,assigned,2026-03-16,S19235
+OA-038,Payments gateway,sys_paym22,2026-02-27,removed,2026-03-19,
+OA-039,Customer channels,app_cust38,2026-02-27,removed,2026-03-13,
+OA-040,Data warehouse,ops_data76,2026-02-27,assigned,2026-04-21,S18602
+OA-041,Directory and servers,app_dire88,2026-02-27,assigned,2026-04-20,S19711
+OA-042,Network devices,adm_netw98,2026-02-27,removed,2026-03-04,
+OA-043,Core banking database,app_core55,2026-02-27,removed,2026-03-23,
+OA-044,Payments gateway,svc_paym73,2026-02-27,assigned,2026-05-06,S16401
+OA-045,Customer channels,adm_cust17,2026-02-27,assigned,2026-04-14,S15958
+OA-046,Data warehouse,bkp_data24,2026-02-27,removed,2026-03-12,
+OA-047,Directory and servers,dba_dire90,2026-02-27,removed,2026-03-02,
+OA-048,Network devices,adm_netw43,2026-02-27,assigned,2026-03-16,S18512
+OA-049,Core banking database,net_core36,2026-02-27,assigned,2026-05-28,S19995
+OA-050,Payments gateway,ops_paym52,2026-02-27,removed,2026-03-05,
+OA-051,Customer channels,bkp_cust24,2026-02-27,removed,2026-03-20,
+OA-052,Data warehouse,adm_data44,2026-02-27,assigned,2026-04-17,S16997
+OA-053,Directory and servers,sys_dire66,2026-02-27,assigned,2026-04-28,S14275
+OA-054,Network devices,bkp_netw10,2026-02-27,removed,2026-03-25,
+OA-055,Core banking database,adm_core73,2026-02-27,removed,2026-03-18,
+OA-056,Payments gateway,svc_paym16,2026-02-27,assigned,2026-03-13,S12130
+OA-057,Customer channels,bkp_cust14,2026-02-27,assigned,2026-03-09,S19938
+OA-058,Data warehouse,bkp_data42,2026-02-27,removed,2026-03-19,
+OA-059,Directory and servers,sys_dire95,2026-02-27,removed,2026-03-18,
+OA-060,Network devices,dba_netw91,2026-02-27,assigned,2026-04-22,S15460
+OA-061,Core banking database,sys_core92,2026-02-27,assigned,2026-05-12,S19139
+OA-062,Payments gateway,svc_paym44,2026-02-27,removed,2026-03-17,
+OA-063,Customer channels,svc_cust13,2026-02-27,removed,2026-03-24,
+OA-064,Data warehouse,ops_data87,2026-02-27,removed,2026-03-10,
+OA-065,Directory and servers,net_dire35,2026-02-27,assigned,2026-03-19,S14532
+OA-066,Network devices,dba_netw50,2026-02-27,removed,2026-03-03,
+OA-067,Core banking database,net_core89,2026-02-27,removed,2026-03-12,
+OA-068,Payments gateway,net_paym98,2026-02-27,removed,2026-03-31,
+OA-069,Customer channels,dba_cust77,2026-02-27,assigned,2026-04-07,S18775
+OA-070,Data warehouse,svc_data74,2026-02-27,removed,2026-03-04,
+OA-071,Directory and servers,sys_dire38,2026-02-27,removed,2026-03-31,
+OA-072,Network devices,bkp_netw87,2026-02-27,removed,2026-03-16,
+OA-073,Core banking database,bkp_core16,2026-02-27,assigned,2026-03-09,S14769
+OA-074,Payments gateway,svc_paym74,2026-02-27,removed,2026-03-12,
+OA-075,Customer channels,app_cust31,2026-02-27,removed,2026-03-19,
+OA-076,Data warehouse,dba_data37,2026-02-27,removed,2026-03-26,
+OA-077,Directory and servers,app_dire62,2026-02-27,assigned,2026-04-28,S11149
+OA-078,Network devices,app_netw16,2026-02-27,removed,2026-03-06,
+OA-079,Core banking database,svc_core99,2026-02-27,removed,2026-03-25,
+OA-080,Payments gateway,net_paym60,2026-02-27,removed,2026-03-03,
+OA-081,Customer channels,dba_cust58,2026-02-27,assigned,2026-05-05,S17369
+OA-082,Data warehouse,sys_data70,2026-02-27,removed,2026-03-24,
+OA-083,Directory and servers,svc_dire40,2026-02-27,removed,2026-03-31,
+OA-084,Network devices,net_netw90,2026-02-27,removed,2026-03-02,
+OA-085,Core banking database,app_core80,2026-02-27,assigned,2026-04-14,S12919
+OA-086,Payments gateway,net_paym57,2026-02-27,removed,2026-03-05,
+OA-087,Customer channels,app_cust18,2026-02-27,removed,2026-03-20,
+OA-088,Data warehouse,adm_data46,2026-02-27,removed,2026-03-12,
+OA-089,Directory and servers,app_dire76,2026-02-27,assigned,2026-04-20,S15235
+OA-090,Network devices,dba_netw11,2026-02-27,removed,2026-03-03,
+OA-091,Core banking database,svc_core23,2026-02-27,removed,2026-03-03,
+OA-092,Payments gateway,net_paym58,2026-02-27,removed,2026-03-26,
+OA-093,Customer channels,ops_cust18,2026-02-27,assigned,2026-03-26,S15571
+OA-094,Data warehouse,adm_data38,2026-02-27,removed,2026-03-13,
+OA-095,Directory and servers,sys_dire17,2026-02-27,removed,2026-03-25,
+OA-096,Network devices,app_netw25,2026-02-27,removed,2026-03-04,
+OA-097,Core banking database,adm_core85,2026-02-27,assigned,2026-04-24,S19817
+OA-098,Payments gateway,ops_paym57,2026-02-27,removed,2026-03-16,
+OA-099,Customer channels,adm_cust48,2026-02-27,removed,2026-03-09,
+OA-100,Data warehouse,dba_data26,2026-02-27,removed,2026-03-20,
+OA-101,Directory and servers,dba_dire20,2026-02-27,assigned,2026-04-15,S15258
+OA-102,Network devices,bkp_netw42,2026-02-27,removed,2026-03-06,
+OA-103,Core banking database,bkp_core44,2026-02-27,removed,2026-03-24,
+OA-104,Payments gateway,adm_paym49,2026-02-27,removed,2026-03-23,
+OA-105,Customer channels,app_cust27,2026-02-27,assigned,2026-03-13,S16802
+OA-106,Data warehouse,bkp_data64,2026-02-27,removed,2026-03-03,
+OA-107,Directory and servers,dba_dire93,2026-02-27,removed,2026-03-31,
+OA-108,Network devices,ops_netw85,2026-02-27,removed,2026-03-16,
+OA-109,Core banking database,net_core74,2026-02-27,assigned,2026-05-13,S17925
+OA-110,Payments gateway,ops_paym91,2026-02-27,assigned,2026-04-09,S18491
+OA-111,Customer channels,app_cust57,2026-02-27,removed,2026-03-31,
+OA-112,Data warehouse,app_data18,2026-02-27,removed,2026-03-23,
+OA-113,Directory and servers,bkp_dire73,2026-02-27,assigned,2026-04-10,S17150
+OA-114,Network devices,dba_netw30,2026-02-27,assigned,2026-03-09,S13247
+OA-115,Core banking database,app_core18,2026-02-27,removed,2026-03-20,
+OA-116,Payments gateway,app_paym93,2026-02-27,removed,2026-03-30,
+OA-117,Customer channels,net_cust90,2026-02-27,assigned,2026-03-17,S18026
+OA-118,Data warehouse,ops_data75,2026-02-27,assigned,2026-03-30,S13860
+OA-119,Directory and servers,adm_dire12,2026-02-27,removed,2026-03-26,
+OA-120,Network devices,adm_netw90,2026-02-27,removed,2026-03-19,
+OA-121,Core banking database,net_core57,2026-02-27,assigned,2026-03-31,S11421
+OA-122,Payments gateway,app_paym13,2026-02-27,assigned,2026-03-17,S18437
+OA-123,Customer channels,app_cust95,2026-02-27,removed,2026-03-19,
+OA-124,Data warehouse,app_data38,2026-02-27,removed,2026-03-03,
+OA-125,Directory and servers,adm_dire98,2026-02-27,assigned,2026-04-23,S14331
+OA-126,Network devices,net_netw30,2026-02-27,assigned,2026-04-14,S13495
+OA-127,Core banking database,bkp_core17,2026-02-27,removed,2026-03-13,
+OA-128,Payments gateway,bkp_paym50,2026-02-27,removed,2026-03-24,
+OA-129,Customer channels,bkp_cust49,2026-02-27,assigned,2026-05-19,S12263
+OA-130,Data warehouse,bkp_data62,2026-02-27,assigned,2026-05-12,S16246
+OA-131,Directory and servers,svc_dire34,2026-02-27,removed,2026-03-31,
+OA-132,Network devices,ops_netw84,2026-02-27,removed,2026-03-04,
+OA-133,Core banking database,adm_core34,2026-02-27,assigned,2026-05-18,S19622
+OA-134,Payments gateway,sys_paym92,2026-02-27,assigned,2026-04-01,S17270
+OA-135,Customer channels,ops_cust50,2026-02-27,removed,2026-03-12,
+OA-136,Data warehouse,dba_data19,2026-02-27,removed,2026-03-23,
+OA-137,Directory and servers,sys_dire79,2026-02-27,assigned,2026-04-14,S18804
+OA-138,Network devices,sys_netw46,2026-02-27,assigned,2026-03-17,S11818
+OA-139,Core banking database,sys_core96,2026-02-27,removed,2026-03-25,
+OA-140,Payments gateway,ops_paym11,2026-02-27,removed,2026-03-09,
+OA-141,Customer channels,sys_cust92,2026-02-27,assigned,2026-03-17,S17604
+OA-142,Data warehouse,bkp_data97,2026-02-27,assigned,2026-04-14,S17376
+OA-143,Directory and servers,adm_dire64,2026-02-27,removed,2026-03-12,
+OA-144,Network devices,bkp_netw37,2026-02-27,removed,2026-03-05,
+OA-145,Core banking database,app_core61,2026-02-27,assigned,2026-04-22,S11556
+OA-146,Payments gateway,net_paym51,2026-02-27,assigned,2026-03-10,S13721
+OA-147,Customer channels,adm_cust77,2026-02-27,removed,2026-03-12,
+OA-148,Data warehouse,app_data31,2026-02-27,removed,2026-03-31,
+OA-149,Directory and servers,svc_dire42,2026-02-27,assigned,2026-05-26,S17454
+OA-150,Network devices,app_netw33,2026-02-27,assigned,2026-05-29,S16788
+OA-151,Core banking database,svc_core71,2026-02-27,removed,2026-03-09,
+OA-152,Payments gateway,dba_paym62,2026-02-27,removed,2026-03-23,
+OA-153,Customer channels,sys_cust29,2026-02-27,assigned,2026-04-20,S19303
+OA-154,Data warehouse,svc_data61,2026-02-27,assigned,2026-03-12,S15188
+OA-155,Directory and servers,dba_dire38,2026-02-27,removed,2026-03-05,
+OA-156,Network devices,bkp_netw21,2026-02-27,removed,2026-03-11,
+OA-157,Core banking database,bkp_core53,2026-02-27,assigned,2026-03-20,S16530
+OA-158,Payments gateway,ops_paym66,2026-02-27,assigned,2026-04-20,S15852
+OA-159,Customer channels,ops_cust16,2026-02-27,removed,2026-03-02,
+OA-160,Data warehouse,bkp_data20,2026-02-27,removed,2026-03-26,
+OA-161,Directory and servers,net_dire65,2026-02-27,assigned,2026-03-09,S12421
+OA-162,Network devices,sys_netw10,2026-02-27,assigned,2026-05-26,S13649
+OA-163,Core banking database,app_core49,2026-02-27,removed,2026-03-26,
+OA-164,Payments gateway,svc_paym96,2026-02-27,removed,2026-03-19,
+OA-165,Customer channels,bkp_cust33,2026-02-27,assigned,2026-05-27,S12818
+OA-166,Data warehouse,dba_data67,2026-02-27,assigned,2026-05-19,S18551
+OA-167,Directory and servers,net_dire21,2026-02-27,removed,2026-03-30,
+OA-168,Network devices,dba_netw31,2026-02-27,removed,2026-03-12,
+OA-169,Core banking database,svc_core41,2026-02-27,removed,2026-03-30,
+OA-170,Payments gateway,dba_paym74,2026-02-27,assigned,2026-03-25,S15177
+OA-171,Customer channels,app_cust72,2026-02-27,removed,2026-03-16,
+OA-172,Data warehouse,svc_data58,2026-02-27,removed,2026-03-27,
+OA-173,Directory and servers,ops_dire47,2026-02-27,removed,2026-03-19,
+OA-174,Network devices,sys_netw73,2026-02-27,assigned,2026-05-12,S11764
+OA-175,Core banking database,svc_core36,2026-02-27,removed,2026-03-03,
+OA-176,Payments gateway,adm_paym55,2026-02-27,removed,2026-03-09,
+OA-177,Customer channels,net_cust83,2026-02-27,removed,2026-03-02,
+OA-178,Data warehouse,ops_data91,2026-02-27,assigned,2026-05-21,S11908
+OA-179,Directory and servers,svc_dire61,2026-02-27,removed,2026-03-11,
+OA-180,Network devices,bkp_netw71,2026-02-27,removed,2026-03-23,
+OA-181,Core banking database,ops_core61,2026-02-27,removed,2026-03-06,
+OA-182,Payments gateway,svc_paym52,2026-02-27,assigned,2026-05-01,S18821
+OA-183,Customer channels,app_cust11,2026-02-27,removed,2026-03-17,
+OA-184,Data warehouse,bkp_data34,2026-02-27,removed,2026-03-10,
+OA-185,Directory and servers,sys_dire68,2026-02-27,removed,2026-03-25,
+OA-186,Network devices,bkp_netw79,2026-02-27,assigned,2026-03-31,S14546
+OA-187,Core banking database,app_core69,2026-02-27,removed,2026-03-09,
+OA-188,Payments gateway,app_paym34,2026-02-27,removed,2026-03-20,
+OA-189,Customer channels,net_cust70,2026-02-27,removed,2026-03-16,
+OA-190,Data warehouse,adm_data78,2026-02-27,assigned,2026-05-06,S11952
+OA-191,Directory and servers,sys_dire89,2026-02-27,removed,2026-03-13,
+OA-192,Network devices,adm_netw88,2026-02-27,removed,2026-03-20,
+OA-193,Core banking database,adm_core77,2026-02-27,removed,2026-03-19,
+OA-194,Payments gateway,sys_paym34,2026-02-27,assigned,2026-05-27,S15771
+OA-195,Customer channels,net_cust17,2026-02-27,removed,2026-03-11,
+OA-196,Data warehouse,app_data51,2026-02-27,removed,2026-03-11,
+OA-197,Directory and servers,bkp_dire27,2026-02-27,removed,2026-03-09,
+OA-198,Network devices,ops_netw40,2026-02-27,assigned,2026-04-23,S13127
+OA-199,Core banking database,ops_core17,2026-02-27,removed,2026-03-03,
+OA-200,Payments gateway,app_paym55,2026-02-27,removed,2026-03-25,
+OA-201,Customer channels,dba_cust84,2026-02-27,removed,2026-03-26,
+OA-202,Data warehouse,sys_data56,2026-02-27,assigned,2026-05-08,S18456
+OA-203,Directory and servers,dba_dire43,2026-02-27,removed,2026-03-16,
+OA-204,Network devices,dba_netw47,2026-02-27,removed,2026-03-04,
+OA-205,Core banking database,app_core98,2026-02-27,removed,2026-03-13,
+OA-206,Payments gateway,adm_paym17,2026-02-27,assigned,2026-04-10,S14745
+OA-207,Customer channels,sys_cust11,2026-02-27,removed,2026-03-12,
+OA-208,Data warehouse,bkp_data71,2026-02-27,removed,2026-03-09,
+OA-209,Directory and servers,app_dire69,2026-02-27,removed,2026-03-24,
+OA-210,Network devices,adm_netw99,2026-02-27,assigned,2026-04-29,S17527
+OA-211,Core banking database,dba_core39,2026-02-27,removed,2026-03-18,
+OA-212,Payments gateway,adm_paym18,2026-02-27,removed,2026-03-02,
+OA-213,Customer channels,dba_cust85,2026-02-27,removed,2026-03-25,
+OA-214,Data warehouse,svc_data27,2026-02-27,assigned,2026-04-08,S16101

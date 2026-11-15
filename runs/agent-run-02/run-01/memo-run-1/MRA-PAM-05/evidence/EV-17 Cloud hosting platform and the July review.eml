@@ -1,0 +1,18 @@
+From: Head of Cloud Engineering <cloud.engineering@corp.example>
+To: Chief Information Security Officer <ciso.office@corp.example>
+Cc: Head of Identity Services <identity.services@corp.example>
+Date: Fri, 19 Jun 2026 09:15:00 +0100
+Subject: Cloud hosting platform and the July privileged access review
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+The cloud hosting platform's privileged accounts will not be in the July quarterly review.
+
+The inventory of the platform's 64 privileged accounts is still being confirmed with the new operating team, and the review tool cannot yet read the platform's role assignments. The extension plan is still a draft and has not been approved.
+
+You approved exception EXC-2026-014 today for 90 days, so the platform stays outside the July review under it.
+
+So M5 is still in progress. We expect the first review that includes the cloud hosting platform to run in the first half of September 2026, before the committed date of 2026-09-30.
+
+Head of Cloud Engineering

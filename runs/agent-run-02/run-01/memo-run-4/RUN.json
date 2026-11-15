@@ -1,0 +1,8 @@
+{
+ "memo_run": 4,
+ "memo": {
+  "status": "done",
+  "finished": false
+ },
+ "first_finished_has_memo": false
+}

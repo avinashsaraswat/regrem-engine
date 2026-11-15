@@ -1,0 +1,388 @@
+{
+  "format": "agent-run-results/1",
+  "case": "MRA-PAM-05",
+  "match_rule": "tools/SCHEMA.md",
+  "inputs": [
+    {
+      "role": "traps",
+      "file": "key/traps.json",
+      "sha256": "4e287ea5d1f12e48befdc95e7a97e4ae5d032435cd1bbb9813722011355ea8cb"
+    },
+    {
+      "role": "memo",
+      "file": "results/floor/floor-memo.md",
+      "sha256": "2dfa156d435c5888838e83a0f22af8b2fff5a690a2d8e03cc264c0094f13dd8c"
+    },
+    {
+      "role": "floor",
+      "file": "key/floor.tsv",
+      "sha256": "87e567f11a4b0c4760c48a0aa53042cf466b96b01f44e7f285ce2d2c089f58d0"
+    },
+    {
+      "role": "rulings",
+      "file": "run-01/trap-rulings.tsv",
+      "sha256": "a6d9cacfc4f9e3dbb0522deed851f1650e2d68f312c975b67ca9db0d54068eee"
+    }
+  ],
+  "totals": {
+    "traps": 12,
+    "listed": 9,
+    "unlisted": 3,
+    "decoys": 3,
+    "tried": 12
+  },
+  "columns": [
+    "floor"
+  ],
+  "counts": {
+    "floor": {
+      "caught": 4,
+      "listed_caught": 4,
+      "unlisted_caught": 0,
+      "tried_caught": null,
+      "decoys_flagged": 0,
+      "findings": 5,
+      "matching_no_trap": 0,
+      "lines_not_read": 0
+    }
+  },
+  "traps": [
+    {
+      "id": "T01",
+      "kind": "figure carried from another document with two digits transposed",
+      "listed": "listed",
+      "file": "EV-05 Leaver removal MI as at 2026-06-30.xlsx",
+      "file_id": "EV-05",
+      "page": 3,
+      "tried": true,
+      "caught": {
+        "floor": true
+      },
+      "matches": {
+        "floor": [
+          "floor:key/floor.tsv:4"
+        ]
+      }
+    },
+    {
+      "id": "T02",
+      "kind": "date carried from another document a month off",
+      "listed": "listed",
+      "file": "EV-11 Reviewer training completion register.xlsx",
+      "file_id": "EV-11",
+      "page": 2,
+      "tried": true,
+      "caught": {
+        "floor": true
+      },
+      "matches": {
+        "floor": [
+          "floor:key/floor.tsv:5"
+        ]
+      }
+    },
+    {
+      "id": "T03",
+      "kind": "quotation reworded in another document, changing the rule",
+      "listed": "listed",
+      "file": "EV-01 Access Management Standard v4.0 SIGNED.pdf",
+      "file_id": "EV-01",
+      "page": 6,
+      "tried": true,
+      "caught": {
+        "floor": true
+      },
+      "matches": {
+        "floor": [
+          "floor:key/floor.tsv:2",
+          "floor:key/floor.tsv:3"
+        ]
+      }
+    },
+    {
+      "id": "T04",
+      "kind": "figure carried from another document with one digit changed",
+      "listed": "listed",
+      "file": "EV-17 Cloud hosting platform and the July review.eml",
+      "file_id": "EV-17",
+      "page": 1,
+      "tried": true,
+      "caught": {
+        "floor": true
+      },
+      "matches": {
+        "floor": [
+          "floor:key/floor.tsv:6"
+        ]
+      }
+    },
+    {
+      "id": "T05",
+      "kind": "two dates on one page swapped, seeded by a status report",
+      "listed": "listed",
+      "file": "E-PLAN-1 Board minutes 2026-02-12.pdf",
+      "file_id": "E-PLAN-1",
+      "page": 2,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "T06",
+      "kind": "two documents disagree on the date of an approval",
+      "listed": "listed",
+      "file": "EV-06 Leaver removal sample test April 2026.pdf",
+      "file_id": "EV-06",
+      "page": 3,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "T07",
+      "kind": "a later version in force than the version the institution approved",
+      "listed": "listed",
+      "file": "EV-12 First quarterly privileged access review report.pdf",
+      "file_id": "EV-12",
+      "page": 2,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "T08",
+      "kind": "work done before the training meant to precede it",
+      "listed": "listed",
+      "file": "EV-11 Reviewer training completion register.xlsx",
+      "file_id": "EV-11",
+      "page": 3,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "T09",
+      "kind": "a status report claiming more than its evidence supports",
+      "listed": "listed",
+      "file": "EV-16 CISO report to Board Risk Committee 2026-07-03.pdf",
+      "file_id": "EV-16",
+      "page": 3,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "T10",
+      "kind": "evidence taken from a test environment, offered as live operation",
+      "listed": "unlisted",
+      "file": "EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt",
+      "file_id": "EV-18",
+      "page": 1,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "T11",
+      "kind": "an exception relied on after it lapsed",
+      "listed": "unlisted",
+      "file": "EV-12 First quarterly privileged access review report.pdf",
+      "file_id": "EV-12",
+      "page": 4,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "T12",
+      "kind": "a measure that counts something narrower than the rule it reports on",
+      "listed": "unlisted",
+      "file": "EV-05 Leaver removal MI as at 2026-06-30.xlsx",
+      "file_id": "EV-05",
+      "page": 1,
+      "tried": true,
+      "caught": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "kind": "an early estimate that looks to disagree with the later count",
+      "file": "E-PLAN-1 Board minutes 2026-02-12.pdf",
+      "file_id": "E-PLAN-1",
+      "page": 2,
+      "flagged": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "D02",
+      "kind": "an exception that looks lapsed but covered the whole review",
+      "file": "EV-12 First quarterly privileged access review report.pdf",
+      "file_id": "EV-12",
+      "page": 2,
+      "flagged": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    },
+    {
+      "id": "D03",
+      "kind": "a running total that looks short of the status report's figure but stops at an earlier date",
+      "file": "EV-06 Leaver removal sample test April 2026.pdf",
+      "file_id": "EV-06",
+      "page": 1,
+      "flagged": {
+        "floor": false
+      },
+      "matches": {
+        "floor": []
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "floor:key/floor.tsv:2",
+      "layer": "floor",
+      "source": "key/floor.tsv:2",
+      "memo_line": "4",
+      "cite": "EV-01 p6",
+      "value_seen": "\"every orphaned account is removed or given a named owner within 90 days\"",
+      "problem": "\"every orphaned account is removed or given a named owner within 90 days\" is cited to EV-01 p6, and the page does not hold \"every orphaned account is removed or given a named owner within 90 days\".",
+      "matches": [
+        "T03"
+      ]
+    },
+    {
+      "id": "floor:key/floor.tsv:3",
+      "layer": "floor",
+      "source": "key/floor.tsv:3",
+      "memo_line": "4",
+      "cite": "EV-01 p6",
+      "value_seen": "90",
+      "problem": "90 is cited to EV-01 p6, and the page does not hold it; the nearest figures on the page are 120, 8 and 6.3.",
+      "matches": [
+        "T03"
+      ]
+    },
+    {
+      "id": "floor:key/floor.tsv:4",
+      "layer": "floor",
+      "source": "key/floor.tsv:4",
+      "memo_line": "7",
+      "cite": "EV-05 p3",
+      "value_seen": "348",
+      "problem": "348 is cited to EV-05 p3, and the page does not hold it; the nearest figures on the page are 371, 380 and 384.",
+      "matches": [
+        "T01"
+      ]
+    },
+    {
+      "id": "floor:key/floor.tsv:5",
+      "layer": "floor",
+      "source": "key/floor.tsv:5",
+      "memo_line": "18",
+      "cite": "EV-11 p2",
+      "value_seen": "2026-03-02",
+      "problem": "2026-03-02 is cited to EV-11 p2, and the page does not hold it; the dates on the page are 2026-03-31 and 2026-04-02.",
+      "matches": [
+        "T02"
+      ]
+    },
+    {
+      "id": "floor:key/floor.tsv:6",
+      "layer": "floor",
+      "source": "key/floor.tsv:6",
+      "memo_line": "23",
+      "cite": "EV-17 p1",
+      "value_seen": "54",
+      "problem": "54 is cited to EV-17 p1, and the page does not hold it; the nearest figures on the page are 64 and 90.",
+      "matches": [
+        "T04"
+      ]
+    }
+  ],
+  "lines_not_read": [],
+  "after_rulings": {
+    "traps": {
+      "T01": "trivial",
+      "T02": "trivial",
+      "T03": "real",
+      "T04": "trivial",
+      "T05": "real",
+      "T06": "trivial",
+      "T07": "real",
+      "T08": "real",
+      "T09": "real",
+      "T10": "real",
+      "T11": "real",
+      "T12": "real"
+    },
+    "totals": {
+      "real": 8,
+      "trivial": 4,
+      "wrong": 0,
+      "not_ruled": 0
+    },
+    "caught": {
+      "floor": [
+        "T01",
+        "T02",
+        "T03",
+        "T04"
+      ]
+    },
+    "counts": {
+      "floor": {
+        "caught": 4,
+        "caught_of_ruled_real": 1,
+        "decoys_flagged": 0,
+        "unmatched": {
+          "match": 0,
+          "real": 0,
+          "false-alarm": 0,
+          "not ruled": 0
+        },
+        "matches_ruled_no": 0
+      }
+    }
+  }
+}

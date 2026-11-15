@@ -1,0 +1,272 @@
+{
+ "version": 1,
+ "files": {
+  ".finding-state.json": {
+   "kind": "file",
+   "sha256": "10baf6ac556d4dccdf65373d3c59464715c3eb834d3629c4df7f639e62b81569",
+   "size": 906,
+   "text": "{\n  \"version\": 1,\n  \"first_check\": \"2026-11-14\",\n  \"checked\": \"2026-11-14\",\n  \"parts\": {\n    \"Concern\": \"fc307a4bb66f253188de48bb2cfa9151c6d815a18f418e672b7feb8cf804b6b7\",\n    \"Cause\": \"d69bd34a03ada645ab8f72c922949b6b547f961cd5d808b537081b30ccc5f6df\",\n    \"Consequence\": \"fb1117b8ced9b287fd54320ae75c2f9ed00bf2d581116f21348f7aecb43113aa\",\n    \"Corrective action\": \"2abb55e57f21c84ef68a817a0374f2723d26cc7b1204092713e84bc6b5075332\",\n    \"Commitment\": \"4c05a3c20011480f6f2129fb9f48090ff1e32dcb31561bdcf20ed607440ffa0a\"\n  },\n  \"frozen\": {\n    \"Identifier\": \"MRA-PAM-05\",\n    \"Issuer\": \"the Supervisor\",\n    \"Letter date\": \"2026-01-20\",\n    \"Kind of matter\": \"supervisory finding\",\n    \"Owner role\": \"Chief Information Security Officer\"\n  },\n  \"evidence\": {},\n  \"ids\": {},\n  \"deny\": {\n    \"identifier\": \"MRA-PAM-05\",\n    \"names\": [\n      \"Tallowmere Bank\",\n      \"Tallowmere\"\n    ]\n  },\n  \"signature\": null\n}\n"
+  },
+  "finding.md": {
+   "kind": "file",
+   "sha256": "c7583d4d0df4a43efacc04db265bdba74d5485612113f64e31f4864f7bbeb23f",
+   "size": 2028,
+   "text": "SYNTHETIC. Everything in this folder is invented.\n# Finding MRA-PAM-05\nIdentifier: MRA-PAM-05\nInstitution: Tallowmere Bank\nIssuer: the Supervisor\nLetter date: 2026-01-20\nKind of matter: supervisory finding\nOwner role: Chief Information Security Officer\n\n## Concern\n\nThe bank does not control privileged access to its systems. In the second half of 2025 the Supervisor found leavers, employees and contractors alike, whose privileged accounts stayed active for weeks after they left, privileged accounts with no named owner, and no regular review of who holds privileged access.\n\n## Cause\n\nThe access management standard set no deadline for removing a leaver's access. The HR system did not tell the identity team when an employee left, and contractor leavers were reported by email when someone remembered. No one reviewed privileged access on a schedule, and the people who would review it were never trained.\n\n## Consequence\n\nFormer staff and contractors could have used privileged access after they left, and accounts that no one owned could have been used without anyone noticing. The board could not be told how many people held privileged access or whether they still needed it.\n\n## Corrective action\n\nThe bank must revise its access management standard to set a deadline for removing a leaver's access and to require a quarterly review of privileged access; automate leaver notices from the HR system and remove the access of every leaver, employee or contractor, within one business day; remove, or assign a named owner to, every privileged account that has none; train every reviewer before they review and complete a first quarterly review of privileged access; and extend the quarterly review to the cloud hosting platform.\n\n## Commitment\n\nThe bank must send the Supervisor a written remediation plan approved by its board within 30 days of this letter, with an owner role and a committed date for each action. The Supervisor will consider the matter for closure only after internal audit has tested the remediation.\n"
+  },
+  "plan.md": {
+   "kind": "file",
+   "sha256": "db8d5b20626ae8dc751a3c02c2785951fbfc4742f14dc7ae2397afc42e94eb63",
+   "size": 6627,
+   "text": "# Plan MRA-PAM-05\n\nOne row per milestone. Start each Milestone cell with its id, such as M1. Committed dates are\nYYYY-MM-DD, and the Evidence cell lists evidence ids separated by commas, such as EV-03, EV-04.\nPut (done) after the file whose date is the milestone's, the one that completes it, as in EV-04 (done).\n\n| Milestone | Owner role | Committed date | What is true when done | Evidence | Internal audit will test |\n|---|---|---|---|---|---|\n| M1 Revise and approve the access management standard | Chief Information Security Officer | 2026-03-31 | Version 4.0 of the access management standard is approved by the Board Risk Committee and issued, requiring leaver access removal within one business day, quarterly privileged access reviews, and rules for orphaned accounts | EV-01 (done), EV-02 | The approved standard matches the version published and in effect across the bank |\n| M2 Automate leaver notices; remove every leaver's access | Head of Identity Services | 2026-04-30 | Automated leaver notices from the HR system to the identity tool run each business day, and access for every employee and contractor leaver is removed within one business day of leaving | EV-04, EV-05, EV-06 (done), EV-07, EV-14, EV-18 | A sample of leavers after the effective date had their access removed within one business day |\n| M3 Remove or assign an owner to every orphaned account | Head of Infrastructure | 2026-05-31 | Every orphaned privileged account identified in the baseline is removed or assigned to a named owner, with the outcomes recorded in a signed clean-up report | EV-08, EV-09 (done) | The outcome figures are recomputed from the baseline extract and a sample of removed and assigned accounts is verified |\n| M4 Train reviewers; complete the first quarterly review | Head of Identity Services | 2026-06-30 | All privileged access reviewers are trained before the review window, and the first quarterly review of privileged access across in-scope platforms is completed with revocations actioned | EV-03, EV-10, EV-11, EV-12 (done), EV-13, EV-19 | A sample of privileged accounts in the review is checked for reviewer completion, training prior to review, and timely revocation |\n| M5 Extend the quarterly review to the cloud hosting platform | Head of Cloud Engineering | 2026-09-30 | The quarterly privileged access review is extended to include the cloud hosting platform, with reviewer decisions recorded and any revocations completed | EV-15, EV-21 (done) | A sample of cloud hosting platform privileged accounts included in the quarterly review is checked for review decisions and timely revocations |\n\n## Source of owners and committed dates\n\n- M1 owner role (Chief Information Security Officer) and committed date (2026-03-31): board minutes E-PLAN-1, page 2 (Item 4).\n- M2 owner role (Head of Identity Services) and committed date (2026-04-30): board minutes E-PLAN-1, page 2 (Item 4).\n- M3 owner role (Head of Infrastructure) and committed date (2026-05-31): board minutes E-PLAN-1, page 2 (Item 4).\n- M4 owner role (Head of Identity Services) and committed date (2026-06-30): board minutes E-PLAN-1, page 2 (Item 4).\n- M5 owner role (Head of Cloud Engineering) and committed date (2026-09-30): board minutes E-PLAN-1, page 4 (Item 9 amendment).\n\n## Coverage of Cause sentences\n\n- \"The access management standard set no deadline for removing a leaver's access.\": answered by M1 (revised access management standard sets a deadline of one business day).\n- \"The HR system did not tell the identity team when an employee left, and contractor leavers were reported by email when someone remembered.\": answered by M2 (automated HR leaver feed and contractor notification procedure).\n- \"No one reviewed privileged access on a schedule, and the people who would review it were never trained.\": answered by M1 (standard requires quarterly privileged access reviews), M4 (reviewer training and first quarterly privileged access review), and M5 (quarterly review extended to the cloud hosting platform).\n\n## Coverage of Corrective action sentences\n\n- Corrective action sentence: \"The bank must revise its access management standard to set a deadline for removing a leaver's access and to require a quarterly review of privileged access; automate leaver notices from the HR system and remove the access of every leaver, employee or contractor, within one business day; remove, or assign a named owner to, every privileged account that has none; train every reviewer before they review and complete a first quarterly review of privileged access; and extend the quarterly review to the cloud hosting platform.\": answered across milestones M1, M2, M3, M4, and M5 as follows:\n  - \"The bank must revise its access management standard to set a deadline for removing a leaver's access and to require a quarterly review of privileged access\": answered by M1.\n  - \"automate leaver notices from the HR system and remove the access of every leaver, employee or contractor, within one business day\": answered by M2.\n  - \"remove, or assign a named owner to, every privileged account that has none\": answered by M3.\n  - \"train every reviewer before they review and complete a first quarterly review of privileged access\": answered by M4.\n  - \"and extend the quarterly review to the cloud hosting platform.\": answered by M5.\n\n## Notes and questions for the finding owner\n\n- Duplicate board minutes: `evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf` and `evidence/E-PLAN-1 Board minutes 2026-02-12.pdf` hold identical bytes. Move the duplicate copy out of the finding folder before running `finding check`, or keep both and note the reason if already recorded.\n- Evidence file naming: `evidence/CHG-2026-04417 HR leaver feed go-live record.pdf` starts with the bank's internal change record ID rather than an evidence ID. It should be renamed to `EV-04 CHG-2026-04417 HR leaver feed go-live record.pdf` so `finding covers` can draft its cover under the EV-04 ID assigned in M2.\n- Reserved evidence ID: Evidence ID EV-21 is reserved with `(done)` for M5 to represent the future completion report of the privileged access review extended to the cloud hosting platform.\n- Supporting evidence files: `EV-20 Board Risk Committee terms of reference.pdf` is present in evidence/ as supporting governance authority for BRC's approval of standards, and `EV-16` / `EV-17` provide status updates on M5 and exception EXC-2026-014. They are not listed in milestone evidence cells because they do not complete milestones, but remain available in the folder to support memo cites. Should any of these be formally listed in the milestone table?\n"
+  },
+  "closure/measures.md": {
+   "kind": "file",
+   "sha256": "5f5fe877c37561ed1023e09fc84ec5962559689ae394ed52ae2407473987580e",
+   "size": 454,
+   "text": "# Measures MRA-PAM-05\n\n<!-- What the Measures line on the check page counts. Hours booked to this finding, one line a month. One line each time internal audit sends something back, ending in missed by the check when the check had passed it:\nHours | 2026-10 | 38\nSent back | 2026-11-02 | Line 8 | the figure was the draft's | missed by the check\nPart hours such as 37.5 count. A line the check cannot read is named on the page and counts for nothing. -->\n"
+  },
+  "closure/memo.md": {
+   "kind": "file",
+   "sha256": "7654d2e60e52c57edfacf1b6bc7750457bd0b234a9f55ac9420d6f05d0bf71c6",
+   "size": 591,
+   "text": "# Closure memo MRA-PAM-05\n\n<!-- Write the memo in paragraphs below. Put a bracketed cite such as [EV-12 p2] after every figure, date and quotation: the evidence id from the file's For: line, a space, p and the page number from its \"## Page 2\" heading. A file with no page headings is cited as [EV-12 p1]. For each control internal audit will test, add a block of three lines in this form, each date cited to the evidence page that holds it:\n\nTested control: M1, the acknowledgement letter procedure\nFix effective: 2026-05-04 [EV-21 p1]\nSample period: 2026-05-04 to 2026-05-22 [EV-21 p2]\n-->\n"
+  },
+  "closure/record.md": {
+   "kind": "file",
+   "sha256": "ac44c82f02de550054417ed9497660fcaa8bb6086202981b8c937fc22d4786ee",
+   "size": 424,
+   "text": "Internal audit reference:\nInternal audit date:\nInternal audit recorded by (role):\nInternal audit tested fingerprint:\nSupervisor closure notice:\nSupervisor closure date:\nSupervisor closure recorded by (role):\nIssue closure reference:\nIssue closure date:\nIssue closure recorded by (role):\nBoard approval reference:\nBoard approval date:\nBoard approval recorded by (role):\nSigned by (role):\nSigned on:\nFingerprint:\nKit release:\n"
+  },
+  "closure/rulings.md": {
+   "kind": "file",
+   "sha256": "640bf2627a341e17c0652e44579375503c121d02e3244983ac258ae1427e0875",
+   "size": 704,
+   "text": "# Rulings MRA-PAM-05\n\n<!-- One line per row on the list, in this form, with the line number and the words after \"To rule, name:\" as the screen prints them:\nLine 8 | March 2026 #1a2b3c4d | cleared | Head of Complaints | 2026-11-04 | The page says January to March, and the plan year is 2026.\nThe ruling is cleared, fix the memo or fix the evidence. Only a cleared ruling by the finding owner's role, dated and with a reason, takes a row off the list. The mark after the # stands for the claim, its cite and its sentence, so a ruling clears that claim and no other. If the memo moves, a cleared ruling follows its claim to the new line. Change the sentence or the cite and the row returns to the list. -->\n"
+  },
+  "evidence/CHG-2026-04417 HR leaver feed go-live record.pdf": {
+   "kind": "file",
+   "sha256": "26a0404341f47ef458061c201c93bfdb5e268142b32187e93772e0aa4919f117",
+   "size": 4201
+  },
+  "evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf": {
+   "kind": "file",
+   "sha256": "0d16570891edbb1e9d45f9cc2b17f09ce8b4e1ae1645cfdd999c8839c62f516c",
+   "size": 9858
+  },
+  "evidence/E-PLAN-1 Board minutes 2026-02-12.pdf": {
+   "kind": "file",
+   "sha256": "0d16570891edbb1e9d45f9cc2b17f09ce8b4e1ae1645cfdd999c8839c62f516c",
+   "size": 9858
+  },
+  "evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf": {
+   "kind": "file",
+   "sha256": "033f3ed2d23e511478c6315db0192ec90fc92cceff847a75d8fd3fd4aaa624d4",
+   "size": 11246
+  },
+  "evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf.md": {
+   "kind": "file",
+   "sha256": "3080b46652c682d051659f033b2a453a771589648ad9c12f680730e5a7d616c4",
+   "size": 534,
+   "text": "What: EV-01 Access Management Standard v4.0 SIGNED\nFor: M1 EV-01\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf": {
+   "kind": "file",
+   "sha256": "4a7fedc422c1e779179c8c19e28c02732e799f505b23e93974dee641d4517461",
+   "size": 5411
+  },
+  "evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf.md": {
+   "kind": "file",
+   "sha256": "e8ff7a81f813a980d41b46e70e41a32bda60f3a608947b8f0a3f5e18020173c7",
+   "size": 535,
+   "text": "What: EV-02 Board Risk Committee minutes 2026-03-26\nFor: M1 EV-02\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-03 Privileged access review method v2.3.pdf": {
+   "kind": "file",
+   "sha256": "77cd7942f3baa3ce9dd2b569665292c1397441d584a6f0e7387a03acc5215c3f",
+   "size": 4420
+  },
+  "evidence/EV-03 Privileged access review method v2.3.pdf.md": {
+   "kind": "file",
+   "sha256": "8e5089ace49a3e77215ff3ea9c4d371b3edf3b0578cbf50eaf6a324bbde77a00",
+   "size": 532,
+   "text": "What: EV-03 Privileged access review method v2.3\nFor: M4 EV-03\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx": {
+   "kind": "file",
+   "sha256": "3872fae752674c0986260f340b3c377bb075530ae0544724317347eac34f58f8",
+   "size": 23235
+  },
+  "evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx.md": {
+   "kind": "file",
+   "sha256": "2083508e07baf706f856d0aa8ac81fb0e79a8596e3607492f8d453287c9dfded",
+   "size": 530,
+   "text": "What: EV-05 Leaver removal MI as at 2026-06-30\nFor: M2 EV-05\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-06 Leaver removal sample test April 2026.pdf": {
+   "kind": "file",
+   "sha256": "9f8089e99cc9388b606fcc307d8a6e2cdab9b913abc5288134b21e0b70d47e78",
+   "size": 15841
+  },
+  "evidence/EV-06 Leaver removal sample test April 2026.pdf.md": {
+   "kind": "file",
+   "sha256": "974e2456ce4e7718e3387bbe2a0a2139c08103631b882217c9d50b88033a154d",
+   "size": 533,
+   "text": "What: EV-06 Leaver removal sample test April 2026\nFor: M2 EV-06\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-07 RE Leaver removal sample test April 2026.eml": {
+   "kind": "file",
+   "sha256": "7a756e0e69df576bbe0d725bcd9d8c47145258f5d6a500559d8e7311a4a91f1e",
+   "size": 682
+  },
+  "evidence/EV-07 RE Leaver removal sample test April 2026.eml.md": {
+   "kind": "file",
+   "sha256": "650b57411f54098776cde248b6c6a611aceeb6fc24f094f31f2e45c6a9a69b78",
+   "size": 536,
+   "text": "What: EV-07 RE Leaver removal sample test April 2026\nFor: M2 EV-07\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-08 Orphaned privileged accounts clean-up report.pdf": {
+   "kind": "file",
+   "sha256": "64d87a5b536a7863116214ed4a2061df5875e35f80a564de897d13ed281c4d2d",
+   "size": 48603
+  },
+  "evidence/EV-08 Orphaned privileged accounts clean-up report.pdf.md": {
+   "kind": "file",
+   "sha256": "e92f9a9fd8f855517cd592b504534a3652b17bda8b7031b69f11435606664227",
+   "size": 540,
+   "text": "What: EV-08 Orphaned privileged accounts clean up report\nFor: M3 EV-08\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv": {
+   "kind": "file",
+   "sha256": "2be4ceb37f0a3d0bc58ad436d7cac47bb315448746526e698b79396ba81763d7",
+   "size": 15075
+  },
+  "evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv.md": {
+   "kind": "file",
+   "sha256": "08ff89e91a9bd6a5f4dfe1d35b503f4fc38d409a5c3e1b4f97c9d7090c4f8eca",
+   "size": 546,
+   "text": "What: EV-09 Orphaned accounts baseline and outcomes 2026-05-29\nFor: M3 EV-09\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-10 Privileged access reviewer training deck v2.pdf": {
+   "kind": "file",
+   "sha256": "3656cf9c6ed24f5b341ce3ab266285f649a709eb0afe6f728b0f4695b2c1e9cd",
+   "size": 7023
+  },
+  "evidence/EV-10 Privileged access reviewer training deck v2.pdf.md": {
+   "kind": "file",
+   "sha256": "8840dfd34a2f1109fcc62b43c6f29e5c7dfab6edabf91de621edb3763c281668",
+   "size": 539,
+   "text": "What: EV-10 Privileged access reviewer training deck v2\nFor: M4 EV-10\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-11 Reviewer training completion register.xlsx": {
+   "kind": "file",
+   "sha256": "f1218b9c8eb04f535197c9f12156d3618460a00f1a8726016a6c9b7eb7636c4f",
+   "size": 17345
+  },
+  "evidence/EV-11 Reviewer training completion register.xlsx.md": {
+   "kind": "file",
+   "sha256": "79ee32ffe95f8147cab4201cb965e55070f69cd925960ab249923f10d728d0d1",
+   "size": 533,
+   "text": "What: EV-11 Reviewer training completion register\nFor: M4 EV-11\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-12 First quarterly privileged access review report.pdf": {
+   "kind": "file",
+   "sha256": "1cc72502e56aacc218fbed018cf3c10bd2846ca8e1f1f81cc728bac2fd2cdd70",
+   "size": 8385
+  },
+  "evidence/EV-12 First quarterly privileged access review report.pdf.md": {
+   "kind": "file",
+   "sha256": "b1cbeee453d457265616b858db24c48d0cb3c27c941e79652f2d376d0765a2e6",
+   "size": 543,
+   "text": "What: EV-12 First quarterly privileged access review report\nFor: M4 EV-12\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-13 First quarterly review extract 2026-05-11.csv": {
+   "kind": "file",
+   "sha256": "e4f17d5c2750bd73f3e06f06fecae9b78fd5b83edf9d8d35710b391f18dbc765",
+   "size": 20037
+  },
+  "evidence/EV-13 First quarterly review extract 2026-05-11.csv.md": {
+   "kind": "file",
+   "sha256": "d05933503a4a8d65d77df63d894e65cba876403884ee567e7956a9c3e8cfbdc1",
+   "size": 537,
+   "text": "What: EV-13 First quarterly review extract 2026-05-11\nFor: M4 EV-13\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-14 Leaver access removal procedure v2.pdf": {
+   "kind": "file",
+   "sha256": "df86029bed679aed04cc6855be6c1687d93e62997d0e5165ff99db2ad44965a2",
+   "size": 5729
+  },
+  "evidence/EV-14 Leaver access removal procedure v2.pdf.md": {
+   "kind": "file",
+   "sha256": "abaf2b01f2a1e4bec33c6a1a05a7a69260570890a0730d1fade8e81607e544a3",
+   "size": 530,
+   "text": "What: EV-14 Leaver access removal procedure v2\nFor: M2 EV-14\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx": {
+   "kind": "file",
+   "sha256": "35d91b4d77a9bef56f9c2434f84cb75864f2912695edac21416541308cc882e1",
+   "size": 3679
+  },
+  "evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx.md": {
+   "kind": "file",
+   "sha256": "a2272b1ece57af3fe40aa6989c69f144aa227e8cde6c00c6c4ba57e931407cc4",
+   "size": 555,
+   "text": "What: EV-15 Cloud hosting platform review extension plan DRAFT\nFor: M5 EV-15\nSigned by:\nStatus: DRAFT\nSource: typed by a person, because the check did not read the file: the Word file still holds tracked changes\n\n<!-- The check cannot read this file. Type each page the memo cites here, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf": {
+   "kind": "file",
+   "sha256": "534f4ebda5319ecdcb90991b3abf54d14c5a32393f39c066a0574df2ac55d3c0",
+   "size": 5292
+  },
+  "evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf.md": {
+   "kind": "file",
+   "sha256": "58109a7df342a6c790c39c9fae5e98e84f3a4fe87a378b37858f4091c7b77c79",
+   "size": 539,
+   "text": "What: EV-16 CISO report to Board Risk Committee 2026-07-03\nFor: EV-16\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-17 Cloud hosting platform and the July review.eml": {
+   "kind": "file",
+   "sha256": "3652272c3cdc074fe655e3a46cf4489420ecc8ce410849b282ae30a7beb00cc5",
+   "size": 1070
+  },
+  "evidence/EV-17 Cloud hosting platform and the July review.eml.md": {
+   "kind": "file",
+   "sha256": "6e87987ae60ac10dbc292c1d3d9de98c584acbdb9e5c98193a380f31a40a438d",
+   "size": 535,
+   "text": "What: EV-17 Cloud hosting platform and the July review\nFor: EV-17\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt": {
+   "kind": "file",
+   "sha256": "0d5afb232502862db76035513e54272573651998acdac2d775fb42a86bf266ae",
+   "size": 1266,
+   "text": "HR to identity tool leaver feed: run log\nEnvironment: UAT\nRuns from 2026-03-16 to 2026-03-31\n\n2026-03-16 06:00 run 001 notices received 48; accounts disabled for 48 leavers; run finished 06:16\n2026-03-17 06:00 run 002 notices received 7; accounts disabled for 7 leavers; run finished 06:23\n2026-03-18 06:00 run 003 notices received 5; accounts disabled for 5 leavers; run finished 06:30\n2026-03-19 06:00 run 004 notices received 10; accounts disabled for 10 leavers; run finished 06:37\n2026-03-20 06:00 run 005 notices received 8; accounts disabled for 8 leavers; run finished 06:44\n2026-03-23 06:00 run 006 notices received 12; accounts disabled for 12 leavers; run finished 06:11\n2026-03-24 06:00 run 007 notices received 8; accounts disabled for 8 leavers; run finished 06:18\n2026-03-25 06:00 run 008 notices received 7; accounts disabled for 7 leavers; run finished 06:25\n2026-03-26 06:00 run 009 notices received 8; accounts disabled for 8 leavers; run finished 06:32\n2026-03-27 06:00 run 010 notices received 9; accounts disabled for 9 leavers; run finished 06:39\n2026-03-30 06:00 run 011 notices received 10; accounts disabled for 10 leavers; run finished 06:46\n2026-03-31 06:00 run 012 notices received 5; accounts disabled for 5 leavers; run finished 06:13\n"
+  },
+  "evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt.md": {
+   "kind": "file",
+   "sha256": "523c3f022d7fdd43ead8e93ce1cb97cd820c4772ada56ff7d23efe0622bbeced",
+   "size": 548,
+   "text": "What: EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31\nFor: M2 EV-18\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-19 Reviewer quick reference card.docx": {
+   "kind": "file",
+   "sha256": "796925891b4c3d3e0ca96cbe2160f1ce2fdcc2cdac3cceaf45c1609600566607",
+   "size": 2107
+  },
+  "evidence/EV-19 Reviewer quick reference card.docx.md": {
+   "kind": "file",
+   "sha256": "20765c670bd04969caa7db78e70b66d9faeae9fd6f87d6e10853b196d3585a6d",
+   "size": 525,
+   "text": "What: EV-19 Reviewer quick reference card\nFor: M4 EV-19\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  },
+  "evidence/EV-20 Board Risk Committee terms of reference.pdf": {
+   "kind": "file",
+   "sha256": "16f3789ea291a22dda229dc02c68a5a54cd646a0f0913804ae7f61d68d817df2",
+   "size": 4221
+  },
+  "evidence/EV-20 Board Risk Committee terms of reference.pdf.md": {
+   "kind": "file",
+   "sha256": "8d22395e6aea89d532811dd4c08584fc31236761ff6a69470a20b34b2a33fc1a",
+   "size": 532,
+   "text": "What: EV-20 Board Risk Committee terms of reference\nFor: EV-20\nSigned by:\nStatus: DRAFT\nSource: read from the document by the check\n\n<!-- The check reads this document's own text. Type a page here only where the reader found no text or read the page only in part, under a heading of its page number. A person fills Signed by as role, YYYY-MM-DD and sets Status to FINAL. A second person who compared a typed page adds Checked by: role, YYYY-MM-DD with the lines at the top, above the blank line; below it, the line is not read. -->\n"
+  }
+ }
+}

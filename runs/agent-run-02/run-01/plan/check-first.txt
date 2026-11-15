@@ -1,0 +1,71 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+Finding MRA-PAM-05, a supervisory finding from the Supervisor dated 2026-01-20. Owner: Chief Information Security Officer. Checked as of 2026-11-14, kit release 0.7.1.
+
+Milestones
+M1 Revise and approve the access management standard. Chief Information Security Officer, committed 2026-03-31 proposed. Not started. SLIPPED by 228 days.
+M2 Automate leaver notices; remove every leaver's access. Head of Identity Services, committed 2026-04-30 proposed. Not started. SLIPPED by 198 days.
+M3 Remove or assign an owner to every orphaned account. Head of Infrastructure, committed 2026-05-31 proposed. Not started. SLIPPED by 167 days.
+M4 Train reviewers; complete the first quarterly review. Head of Identity Services, committed 2026-06-30 proposed. Not started. SLIPPED by 137 days.
+M5 Extend the quarterly review to the cloud hosting platform. Head of Cloud Engineering, committed 2026-09-30 proposed. Not started. SLIPPED by 45 days.
+
+Not counted
+evidence/CHG-2026-04417 HR leaver feed go-live record.pdf, which has no cover file CHG-2026-04417 HR leaver feed go-live record.pdf.md.
+evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf, which has no cover file E-PLAN-1 Board minutes 2026-02-12 (1).pdf.md.
+evidence/E-PLAN-1 Board minutes 2026-02-12.pdf, which has no cover file E-PLAN-1 Board minutes 2026-02-12.pdf.md.
+evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf, which has no cover file EV-01 Access Management Standard v4.0 SIGNED.pdf.md.
+evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf, which has no cover file EV-02 Board Risk Committee minutes 2026-03-26.pdf.md.
+evidence/EV-03 Privileged access review method v2.3.pdf, which has no cover file EV-03 Privileged access review method v2.3.pdf.md.
+evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx, which has no cover file EV-05 Leaver removal MI as at 2026-06-30.xlsx.md.
+evidence/EV-06 Leaver removal sample test April 2026.pdf, which has no cover file EV-06 Leaver removal sample test April 2026.pdf.md.
+evidence/EV-07 RE Leaver removal sample test April 2026.eml, which has no cover file EV-07 RE Leaver removal sample test April 2026.eml.md.
+evidence/EV-08 Orphaned privileged accounts clean-up report.pdf, which has no cover file EV-08 Orphaned privileged accounts clean-up report.pdf.md.
+evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv, which has no cover file EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv.md.
+evidence/EV-10 Privileged access reviewer training deck v2.pdf, which has no cover file EV-10 Privileged access reviewer training deck v2.pdf.md.
+evidence/EV-11 Reviewer training completion register.xlsx, which has no cover file EV-11 Reviewer training completion register.xlsx.md.
+evidence/EV-12 First quarterly privileged access review report.pdf, which has no cover file EV-12 First quarterly privileged access review report.pdf.md.
+evidence/EV-13 First quarterly review extract 2026-05-11.csv, which has no cover file EV-13 First quarterly review extract 2026-05-11.csv.md.
+evidence/EV-14 Leaver access removal procedure v2.pdf, which has no cover file EV-14 Leaver access removal procedure v2.pdf.md.
+evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx, which has no cover file EV-15 Cloud hosting platform review extension plan DRAFT.docx.md.
+evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf, which has no cover file EV-16 CISO report to Board Risk Committee 2026-07-03.pdf.md.
+evidence/EV-17 Cloud hosting platform and the July review.eml, which has no cover file EV-17 Cloud hosting platform and the July review.eml.md.
+evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt, which has no cover file EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt.md.
+evidence/EV-19 Reviewer quick reference card.docx, which has no cover file EV-19 Reviewer quick reference card.docx.md.
+evidence/EV-20 Board Risk Committee terms of reference.pdf, which has no cover file EV-20 Board Risk Committee terms of reference.pdf.md.
+
+Board summary, a draft for the finding owner
+Flagged commitments: M1 slipped 228 days, M2 slipped 198 days, M3 slipped 167 days, M4 slipped 137 days, M5 slipped 45 days.
+Quarterly progress:
+  Quarter ending 2026-03-31: 1 milestone due, 0 signed, 1 below signed.
+  Quarter ending 2026-06-30: 4 milestones due, 0 signed, 4 below signed.
+  Quarter ending 2026-09-30: 5 milestones due, 0 signed, 5 below signed.
+Plan approval: proposed, no signed board minutes E-PLAN-1 yet.
+
+Commitment table, the institution's response in the Supervisor's five-part form, from plan.md
+Concern, Cause and Consequence: as written in finding.md.
+Corrective action:
+| Milestone | Owner role | Committed date |
+| M1 Revise and approve the access management standard | Chief Information Security Officer | 2026-03-31 proposed |
+| M2 Automate leaver notices; remove every leaver's access | Head of Identity Services | 2026-04-30 proposed |
+| M3 Remove or assign an owner to every orphaned account | Head of Infrastructure | 2026-05-31 proposed |
+| M4 Train reviewers; complete the first quarterly review | Head of Identity Services | 2026-06-30 proposed |
+| M5 Extend the quarterly review to the cloud hosting platform | Head of Cloud Engineering | 2026-09-30 proposed |
+Commitment: full remediation by 2026-09-30 proposed.
+
+Closure memo: nothing written yet.
+Internal audit: none recorded.
+Supervisor closure: none recorded.
+Board approval: none recorded.
+Memo check: no memo.
+Signature: none yet.
+Deny list: 2 names.
+
+Needs a person:
+  Chief Information Security Officer: M1.
+  Head of Identity Services: M2, M4.
+  Head of Infrastructure: M3.
+  Head of Cloud Engineering: M5.
+  The engagement team: the uncounted file evidence/CHG-2026-04417 HR leaver feed go-live record.pdf, the uncounted file evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf, the uncounted file evidence/E-PLAN-1 Board minutes 2026-02-12.pdf, the uncounted file evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf, the uncounted file evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf, the uncounted file evidence/EV-03 Privileged access review method v2.3.pdf, the uncounted file evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx, the uncounted file evidence/EV-06 Leaver removal sample test April 2026.pdf, the uncounted file evidence/EV-07 RE Leaver removal sample test April 2026.eml, the uncounted file evidence/EV-08 Orphaned privileged accounts clean-up report.pdf, the uncounted file evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv, the uncounted file evidence/EV-10 Privileged access reviewer training deck v2.pdf, the uncounted file evidence/EV-11 Reviewer training completion register.xlsx, the uncounted file evidence/EV-12 First quarterly privileged access review report.pdf, the uncounted file evidence/EV-13 First quarterly review extract 2026-05-11.csv, the uncounted file evidence/EV-14 Leaver access removal procedure v2.pdf, the uncounted file evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx, the uncounted file evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf, the uncounted file evidence/EV-17 Cloud hosting platform and the July review.eml, the uncounted file evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt, the uncounted file evidence/EV-19 Reviewer quick reference card.docx, the uncounted file evidence/EV-20 Board Risk Committee terms of reference.pdf, the closure memo.
+  The board: its approval of the plan, its approval of closure.
+  Internal audit: its reference in closure/record.md.
+  The Supervisor: its closure notice.

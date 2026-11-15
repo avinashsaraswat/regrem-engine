@@ -1,0 +1,15 @@
+{
+ "version": 1,
+ "seat": "cross-reader",
+ "job": "cross-read",
+ "changed": [],
+ "counts": {
+  "changed": 0,
+  "allowed": 0,
+  "kit": 0,
+  "outside": 0,
+  "reverted": 0
+ },
+ "ok": true,
+ "summary": "gate, cross-read job in the cross-reader seat: 0 paths changed, 0 allowed, 0 written by the kit, 0 outside the job's allowlist."
+}

@@ -1,0 +1,75 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584] >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584] >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+4 0 obj
+<< /Length 1719 >>
+stream
+BT /F2 14 Tf 1 0 0 1 72 718 Tm (Change record CHG-2026-04417) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 695 Tm (Title) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 695 Tm (Automated leaver notices from the HR system to the identity tool) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 681 Tm (Requested by) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 681 Tm (Head of Identity Services) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 667 Tm (Risk rating) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 667 Tm (Medium) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 653 Tm (Approved) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 653 Tm (Change advisory board, 2026-03-12) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 639 Tm (Planned start) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 639 Tm (2026-03-16, 05:30) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 625 Tm (Implemented) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 625 Tm (2026-03-16, 06:00) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 600 Tm (Description) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 583 Tm (The HR system sends a leaver notice to the identity tool at 06:00 each business day, for each employee) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 569.5 Tm (whose leaving date has passed. The identity tool disables the leaver's directory account, which ends) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 556 Tm (access to every platform that signs in through the directory, records the time, and raises a task for each) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 542.5 Tm (account the leaver holds on a platform that does not. Contractors are not in the HR system, and this) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 529 Tm (change does not cover them.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 505.5 Tm (Back-out plan) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 488.5 Tm (Switch off the feed and return to leaver notices by email from line managers.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Change record CHG-2026-04417 - page 1 of 2) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 706 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (Post-implementation review, 2026-03-23) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (The first run on 2026-03-16 processed the notices of every employee who had left since 2026-03-02 and) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (whose access had not been removed. Each later run has completed before 08:00. No back-out was) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 673 Tm (needed.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 654.5 Tm (Outcome: the change is successful and the record is complete.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 626 Tm (Change advisory board chair) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 612 Tm (Date: 2026-03-23) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Change record CHG-2026-04417 - page 2 of 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000525 00000 n 
+0000001045 00000 n 
+0000001108 00000 n 
+0000002879 00000 n 
+0000003015 00000 n 
+0000003772 00000 n 
+0000003908 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+3957
+%%EOF

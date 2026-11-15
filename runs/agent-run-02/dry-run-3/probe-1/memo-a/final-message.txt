@@ -1,0 +1,18 @@
+The check confirms that all claims in `closure/memo.md` now tie to their evidence pages, and the previous mismatch on 1,248 is resolved (now 8 claims tie, with 0 memo claims failing tie-out).
+
+The remaining 3 items on the check list require owner rulings or human action as defined in the procedure:
+
+### Summary of items for the finding owner (Head of Complaints):
+
+1. **Re-ruling on Line 7 (`March 2026`)**:
+   - **Row**: `Line 7: March 2026 is cited to EV-07 p2, and the page holds no date. To rule, name: March 2026 #ffa37a3f`
+   - **Question for the owner**: Will you update the ruling in `closure/rulings.md` to reflect the new mark:
+     `Line 7 | March 2026 #ffa37a3f | cleared | Head of Complaints | 2026-11-16 | The page says January to March, and the plan year is 2026.`?
+2. **Ruling on Line 15 (Tested control sample period)**:
+   - **Row**: `Line 15: the sample period for M2 starts 2026-01-05, before the fix took effect on 2026-03-17, so the sample mixes items from before and after the fix. To rule, name: sample period for M2 #106ddd50`
+   - **Question for the owner**: Will you add a ruling to `closure/rulings.md` clearing the sample period row (e.g., explaining that the sample intentionally spanned the fix date to establish a baseline error rate)?
+3. **Pending evidence signatures and files**:
+   - **M2 (EV-08)**: Re-sign the training register after the 2026-04-02 revision so that M2 shows as signed.
+   - **M3 (EV-12)**: The Complaints QA lead must sign and finalize the quality review to clear the EV-12 draft row.
+   - **M4 (EV-15)**: The Head of Digital must provide signed evidence for the mobile app chat channel.
+4. **Governance records**: Record board approval of closure and internal audit's testing reference in `closure/record.md` before submission to the Supervisor.

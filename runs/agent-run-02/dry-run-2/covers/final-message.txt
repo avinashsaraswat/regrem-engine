@@ -1,0 +1,11 @@
+`finding check` has verified all evidence covers: every file was counted, and no files were reported as uncounted. 
+
+### Summary
+- **M1**: Verified and complete. EV-03 and EV-04 are signed and accepted.
+- **M2**: Intake procedure (EV-07) is signed. The training register (EV-08) was revised on 2026-04-02 and is treated as unsigned until re-signed.
+- **M3**: Quality review (EV-12) is recognized under M3 but remains in draft status.
+- **Plan**: E-PLAN-1 is recognized as the signed board approval.
+
+### Items for the Finding Owner
+1. **M2 / EV-08**: A person must inspect the 2026-04-02 revision of EV-08 (showing 48 of 48 intake handlers trained) and, once verified as signed by the Head of Complaints, update the cover's `Signed by:` line and change `Status:` to `FINAL`.
+2. **M3 / EV-12**: A person must review the finalized quality review results from the Complaints QA lead and, once signed, update `Signed by:` and set `Status: FINAL`.

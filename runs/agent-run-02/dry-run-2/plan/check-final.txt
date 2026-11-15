@@ -1,0 +1,51 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+Finding MRA-CMP-07, a supervisory finding from the Supervisor dated 2026-01-15. Owner: Head of Complaints. Checked as of 2026-11-14, kit release 0.7.1.
+
+Milestones
+M1 Approve revised complaint taxonomy. Head of Complaints, committed 2026-02-28 proposed. Not started. SLIPPED by 259 days.
+M2 Reissue intake procedure. Head of Complaints, committed 2026-03-15 proposed. Not started. SLIPPED by 244 days.
+M3 Quality review of reclassified complaints. Complaints QA lead, committed 2026-04-30 proposed. Not started. SLIPPED by 198 days.
+M4 Extend taxonomy to the mobile app chat channel. Head of Digital, committed 2026-06-30 proposed. Not started. SLIPPED by 137 days.
+
+Not counted
+evidence/E-PLAN-1-board-minutes.md, whose first lines are not the evidence header.
+evidence/EV-03-complaint-taxonomy.md, whose first lines are not the evidence header.
+evidence/EV-04-committee-minutes.md, whose first lines are not the evidence header.
+evidence/EV-07-intake-procedure.md, whose first lines are not the evidence header.
+evidence/EV-08-training-register.md, whose first lines are not the evidence header.
+evidence/EV-12-quality-review.md, whose first lines are not the evidence header.
+
+Board summary, a draft for the finding owner
+Flagged commitments: M1 slipped 259 days, M2 slipped 244 days, M3 slipped 198 days, M4 slipped 137 days.
+Quarterly progress:
+  Quarter ending 2026-03-31: 2 milestones due, 0 signed, 2 below signed.
+  Quarter ending 2026-06-30: 4 milestones due, 0 signed, 4 below signed.
+Plan approval: proposed, no signed board minutes E-PLAN-1 yet.
+
+Commitment table, the institution's response in the Supervisor's five-part form, from plan.md
+Concern, Cause and Consequence: as written in finding.md.
+Corrective action:
+| Milestone | Owner role | Committed date |
+| M1 Approve revised complaint taxonomy | Head of Complaints | 2026-02-28 proposed |
+| M2 Reissue intake procedure | Head of Complaints | 2026-03-15 proposed |
+| M3 Quality review of reclassified complaints | Complaints QA lead | 2026-04-30 proposed |
+| M4 Extend taxonomy to the mobile app chat channel | Head of Digital | 2026-06-30 proposed |
+Commitment: full remediation by 2026-06-30 proposed.
+
+Closure memo: nothing written yet.
+Internal audit: none recorded.
+Supervisor closure: none recorded.
+Board approval: none recorded.
+Memo check: no memo.
+Signature: none yet.
+Deny list: 3 names.
+
+Needs a person:
+  Head of Complaints: M1, M2.
+  Complaints QA lead: M3.
+  Head of Digital: M4.
+  The engagement team: the uncounted file evidence/E-PLAN-1-board-minutes.md, the uncounted file evidence/EV-03-complaint-taxonomy.md, the uncounted file evidence/EV-04-committee-minutes.md, the uncounted file evidence/EV-07-intake-procedure.md, the uncounted file evidence/EV-08-training-register.md, the uncounted file evidence/EV-12-quality-review.md, the closure memo.
+  The board: its approval of the plan, its approval of closure.
+  Internal audit: its reference in closure/record.md.
+  The Supervisor: its closure notice.

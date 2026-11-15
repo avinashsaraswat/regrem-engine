@@ -1,0 +1,28 @@
+memo_line	cite	value_seen	problem
+1	EV-05 p3	-	This sentence needs a second look against its page.
+1	EV-19 p1	348	The value on this line is not on the cited page.
+2	EV-11 p2	-	This sentence needs a second look against its page.
+2	EV-19 p1	2026-03-02	The value on this line is not on the cited page.
+3	EV-01 p6	-	This sentence needs a second look against its page.
+3	EV-19 p1	90 days	The value on this line is not on the cited page.
+4	EV-17 p1	-	This sentence needs a second look against its page.
+4	EV-19 p1	54	The value on this line is not on the cited page.
+5	E-PLAN-1 p2	-	This sentence needs a second look against its page.
+5	EV-19 p1	2026-06-30	The value on this line is not on the cited page.
+6	EV-06 p3	-	This sentence needs a second look against its page.
+6	EV-19 p1	2026-05-06	The value on this line is not on the cited page.
+7	EV-12 p2	-	This sentence needs a second look against its page.
+7	EV-19 p1	2.4	The value on this line is not on the cited page.
+8	EV-11 p3	-	This sentence needs a second look against its page.
+8	EV-19 p1	2026-04-14	The value on this line is not on the cited page.
+9	EV-16 p3	-	This sentence needs a second look against its page.
+9	EV-19 p1	100%	The value on this line is not on the cited page.
+10	EV-18 p1	-	This sentence needs a second look against its page.
+10	EV-19 p1	UAT	The value on this line is not on the cited page.
+11	EV-12 p4	-	This sentence needs a second look against its page.
+11	EV-19 p1	EXC-2026-007	The value on this line is not on the cited page.
+12	EV-05 p1	-	This sentence needs a second look against its page.
+12	EV-19 p1	directory	The value on this line is not on the cited page.
+13	E-PLAN-1 p2	240	The page looks wrong at this value.
+14	EV-12 p2	EXC-2026-011	The page looks wrong at this value.
+15	EV-06 p1	621	The page looks wrong at this value.

@@ -1,0 +1,12 @@
+### Summary of `finding check` Results
+
+The `finding check` run confirmed that `plan.md` passed all checks:
+- **No "Not ready" lines**: The plan table structure, milestone identifiers (M1–M5), owner roles, committed dates, evidence IDs, and testable internal audit criteria were parsed without error.
+- **Commitment Table & Milestones**: All five milestones (M1–M5) are reflected in the commitment table. As expected at this stage, committed dates are marked `proposed` pending signed board minutes (`E-PLAN-1`).
+- **Evidence Files**: The files listed under "Not counted" are awaiting their cover files (`.md`), which is the designated next job (`draft-covers`).
+
+### Questions and Actions for the Finding Owner & Engagement Team
+
+1. **Duplicate Board Minutes**: `evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf` and `evidence/E-PLAN-1 Board minutes 2026-02-12.pdf` hold identical bytes. Please move the duplicate file out of `evidence/` before drafting covers.
+2. **File Naming for EV-04**: `evidence/CHG-2026-04417 HR leaver feed go-live record.pdf` starts with the institution's change record ID. Please rename it to `EV-04 CHG-2026-04417 HR leaver feed go-live record.pdf` so `finding covers` can generate its draft cover under the EV-04 ID assigned in milestone M2.
+3. **Board Approval of the Plan**: Sign-off of `E-PLAN-1` by the Company Secretary will formalize the committed dates from `proposed` to approved.

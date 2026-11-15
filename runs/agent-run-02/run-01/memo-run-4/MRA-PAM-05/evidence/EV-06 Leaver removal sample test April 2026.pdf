@@ -1,0 +1,295 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584] >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584] >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+4 0 obj
+<< /Length 2178 >>
+stream
+BT /F2 14 Tf 1 0 0 1 72 718 Tm (Leaver removal sample test, April 2026) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 695 Tm (Prepared by) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 695 Tm (IT controls testing team) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 681 Tm (Milestone) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 681 Tm (M2 of the remediation plan for MRA-PAM-05) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 667 Tm (Test period) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 667 Tm (Leaving dates from 2026-04-01 to 2026-04-30) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 642 Tm (Objective) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 625 Tm (Confirm that every leaver's access, employee or contractor, is removed within one business day of the) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 611.5 Tm (leaving date, as M2 of the remediation plan and section 4.1 of the access management standard require.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 588 Tm (Population) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 571 Tm (Leavers with a leaving date from 2026-04-01 to 2026-04-30: 445. Of these, 384 are employees recorded) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 557.5 Tm (in the HR system and 61 are contractors recorded in the contractor management log \(leaver removal MI,) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 544 Tm (Monthly sheet\).) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 525.5 Tm (For context, the feed had processed 621 leavers with leaving dates up to the end of the test period, the) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 512 Tm (March backlog included.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 488.5 Tm (Method) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 471.5 Tm (The testing team listed the 445 leavers by leaving date and drew 40 with the sampling tool's interval) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 458 Tm (method, starting with the fifth. The sample holds 31 employees and 9 contractors. For each leaver it took) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 444.5 Tm (the leaving date from the HR system or the contractor log, and the date each account was removed from) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 431 Tm (the identity tool or the contractor log, and counted the business days between them. Results are on page) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 417.5 Tm (2 and the conclusion on page 3.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Leaver removal sample test, April 2026 - page 1 of 3) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 10688 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (Results) Tj ET
+BT /F2 8 Tf 1 0 0 1 72 702 Tm (Leaver) Tj ET
+BT /F2 8 Tf 1 0 0 1 127.79 702 Tm (Type) Tj ET
+BT /F2 8 Tf 1 0 0 1 195.14 702 Tm (Leaving date) Tj ET
+BT /F2 8 Tf 1 0 0 1 274.04 702 Tm (Access removed) Tj ET
+BT /F2 8 Tf 1 0 0 1 367.62 702 Tm (Business days) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 691.4 Tm (C-141) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 691.4 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 691.4 Tm (2026-04-01) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 691.4 Tm (2026-04-02) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 691.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 680.8 Tm (L-0251) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 680.8 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 680.8 Tm (2026-04-01) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 680.8 Tm (2026-04-02) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 680.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 670.2 Tm (L-0261) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 670.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 670.2 Tm (2026-04-02) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 670.2 Tm (2026-04-07) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 670.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 659.6 Tm (L-0270) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 659.6 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 659.6 Tm (2026-04-02) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 659.6 Tm (2026-04-07) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 659.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 649 Tm (L-0280) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 649 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 649 Tm (2026-04-07) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 649 Tm (2026-04-08) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 649 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 638.4 Tm (L-0289) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 638.4 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 638.4 Tm (2026-04-07) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 638.4 Tm (2026-04-08) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 638.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 627.8 Tm (L-0299) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 627.8 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 627.8 Tm (2026-04-08) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 627.8 Tm (2026-04-09) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 627.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 617.2 Tm (L-0309) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 617.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 617.2 Tm (2026-04-08) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 617.2 Tm (2026-04-09) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 617.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 606.6 Tm (C-152) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 606.6 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 606.6 Tm (2026-04-09) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 606.6 Tm (2026-04-10) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 606.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 596 Tm (L-0329) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 596 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 596 Tm (2026-04-09) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 596 Tm (2026-04-10) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 596 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 585.4 Tm (L-0339) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 585.4 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 585.4 Tm (2026-04-10) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 585.4 Tm (2026-04-13) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 585.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 574.8 Tm (L-0347) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 574.8 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 574.8 Tm (2026-04-10) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 574.8 Tm (2026-04-13) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 574.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 564.2 Tm (L-0356) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 564.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 564.2 Tm (2026-04-13) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 564.2 Tm (2026-04-14) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 564.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 553.6 Tm (L-0365) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 553.6 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 553.6 Tm (2026-04-13) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 553.6 Tm (2026-04-14) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 553.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 543 Tm (L-0375) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 543 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 543 Tm (2026-04-14) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 543 Tm (2026-04-16) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 543 Tm (2) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 532.4 Tm (C-164) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 532.4 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 532.4 Tm (2026-04-14) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 532.4 Tm (2026-04-15) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 532.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 521.8 Tm (L-0395) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 521.8 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 521.8 Tm (2026-04-15) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 521.8 Tm (2026-04-16) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 521.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 511.2 Tm (L-0405) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 511.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 511.2 Tm (2026-04-15) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 511.2 Tm (2026-04-16) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 511.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 500.6 Tm (L-0415) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 500.6 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 500.6 Tm (2026-04-16) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 500.6 Tm (2026-04-17) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 500.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 490 Tm (L-0424) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 490 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 490 Tm (2026-04-16) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 490 Tm (2026-04-17) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 490 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 479.4 Tm (L-0434) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 479.4 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 479.4 Tm (2026-04-17) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 479.4 Tm (2026-04-20) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 479.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 468.8 Tm (C-173) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 468.8 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 468.8 Tm (2026-04-17) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 468.8 Tm (2026-04-20) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 468.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 458.2 Tm (L-0451) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 458.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 458.2 Tm (2026-04-20) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 458.2 Tm (2026-04-21) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 458.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 447.6 Tm (C-177) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 447.6 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 447.6 Tm (2026-04-20) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 447.6 Tm (2026-04-21) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 447.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 437 Tm (L-0471) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 437 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 437 Tm (2026-04-21) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 437 Tm (2026-04-22) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 437 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 426.4 Tm (C-180) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 426.4 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 426.4 Tm (2026-04-21) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 426.4 Tm (2026-04-22) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 426.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 415.8 Tm (C-181) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 415.8 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 415.8 Tm (2026-04-22) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 415.8 Tm (2026-04-23) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 415.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 405.2 Tm (L-0500) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 405.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 405.2 Tm (2026-04-22) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 405.2 Tm (2026-04-23) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 405.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 394.6 Tm (L-0510) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 394.6 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 394.6 Tm (2026-04-23) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 394.6 Tm (2026-04-24) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 394.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 384 Tm (C-185) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 384 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 384 Tm (2026-04-23) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 384 Tm (2026-04-24) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 384 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 373.4 Tm (L-0529) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 373.4 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 373.4 Tm (2026-04-24) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 373.4 Tm (2026-04-27) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 373.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 362.8 Tm (L-0538) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 362.8 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 362.8 Tm (2026-04-24) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 362.8 Tm (2026-04-27) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 362.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 352.2 Tm (L-0547) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 352.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 352.2 Tm (2026-04-27) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 352.2 Tm (2026-04-28) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 352.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 341.6 Tm (C-193) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 341.6 Tm (Contractor) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 341.6 Tm (2026-04-27) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 341.6 Tm (2026-04-28) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 341.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 331 Tm (L-0566) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 331 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 331 Tm (2026-04-28) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 331 Tm (2026-04-29) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 331 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 320.4 Tm (L-0576) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 320.4 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 320.4 Tm (2026-04-28) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 320.4 Tm (2026-04-29) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 320.4 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 309.8 Tm (L-0586) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 309.8 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 309.8 Tm (2026-04-29) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 309.8 Tm (2026-04-30) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 309.8 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 299.2 Tm (L-0595) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 299.2 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 299.2 Tm (2026-04-29) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 299.2 Tm (2026-04-30) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 299.2 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 288.6 Tm (L-0605) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 288.6 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 288.6 Tm (2026-04-30) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 288.6 Tm (2026-05-01) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 288.6 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 278 Tm (L-0615) Tj ET
+BT /F1 8 Tf 1 0 0 1 127.79 278 Tm (Employee) Tj ET
+BT /F1 8 Tf 1 0 0 1 195.14 278 Tm (2026-04-30) Tj ET
+BT /F1 8 Tf 1 0 0 1 274.04 278 Tm (2026-05-01) Tj ET
+BT /F1 8 Tf 1 0 0 1 367.62 278 Tm (1) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 261.4 Tm (Business days exclude weekends and the bank holidays of 2026-04-03 and 2026-04-06.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Leaver removal sample test, April 2026 - page 2 of 3) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 959 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (Conclusion) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (39 of the 40 leavers in the sample had their access removed within one business day of the leaving date.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (One employee leaver, L-0375, left on 2026-04-14 and was removed on 2026-04-16, after 2 business) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 673 Tm (days, because the HR notice was entered a day late.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 654.5 Tm (The testing team concludes that access is removed within the deadline in the great majority of cases, and) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 641 Tm (that late entry of leaving dates in the HR system caused the exception found.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 617.5 Tm (Approval) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 600.5 Tm (The Head of IT Risk approved the method and the results of this test by email on 2026-05-06.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (Leaver removal sample test, April 2026 - page 3 of 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000525 00000 n 
+0000001045 00000 n 
+0000001114 00000 n 
+0000003344 00000 n 
+0000003480 00000 n 
+0000014221 00000 n 
+0000014357 00000 n 
+0000015367 00000 n 
+0000015503 00000 n 
+trailer
+<< /Size 11 /Root 10 0 R >>
+startxref
+15553
+%%EOF

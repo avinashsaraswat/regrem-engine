@@ -1,0 +1,4 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+Kit files changed since release 0.7.1: finding/__pycache__ (not part of the kit).
+There is no memo to test yet.

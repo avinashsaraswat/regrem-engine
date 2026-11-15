@@ -1,0 +1,52 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+Finding MRA-PAM-05, a supervisory finding from the Supervisor dated 2026-01-20. Owner: Chief Information Security Officer. Checked as of 2026-11-14, kit release 0.7.1.
+
+Milestones
+M1 Revise and approve the access management standard. Chief Information Security Officer, committed 2026-03-31 proposed. Present, unsigned: EV-01 is a draft. SLIPPED by 228 days.
+M2 Automate leaver notices; remove every leaver's access. Head of Identity Services, committed 2026-04-30 proposed. Present, unsigned: EV-04 is missing. SLIPPED by 198 days.
+M3 Remove or assign an owner to every orphaned account. Head of Infrastructure, committed 2026-05-31 proposed. Present, unsigned: EV-08 is a draft. SLIPPED by 167 days.
+M4 Train reviewers; complete the first quarterly review. Head of Identity Services, committed 2026-06-30 proposed. Present, unsigned: EV-03 is a draft. SLIPPED by 137 days.
+M5 Extend the quarterly review to the cloud hosting platform. Head of Cloud Engineering, committed 2026-09-30 proposed. Present, unsigned: EV-15 is a draft. SLIPPED by 45 days.
+
+Not counted
+evidence/CHG-2026-04417 HR leaver feed go-live record.pdf, which has no cover file CHG-2026-04417 HR leaver feed go-live record.pdf.md.
+evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf, which has no cover file E-PLAN-1 Board minutes 2026-02-12 (1).pdf.md.
+evidence/E-PLAN-1 Board minutes 2026-02-12.pdf, which has no cover file E-PLAN-1 Board minutes 2026-02-12.pdf.md.
+
+Board summary, a draft for the finding owner
+Flagged commitments: M1 slipped 228 days, M2 slipped 198 days, M3 slipped 167 days, M4 slipped 137 days, M5 slipped 45 days.
+Quarterly progress:
+  Quarter ending 2026-03-31: 1 milestone due, 0 signed, 1 below signed.
+  Quarter ending 2026-06-30: 4 milestones due, 0 signed, 4 below signed.
+  Quarter ending 2026-09-30: 5 milestones due, 0 signed, 5 below signed.
+Plan approval: proposed, no signed board minutes E-PLAN-1 yet.
+
+Commitment table, the institution's response in the Supervisor's five-part form, from plan.md
+Concern, Cause and Consequence: as written in finding.md.
+Corrective action:
+| Milestone | Owner role | Committed date |
+| M1 Revise and approve the access management standard | Chief Information Security Officer | 2026-03-31 proposed |
+| M2 Automate leaver notices; remove every leaver's access | Head of Identity Services | 2026-04-30 proposed |
+| M3 Remove or assign an owner to every orphaned account | Head of Infrastructure | 2026-05-31 proposed |
+| M4 Train reviewers; complete the first quarterly review | Head of Identity Services | 2026-06-30 proposed |
+| M5 Extend the quarterly review to the cloud hosting platform | Head of Cloud Engineering | 2026-09-30 proposed |
+Commitment: full remediation by 2026-09-30 proposed.
+
+Closure memo: nothing written yet.
+Internal audit: none recorded.
+Supervisor closure: none recorded.
+Board approval: none recorded.
+Memo check: no memo.
+Signature: none yet.
+Deny list: 2 names.
+
+Needs a person:
+  Chief Information Security Officer: M1.
+  Head of Identity Services: M2, M4.
+  Head of Infrastructure: M3.
+  Head of Cloud Engineering: M5.
+  The engagement team: the uncounted file evidence/CHG-2026-04417 HR leaver feed go-live record.pdf, the uncounted file evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf, the uncounted file evidence/E-PLAN-1 Board minutes 2026-02-12.pdf, the closure memo.
+  The board: its approval of the plan, its approval of closure.
+  Internal audit: its reference in closure/record.md.
+  The Supervisor: its closure notice.

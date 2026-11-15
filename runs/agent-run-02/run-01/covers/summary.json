@@ -1,0 +1,54 @@
+{
+ "seat": "drafter",
+ "job": "covers",
+ "model": "the model in manifest.json",
+ "mock": false,
+ "status": "done",
+ "turns": 72,
+ "tool_calls": 70,
+ "check_runs_by_agent": 0,
+ "stopped": 1,
+ "stopped_writes": 0,
+ "stopped_reads": 1,
+ "stopped_by_kind": {
+  "read outside seat": 1
+ },
+ "tokens": {
+  "prompt_tokens": 3134300,
+  "candidates_tokens": 7483,
+  "thoughts_tokens": 26642,
+  "total_tokens": 3168425
+ },
+ "usd": 2.478694,
+ "run_usd_after": 4.858904,
+ "cap_usd": 60.0,
+ "gate_ok": true,
+ "gate_summary": "gate, covers job in the drafter seat: 14 paths changed, 13 allowed, 1 written by the kit, 0 outside the job's allowlist.",
+ "saved": [
+  "covers-start.txt",
+  "check-first.txt",
+  "check-final.txt"
+ ],
+ "final_copies": [
+  "evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf.md",
+  "evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf.md",
+  "evidence/EV-03 Privileged access review method v2.3.pdf.md",
+  "evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx.md",
+  "evidence/EV-06 Leaver removal sample test April 2026.pdf.md",
+  "evidence/EV-07 RE Leaver removal sample test April 2026.eml.md",
+  "evidence/EV-08 Orphaned privileged accounts clean-up report.pdf.md",
+  "evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv.md",
+  "evidence/EV-10 Privileged access reviewer training deck v2.pdf.md",
+  "evidence/EV-11 Reviewer training completion register.xlsx.md",
+  "evidence/EV-12 First quarterly privileged access review report.pdf.md",
+  "evidence/EV-13 First quarterly review extract 2026-05-11.csv.md",
+  "evidence/EV-14 Leaver access removal procedure v2.pdf.md",
+  "evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx.md",
+  "evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf.md",
+  "evidence/EV-17 Cloud hosting platform and the July review.eml.md",
+  "evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt.md",
+  "evidence/EV-19 Reviewer quick reference card.docx.md",
+  "evidence/EV-20 Board Risk Committee terms of reference.pdf.md"
+ ],
+ "elapsed_seconds": 367.878
+}

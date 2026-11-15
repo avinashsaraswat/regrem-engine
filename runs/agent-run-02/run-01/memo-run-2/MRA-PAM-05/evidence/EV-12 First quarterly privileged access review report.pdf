@@ -1,0 +1,150 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584] >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /FirstChar 32 /LastChar 126 /Widths [278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584] >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 5 >>
+endobj
+4 0 obj
+<< /Length 991 >>
+stream
+BT /F2 14 Tf 1 0 0 1 72 718 Tm (First quarterly privileged access review: report) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 695 Tm (Prepared by) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 695 Tm (Identity Services) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 681 Tm (Milestone) Tj ET
+BT /F1 10 Tf 1 0 0 1 222 681 Tm (M4 of the remediation plan for MRA-PAM-05) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 656 Tm (Summary) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 639 Tm (This report records the first quarterly review of privileged access under section 5 of the access) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 625.5 Tm (management standard. All 23 reviewers completed the reviewer training before the review window) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 612 Tm (opened.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 593.5 Tm (Scope and method are on page 2, results on page 3, revocations and exceptions on page 4, and the) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 580 Tm (sign-off on page 5.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (First quarterly privileged access review: report - page 1 of 5) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 1639 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (Scope and method) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (The review tool loaded the privileged accounts on the in-scope platforms on 2026-04-01. Accounts in the) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (review: 318 active privileged accounts with a named holder, as at 2026-04-07, on six platforms: the core) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 673 Tm (banking database, the payments gateway, the customer channels, the data warehouse, the directory and) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 659.5 Tm (servers, and the network devices.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 641 Tm (Accounts still in the orphaned account clean-up \(M3\) stay outside the quarterly review until they have a) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 627.5 Tm (named owner, as section 5.6 of the standard provides. The cloud hosting platform is outside this review) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 614 Tm (under exception EXC-2026-011, which the Chief Information Security Officer approved on 2026-03-31 for) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 600.5 Tm (90 days, until M5 brings the platform into the review.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 582 Tm (The review followed the review method, version 2.4 of 2026-04-01.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 563.5 Tm (The review window ran from 2026-04-07 to 2026-04-17. 23 reviewers took part. Each reviewer chose) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 550 Tm (keep or revoke for each account on their review list in the review tool, which recorded the decision, the) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 536.5 Tm (reviewer and the date.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (First quarterly privileged access review: report - page 2 of 5) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1870 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (Results) Tj ET
+BT /F2 10 Tf 1 0 0 1 72 700 Tm (Platform) Tj ET
+BT /F2 10 Tf 1 0 0 1 205.39 700 Tm (Accounts reviewed) Tj ET
+BT /F2 10 Tf 1 0 0 1 326.53 700 Tm (Kept) Tj ET
+BT /F2 10 Tf 1 0 0 1 378.75 700 Tm (Revoked) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.2 Tm (Core banking database) Tj ET
+BT /F1 10 Tf 1 0 0 1 205.39 686.2 Tm (72) Tj ET
+BT /F1 10 Tf 1 0 0 1 326.53 686.2 Tm (61) Tj ET
+BT /F1 10 Tf 1 0 0 1 378.75 686.2 Tm (11) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 672.4 Tm (Payments gateway) Tj ET
+BT /F1 10 Tf 1 0 0 1 205.39 672.4 Tm (58) Tj ET
+BT /F1 10 Tf 1 0 0 1 326.53 672.4 Tm (50) Tj ET
+BT /F1 10 Tf 1 0 0 1 378.75 672.4 Tm (8) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 658.6 Tm (Customer channels) Tj ET
+BT /F1 10 Tf 1 0 0 1 205.39 658.6 Tm (49) Tj ET
+BT /F1 10 Tf 1 0 0 1 326.53 658.6 Tm (42) Tj ET
+BT /F1 10 Tf 1 0 0 1 378.75 658.6 Tm (7) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 644.8 Tm (Data warehouse) Tj ET
+BT /F1 10 Tf 1 0 0 1 205.39 644.8 Tm (41) Tj ET
+BT /F1 10 Tf 1 0 0 1 326.53 644.8 Tm (35) Tj ET
+BT /F1 10 Tf 1 0 0 1 378.75 644.8 Tm (6) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 631 Tm (Directory and servers) Tj ET
+BT /F1 10 Tf 1 0 0 1 205.39 631 Tm (66) Tj ET
+BT /F1 10 Tf 1 0 0 1 326.53 631 Tm (56) Tj ET
+BT /F1 10 Tf 1 0 0 1 378.75 631 Tm (10) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 617.2 Tm (Network devices) Tj ET
+BT /F1 10 Tf 1 0 0 1 205.39 617.2 Tm (32) Tj ET
+BT /F1 10 Tf 1 0 0 1 326.53 617.2 Tm (27) Tj ET
+BT /F1 10 Tf 1 0 0 1 378.75 617.2 Tm (5) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 603.4 Tm (Total) Tj ET
+BT /F1 10 Tf 1 0 0 1 205.39 603.4 Tm (318) Tj ET
+BT /F1 10 Tf 1 0 0 1 326.53 603.4 Tm (271) Tj ET
+BT /F1 10 Tf 1 0 0 1 378.75 603.4 Tm (47) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 583.6 Tm (Every account in the review received a decision before the window closed.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (First quarterly privileged access review: report - page 3 of 5) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 920 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (Revocations and exceptions) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (Revocations decided: 47. The identity team removed the access for each revocation and recorded the) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (date in the review tool. The last of the 47 revocations was completed on 2026-05-08, within 30 days of its) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 673 Tm (decision, as section 5.4 of the standard requires.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 654.5 Tm (Break-glass accounts: the 9 break-glass accounts on the six platforms were outside the review under) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 641 Tm (exception EXC-2026-007, which the Chief Information Security Officer approved on 2026-01-05 for 90) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 627.5 Tm (days, while the accounts moved to the new credential safe.) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (First quarterly privileged access review: report - page 4 of 5) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 477 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 717 Tm (Sign-off) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 700 Tm (The Head of Identity Services confirms that the review was carried out in line with section 5 of the access) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 686.5 Tm (management standard.) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 658 Tm (Head of Identity Services) Tj ET
+BT /F1 10 Tf 1 0 0 1 72 644 Tm (Date: 2026-05-12) Tj ET
+BT /F1 8 Tf 1 0 0 1 72 40 Tm (First quarterly privileged access review: report - page 5 of 5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000009 00000 n 
+0000000525 00000 n 
+0000001045 00000 n 
+0000001128 00000 n 
+0000002170 00000 n 
+0000002306 00000 n 
+0000003997 00000 n 
+0000004133 00000 n 
+0000006055 00000 n 
+0000006191 00000 n 
+0000007163 00000 n 
+0000007301 00000 n 
+0000007830 00000 n 
+0000007968 00000 n 
+trailer
+<< /Size 15 /Root 14 0 R >>
+startxref
+8018
+%%EOF

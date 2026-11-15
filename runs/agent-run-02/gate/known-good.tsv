@@ -1,0 +1,13 @@
+memo_line	cite	value_seen	problem
+1	[EV-05 p3]	348	The memo states 348 on [EV-05 p3], and the folder does not support it.
+2	[EV-11 p2]	2026-03-02	The memo states 2026-03-02 on [EV-11 p2], and the folder does not support it.
+3	[EV-01 p6]	90 days	The memo states 90 days on [EV-01 p6], and the folder does not support it.
+4	[EV-17 p1]	54	The memo states 54 on [EV-17 p1], and the folder does not support it.
+5	[E-PLAN-1 p2]	2026-06-30	The memo states 2026-06-30 on [E-PLAN-1 p2], and the folder does not support it; the folder supports 2026-05-31.
+6	[EV-06 p3]	2026-05-06	The memo states 2026-05-06 on [EV-06 p3], and the folder does not support it; the folder supports 2026-05-08.
+7	[EV-12 p2]	2.4	The memo states 2.4 on [EV-12 p2], and the folder does not support it.
+8	[EV-11 p3]	2026-04-14	The memo states 2026-04-14 on [EV-11 p3], and the folder does not support it; the folder supports 2026-03-09.
+9	[EV-16 p3]	100%	The memo states 100% on [EV-16 p3], and the folder does not support it; the folder supports 98.0%.
+10	[EV-18 p1]	UAT	The memo states UAT on [EV-18 p1], and the folder does not support it.
+11	[EV-12 p4]	EXC-2026-007	The memo states EXC-2026-007 on [EV-12 p4], and the folder does not support it.
+12	[EV-05 p1]	directory	The memo states directory on [EV-05 p1], and the folder does not support it.

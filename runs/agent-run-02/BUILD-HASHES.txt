@@ -1,0 +1,13 @@
+Sealed build of agent run 01, case MRA-PAM-05, second trap set. Written 2026-11-13 after the scorer gate printed PASS.
+Each line is a SHA-256 hash and a path relative to this sealed/ folder. The first five are the seal's build hashes; the rest are for the record.
+
+4e287ea5d1f12e48befdc95e7a97e4ae5d032435cd1bbb9813722011355ea8cb  key/traps.json
+9f0ed36317f1fb70aeb92c4065e77f588c68dcfff845f363d55cdd00adf6e9e6  gate/case.tar
+87e567f11a4b0c4760c48a0aa53042cf466b96b01f44e7f285ce2d2c089f58d0  key/floor.tsv
+04eba3ae7260d3d3cb968104ca1b77b536a58a8f8b69739894790a1dcabe9cb9  build/generate.py
+b0124ce09355687bc1ede70605a305416d51ff97d172faa59f23a6d3417e777c  build/verify.py
+
+7acd3d86299abae937359646cd28e667a630ed59818284e739949d744261ea72  key/KEY.md
+8ae1a9d6f03e0a3d4d581813596bb8ba60aa6c40ddc3ff435ae5e34205c4c42a  build/make_gate.py
+3de7377a577aa41c74a5d5c4d4fc9d5bef77bd9b5f4a78fa359e9e677bdb4494  gate/known-good.tsv
+de7ef019d555994f907bf91a405343a6fffb6eac1ba030fce9e4cc8f2ec1bfb2  gate/known-bad.tsv

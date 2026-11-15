@@ -1,0 +1,28 @@
+{
+ "seat": "cross-reader",
+ "job": "cross-read",
+ "model": "the model in manifest.json",
+ "mock": false,
+ "status": "done",
+ "turns": 22,
+ "tool_calls": 21,
+ "check_runs_by_agent": 0,
+ "stopped": 0,
+ "stopped_writes": 0,
+ "stopped_reads": 0,
+ "stopped_by_kind": {},
+ "tokens": {
+  "prompt_tokens": 431298,
+  "candidates_tokens": 973,
+  "thoughts_tokens": 64485,
+  "total_tokens": 496756
+ },
+ "usd": 0.568941,
+ "run_usd_after": 1.010797,
+ "cap_usd": 20.0,
+ "gate_ok": true,
+ "gate_summary": "gate, cross-read job in the cross-reader seat: 0 paths changed, 0 allowed, 0 written by the kit, 0 outside the job's allowlist.",
+ "saved": [],
+ "final_copies": [],
+ "elapsed_seconds": 444.608
+}

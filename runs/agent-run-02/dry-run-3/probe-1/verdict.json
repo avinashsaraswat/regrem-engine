@@ -1,0 +1,30 @@
+{
+ "verdict": "GO",
+ "final": false,
+ "empty": 0,
+ "trigger_replies": 6,
+ "jobs": [
+  {
+   "job": "memo-a",
+   "status": "done",
+   "turns": 16,
+   "replies": 16,
+   "empty": 0,
+   "trigger_replies": 4,
+   "trigger_empty": 0,
+   "wrote_memo": true,
+   "usd": 0.441379
+  },
+  {
+   "job": "memo-b",
+   "status": "done",
+   "turns": 21,
+   "replies": 21,
+   "empty": 0,
+   "trigger_replies": 2,
+   "trigger_empty": 0,
+   "wrote_memo": true,
+   "usd": 0.477451
+  }
+ ]
+}

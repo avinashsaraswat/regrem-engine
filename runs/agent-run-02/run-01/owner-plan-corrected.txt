@@ -1,0 +1,3 @@
+Step 7, the owner's correction of the plan rows, agent run 02.
+2026-11-14 16:17 EST: the owner reviewed the five rows the drafter wrote, with the board minutes open, and ruled in a live session: "Rows stand". No row was changed, added or removed, and the notes below the table stay as the drafter wrote them. No evidence file was renamed or moved; the protocol gives the owner no such write.
+plan.md SHA-256 at the owner's ruling: db8d5b20626ae8dc751a3c02c2785951fbfc4742f14dc7ae2397afc42e94eb63 (equal to the plan job's final copy).

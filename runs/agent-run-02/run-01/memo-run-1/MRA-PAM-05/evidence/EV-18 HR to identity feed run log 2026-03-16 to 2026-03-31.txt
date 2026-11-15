@@ -1,0 +1,16 @@
+HR to identity tool leaver feed: run log
+Environment: UAT
+Runs from 2026-03-16 to 2026-03-31
+
+2026-03-16 06:00 run 001 notices received 48; accounts disabled for 48 leavers; run finished 06:16
+2026-03-17 06:00 run 002 notices received 7; accounts disabled for 7 leavers; run finished 06:23
+2026-03-18 06:00 run 003 notices received 5; accounts disabled for 5 leavers; run finished 06:30
+2026-03-19 06:00 run 004 notices received 10; accounts disabled for 10 leavers; run finished 06:37
+2026-03-20 06:00 run 005 notices received 8; accounts disabled for 8 leavers; run finished 06:44
+2026-03-23 06:00 run 006 notices received 12; accounts disabled for 12 leavers; run finished 06:11
+2026-03-24 06:00 run 007 notices received 8; accounts disabled for 8 leavers; run finished 06:18
+2026-03-25 06:00 run 008 notices received 7; accounts disabled for 7 leavers; run finished 06:25
+2026-03-26 06:00 run 009 notices received 8; accounts disabled for 8 leavers; run finished 06:32
+2026-03-27 06:00 run 010 notices received 9; accounts disabled for 9 leavers; run finished 06:39
+2026-03-30 06:00 run 011 notices received 10; accounts disabled for 10 leavers; run finished 06:46
+2026-03-31 06:00 run 012 notices received 5; accounts disabled for 5 leavers; run finished 06:13

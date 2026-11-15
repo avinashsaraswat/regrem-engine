@@ -1,0 +1,32 @@
+{
+ "version": 1,
+ "seat": "drafter",
+ "job": "plan",
+ "changed": [
+  {
+   "path": ".finding-state.json",
+   "change": "added",
+   "verdict": "kit",
+   "rule": null,
+   "kind": null,
+   "reason": "written by the kit when the loop ran its commands"
+  },
+  {
+   "path": "plan.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  }
+ ],
+ "counts": {
+  "changed": 2,
+  "allowed": 1,
+  "kit": 1,
+  "outside": 0,
+  "reverted": 0
+ },
+ "ok": true,
+ "summary": "gate, plan job in the drafter seat: 2 paths changed, 1 allowed, 1 written by the kit, 0 outside the job's allowlist."
+}

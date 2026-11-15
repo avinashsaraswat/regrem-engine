@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "first_check": "2026-11-14",
+  "checked": "2026-11-14",
+  "parts": {
+    "Concern": "fc307a4bb66f253188de48bb2cfa9151c6d815a18f418e672b7feb8cf804b6b7",
+    "Cause": "d69bd34a03ada645ab8f72c922949b6b547f961cd5d808b537081b30ccc5f6df",
+    "Consequence": "fb1117b8ced9b287fd54320ae75c2f9ed00bf2d581116f21348f7aecb43113aa",
+    "Corrective action": "2abb55e57f21c84ef68a817a0374f2723d26cc7b1204092713e84bc6b5075332",
+    "Commitment": "4c05a3c20011480f6f2129fb9f48090ff1e32dcb31561bdcf20ed607440ffa0a"
+  },
+  "frozen": {
+    "Identifier": "MRA-PAM-05",
+    "Issuer": "the Supervisor",
+    "Letter date": "2026-01-20",
+    "Kind of matter": "supervisory finding",
+    "Owner role": "Chief Information Security Officer"
+  },
+  "evidence": {
+    "evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf": {
+      "sha256": "033f3ed2d23e511478c6315db0192ec90fc92cceff847a75d8fd3fd4aaa624d4",
+      "signed": null
+    },
+    "evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf.md": {
+      "sha256": "0ffd2ee748f9349f71206158953e939fbfcff6dad2cd6e08ed0969971be6d24a",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf": {
+      "sha256": "4a7fedc422c1e779179c8c19e28c02732e799f505b23e93974dee641d4517461",
+      "signed": null
+    },
+    "evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf.md": {
+      "sha256": "f8938f7181ff7ec94ddb21794ece71e8a0712f91ab8642aac28a3451b9325133",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-03 Privileged access review method v2.3.pdf": {
+      "sha256": "77cd7942f3baa3ce9dd2b569665292c1397441d584a6f0e7387a03acc5215c3f",
+      "signed": null
+    },
+    "evidence/EV-03 Privileged access review method v2.3.pdf.md": {
+      "sha256": "9f2443b64c3f4ec9d55f14f11d1ddf48e4bd4d3416e6936548a49ca141eba3cb",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx": {
+      "sha256": "3872fae752674c0986260f340b3c377bb075530ae0544724317347eac34f58f8",
+      "signed": null
+    },
+    "evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx.md": {
+      "sha256": "a902781e97ebca97603aa0b812cf92ac991b11a3cfe53169639924f3e3376c1c",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-06 Leaver removal sample test April 2026.pdf": {
+      "sha256": "9f8089e99cc9388b606fcc307d8a6e2cdab9b913abc5288134b21e0b70d47e78",
+      "signed": null
+    },
+    "evidence/EV-06 Leaver removal sample test April 2026.pdf.md": {
+      "sha256": "c11f1346e1071102404bbea7668bcac34018eb5ea2b60bb81fe465f3beec1665",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-07 RE Leaver removal sample test April 2026.eml": {
+      "sha256": "bc6e94661e1e58fc49061e1081f80a3976ee21206d99635e8c6ab981352e1889",
+      "signed": null
+    },
+    "evidence/EV-07 RE Leaver removal sample test April 2026.eml.md": {
+      "sha256": "50ab2d3fa78bb96a74fa9efeb4bc3e85351a1f66da782cb04f7c42e7885af73e",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-08 Orphaned privileged accounts clean-up report.pdf": {
+      "sha256": "64d87a5b536a7863116214ed4a2061df5875e35f80a564de897d13ed281c4d2d",
+      "signed": null
+    },
+    "evidence/EV-08 Orphaned privileged accounts clean-up report.pdf.md": {
+      "sha256": "984b9bd8d8e35727caaa380e80094242f8fe5946d81e52dae0cc0a1ccaba5980",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv": {
+      "sha256": "2be4ceb37f0a3d0bc58ad436d7cac47bb315448746526e698b79396ba81763d7",
+      "signed": null
+    },
+    "evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv.md": {
+      "sha256": "e3677bcc57cc4a700d9ea332162317ae4de0ffd2a737b0aa052727fb1d99907a",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-10 Privileged access reviewer training deck v2.pdf": {
+      "sha256": "3656cf9c6ed24f5b341ce3ab266285f649a709eb0afe6f728b0f4695b2c1e9cd",
+      "signed": null
+    },
+    "evidence/EV-10 Privileged access reviewer training deck v2.pdf.md": {
+      "sha256": "1608e8750c71e6e38a87eb4c20289aaa0213dc584b76514f6976400fd11200d8",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-11 Reviewer training completion register.xlsx": {
+      "sha256": "f1218b9c8eb04f535197c9f12156d3618460a00f1a8726016a6c9b7eb7636c4f",
+      "signed": null
+    },
+    "evidence/EV-11 Reviewer training completion register.xlsx.md": {
+      "sha256": "44c63535a5931fca1642825601b7e5d7538bdfaeb23469a931616fa371d7f880",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-12 First quarterly privileged access review report.pdf": {
+      "sha256": "1cc72502e56aacc218fbed018cf3c10bd2846ca8e1f1f81cc728bac2fd2cdd70",
+      "signed": null
+    },
+    "evidence/EV-12 First quarterly privileged access review report.pdf.md": {
+      "sha256": "9601a504943429d185e263e166daa8e588daa36f93ca5c679e8b3d2cbb904e45",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-13 First quarterly review extract 2026-05-11.csv": {
+      "sha256": "e4f17d5c2750bd73f3e06f06fecae9b78fd5b83edf9d8d35710b391f18dbc765",
+      "signed": null
+    },
+    "evidence/EV-13 First quarterly review extract 2026-05-11.csv.md": {
+      "sha256": "78cfdce5173d3a5f4af828502996d6656fcb4de0f3238fbdcd50d2a4b1faeb15",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-14 Leaver access removal procedure v2.pdf": {
+      "sha256": "df86029bed679aed04cc6855be6c1687d93e62997d0e5165ff99db2ad44965a2",
+      "signed": null
+    },
+    "evidence/EV-14 Leaver access removal procedure v2.pdf.md": {
+      "sha256": "80e705c99bd86535498856ed93e8cee64c340d384a3b6b648a4699701a6f4297",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx": {
+      "sha256": "35d91b4d77a9bef56f9c2434f84cb75864f2912695edac21416541308cc882e1",
+      "signed": null
+    },
+    "evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx.md": {
+      "sha256": "f5606dace614b664669ec9ca761b54c394d9cfce2ceb820796e9406d8918ddde",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf": {
+      "sha256": "534f4ebda5319ecdcb90991b3abf54d14c5a32393f39c066a0574df2ac55d3c0",
+      "signed": null
+    },
+    "evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf.md": {
+      "sha256": "0f9a372ae493136e61b41abd6257727769a314a93b8d86fbf605a08ebf6d5b40",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-17 Cloud hosting platform and the July review.eml": {
+      "sha256": "3923ff2fe8f2bdf0baf3f8dbf8188e3d2e5650e391a0951b0fc17915a5db55fe",
+      "signed": null
+    },
+    "evidence/EV-17 Cloud hosting platform and the July review.eml.md": {
+      "sha256": "c9dc84150344f8fb24d69c7b815b331dc5d9cd0f7f7ae66e4a7f4de226033e23",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt": {
+      "sha256": "0d5afb232502862db76035513e54272573651998acdac2d775fb42a86bf266ae",
+      "signed": null
+    },
+    "evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt.md": {
+      "sha256": "84f5885cdf07d1a341d2cc65e4e7c414d6a42fc936930fa13093bbd4d2404193",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-19 Reviewer quick reference card.docx": {
+      "sha256": "796925891b4c3d3e0ca96cbe2160f1ce2fdcc2cdac3cceaf45c1609600566607",
+      "signed": null
+    },
+    "evidence/EV-19 Reviewer quick reference card.docx.md": {
+      "sha256": "f3784b9b233075e638997d0dbaa62427dec87be66c75a066d9fb2d3988f16535",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/EV-20 Board Risk Committee terms of reference.pdf": {
+      "sha256": "16f3789ea291a22dda229dc02c68a5a54cd646a0f0913804ae7f61d68d817df2",
+      "signed": null
+    },
+    "evidence/EV-20 Board Risk Committee terms of reference.pdf.md": {
+      "sha256": "73ef9e63f9caa77df0e1f4f1bf3db2abc6dacd6db00f889b5d4147136e8da1e2",
+      "signed": null,
+      "pages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "ids": {},
+  "deny": {
+    "identifier": "MRA-PAM-05",
+    "names": [
+      "Tallowmere Bank",
+      "Tallowmere"
+    ]
+  },
+  "signature": null
+}

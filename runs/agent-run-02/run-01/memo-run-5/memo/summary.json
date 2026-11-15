@@ -1,0 +1,34 @@
+{
+ "seat": "drafter",
+ "job": "memo",
+ "model": "the model in manifest.json",
+ "mock": false,
+ "status": "done",
+ "turns": 31,
+ "tool_calls": 68,
+ "check_runs_by_agent": 0,
+ "stopped": 0,
+ "stopped_writes": 0,
+ "stopped_reads": 0,
+ "stopped_by_kind": {},
+ "tokens": {
+  "prompt_tokens": 711650,
+  "candidates_tokens": 2341,
+  "thoughts_tokens": 3934,
+  "total_tokens": 717925
+ },
+ "usd": 0.557269,
+ "run_usd_after": 5.923864,
+ "cap_usd": 60.0,
+ "gate_ok": true,
+ "gate_summary": "gate, memo job in the drafter seat: 1 path changed, 0 allowed, 1 written by the kit, 0 outside the job's allowlist.",
+ "saved": [
+  "check-first.txt",
+  "check-final.txt",
+  "eval-final.txt"
+ ],
+ "final_copies": [
+  "closure/memo.md"
+ ],
+ "elapsed_seconds": 99.073
+}

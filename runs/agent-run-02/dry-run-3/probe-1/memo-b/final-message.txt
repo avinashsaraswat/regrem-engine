@@ -1,0 +1,22 @@
+### Summary of check results
+
+The check ran successfully against `closure/memo.md`:
+- **8 claims tie** (including the corrected figure `1,284` character-for-character from EV-07 page 2).
+- **0 claims mismatch** their cited pages.
+- **3 items remain on the list** awaiting action or rulings by people in the owner and lead roles:
+  1. **Line 8 (`March 2026 #ffa37a3f`):** The check noted that the ruling on line 4 of `closure/rulings.md` names no row because updating `1,248` to `1,284` updated the mark from `#f2ba27f8` to `#ffa37a3f`.
+  2. **Line 10 (`EV-12 draft #81b3b231`):** EV-12 holds 4 claims (lines 10, 15, and 16) that match its pages and wait for EV-12 to be signed and set to FINAL.
+  3. **Line 16 (`sample period for M2 #106ddd50`):** The sample period begins 2026-01-05, prior to the fix effective date of 2026-03-17.
+
+---
+
+### Questions and actions for the finding owner
+
+1. **Update ruling on Line 8:** To clear the date claim on Line 8 with the new mark, will you update the ruling in `closure/rulings.md` from `#f2ba27f8` to:
+   ```text
+   Line 8 | March 2026 #ffa37a3f | cleared | Head of Complaints | 2026-11-16 | The page says January to March, and the plan year is 2026.
+   ```
+2. **Rule on M2 sample period (Line 16):** Will you add a ruling for `sample period for M2 #106ddd50` in `closure/rulings.md` explaining that the sample spans the implementation date to evaluate error rates before and after the fix, or will the sample period be adjusted?
+3. **M2 training register (EV-08):** EV-08 was revised on 2026-04-02 after its 2026-03-14 signature. Will you provide a re-signed version of EV-08 so M2 can be marked signed?
+4. **M3 quality review (EV-12):** Will the Complaints QA lead sign EV-12 and mark its status `FINAL`?
+5. **M4 chat channel evidence (EV-15):** When will evidence for extending the complaint taxonomy to the mobile app chat channel be provided?

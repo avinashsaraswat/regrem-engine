@@ -1,0 +1,28 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+evidence/CHG-2026-04417 HR leaver feed go-live record.pdf: 2 pages, 2 with text. Rename it to start with an evidence id plan.md lists or an EV id, such as EV-12, and keep the file's own name after the id.
+evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf: 4 pages, 4 with text. Another file's name starts with E-PLAN-1 too, so this file gets no cover; give each its own evidence id.
+evidence/E-PLAN-1 Board minutes 2026-02-12.pdf: 4 pages, 4 with text. Another file's name starts with E-PLAN-1 too, so this file gets no cover; give each its own evidence id.
+evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf: 8 pages, 8 with text. Draft cover written for evidence id EV-01.
+evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf: 3 pages, 3 with text. Draft cover written for evidence id EV-02.
+evidence/EV-03 Privileged access review method v2.3.pdf: 2 pages, 2 with text. Draft cover written for evidence id EV-03.
+evidence/EV-05 Leaver removal MI as at 2026-06-30.xlsx: 4 pages, 4 with text; 1 hidden sheet left out. Draft cover written for evidence id EV-05.
+evidence/EV-06 Leaver removal sample test April 2026.pdf: 3 pages, 3 with text. Draft cover written for evidence id EV-06.
+evidence/EV-07 RE Leaver removal sample test April 2026.eml: 1 page, 1 with text. Draft cover written for evidence id EV-07.
+evidence/EV-08 Orphaned privileged accounts clean-up report.pdf: 4 pages, 3 with text; no text on page 4. Draft cover written for evidence id EV-08.
+evidence/EV-09 Orphaned accounts baseline and outcomes 2026-05-29.csv: 1 page, 1 with text. Draft cover written for evidence id EV-09.
+evidence/EV-10 Privileged access reviewer training deck v2.pdf: 6 pages, 6 with text. Draft cover written for evidence id EV-10.
+evidence/EV-11 Reviewer training completion register.xlsx: 3 pages, 3 with text. Draft cover written for evidence id EV-11.
+evidence/EV-12 First quarterly privileged access review report.pdf: 5 pages, 5 with text. Draft cover written for evidence id EV-12.
+evidence/EV-13 First quarterly review extract 2026-05-11.csv: 1 page, 1 with text. Draft cover written for evidence id EV-13.
+evidence/EV-14 Leaver access removal procedure v2.pdf: 4 pages, 4 with text. Draft cover written for evidence id EV-14.
+evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx: not read: the Word file still holds tracked changes. Draft cover written for evidence id EV-15.
+evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf: 3 pages, 3 with text. Draft cover written for evidence id EV-16.
+evidence/EV-17 Cloud hosting platform and the July review.eml: 1 page, 1 with text. Draft cover written for evidence id EV-17.
+evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt: 1 page, 1 with text. Draft cover written for evidence id EV-18.
+evidence/EV-19 Reviewer quick reference card.docx: 1 page, 1 with text. Draft cover written for evidence id EV-19.
+evidence/EV-20 Board Risk Committee terms of reference.pdf: 2 pages, 2 with text. Draft cover written for evidence id EV-20.
+The engagement team: evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf and evidence/E-PLAN-1 Board minutes 2026-02-12.pdf hold the same bytes.
+
+A person checks the evidence id, fills Signed by and sets Status to FINAL on each cover. Type a page only where it has no text, was read only in part or is in a file the check has no reader for.
+A PDF page is its printed page. A Word, CSV, email or text file is always page 1, so a cite does not say where in the file a figure sits. A workbook page is a visible sheet, in workbook order, and an Excel percent or date reads as its stored fraction or serial number.

@@ -1,0 +1,17 @@
+This folder may hold confidential supervisory information. Keep it on a machine the institution has approved, and share nothing from it outside the institution.
+
+Eval of the memo check on MRA-CMP-07. Nothing in the folder changed.
+Planted 31 errors, one at a time, in the 12 claims that tie today or match a draft's pages.
+  A figure with one digit changed: 4 planted, 4 caught.
+  A figure with two digits swapped: 4 planted, 4 caught.
+  A figure swapped for another on the same page: 4 planted, 0 caught.
+  A date moved: 7 planted, 7 caught.
+  A quotation with one word dropped: 1 planted, 1 caught.
+  A cite moved to another page: 11 planted, 10 caught.
+Caught 26 of 31.
+What the check did not catch, for a person to look for:
+  Line 7: 1,284 changed to 2 still ties.
+  Line 7: 1,284 with its cite moved to EV-07 p1 still ties.
+  Line 7: 46 changed to 48 still ties.
+  Line 7: 48 changed to 3 still ties.
+  Line 9: 31 changed to 240 still ties.

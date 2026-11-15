@@ -1,0 +1,128 @@
+{
+ "version": 1,
+ "seat": "drafter",
+ "job": "covers",
+ "changed": [
+  {
+   "path": ".finding-state.json",
+   "change": "modified",
+   "verdict": "kit",
+   "rule": null,
+   "kind": null,
+   "reason": "written by the kit when the loop ran its commands"
+  },
+  {
+   "path": "evidence/EV-01 Access Management Standard v4.0 SIGNED.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-02 Board Risk Committee minutes 2026-03-26.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-03 Privileged access review method v2.3.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-06 Leaver removal sample test April 2026.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-07 RE Leaver removal sample test April 2026.eml.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-08 Orphaned privileged accounts clean-up report.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-10 Privileged access reviewer training deck v2.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-12 First quarterly privileged access review report.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-14 Leaver access removal procedure v2.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-16 CISO report to Board Risk Committee 2026-07-03.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-17 Cloud hosting platform and the July review.eml.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-18 HR to identity feed run log 2026-03-16 to 2026-03-31.txt.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  },
+  {
+   "path": "evidence/EV-20 Board Risk Committee terms of reference.pdf.md",
+   "change": "modified",
+   "verdict": "allowed",
+   "rule": null,
+   "kind": null,
+   "reason": null
+  }
+ ],
+ "counts": {
+  "changed": 14,
+  "allowed": 13,
+  "kit": 1,
+  "outside": 0,
+  "reverted": 0
+ },
+ "ok": true,
+ "summary": "gate, covers job in the drafter seat: 14 paths changed, 13 allowed, 1 written by the kit, 0 outside the job's allowlist."
+}

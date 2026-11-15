@@ -1,0 +1,24 @@
+All 19 drafted evidence covers were successfully recognized and counted by `finding check`. The remaining uncounted files and unsigned milestones require human action as prescribed by the procedure:
+
+### Summary of Check Results
+
+- **Covers counted**: All 19 covers drafted for `EV-01`, `EV-02`, `EV-03`, `EV-05`, `EV-06`, `EV-07`, `EV-08`, `EV-09`, `EV-10`, `EV-11`, `EV-12`, `EV-13`, `EV-14`, `EV-15`, `EV-16`, `EV-17`, `EV-18`, `EV-19`, and `EV-20` passed the check with no errors.
+- **Not counted**:
+  - `evidence/CHG-2026-04417 HR leaver feed go-live record.pdf` (no cover)
+  - `evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf` (no cover)
+  - `evidence/E-PLAN-1 Board minutes 2026-02-12.pdf` (no cover)
+
+---
+
+### Questions and Actions for the Finding Owner and Engagement Team
+
+1. **Remove Duplicate Board Minutes**:
+   - `evidence/E-PLAN-1 Board minutes 2026-02-12 (1).pdf` and `evidence/E-PLAN-1 Board minutes 2026-02-12.pdf` are identical copies. Please move one copy out of the finding folder, record the reason in the note below the milestone table in `plan.md`, and re-run `finding covers` so `E-PLAN-1` can receive its cover.
+2. **Rename Feed Go-Live Record**:
+   - `evidence/CHG-2026-04417 HR leaver feed go-live record.pdf` must be renamed to start with its evidence ID (e.g., `EV-04 CHG-2026-04417 HR leaver feed go-live record.pdf`, as designated under milestone M2 in `plan.md`) so that `finding covers` can create its cover.
+3. **Resolve Tracked Changes in EV-15**:
+   - `evidence/EV-15 Cloud hosting platform review extension plan DRAFT.docx` has tracked changes preventing the automated reader from parsing it. Please accept/reject all tracked changes, or type the cited pages into `EV-15...docx.md` with a `Checked by: role, YYYY-MM-DD` line.
+4. **Scanned Page in EV-08**:
+   - Page 4 of `EV-08 Orphaned privileged accounts clean-up report.pdf` has no text layer (sign-off page). If cited in the memo, please type page 4 into the cover under `## Page 4` with a comparison verified by a `Checked by: role, YYYY-MM-DD` line.
+5. **Sign and Finalize Covers**:
+   - Milestones M1–M5 are currently listed as `Present, unsigned` because all covers remain in draft status. The finding owner and document owners must fill in the appropriate line (`Signed by: role, YYYY-MM-DD`, `Produced by: system, YYYY-MM-DD`, `Approved by: EV-XX`, or `Never signed: description`) and update `Status: DRAFT` to `Status: FINAL` across the covers.

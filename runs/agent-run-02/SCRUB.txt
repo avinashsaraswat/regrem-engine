@@ -1,0 +1,145 @@
+Scrub of the published copy of agent run 02, and of run 01's plan transcript and summary published beside it.
+
+Rule 1. In every .json and .jsonl file except manifest.json, each occurrence of the model id that manifest.json names in api.model is replaced by the words 'the model in manifest.json'. Those words appear nowhere else, so replacing them with the id restores the original bytes and the original SHA-256.
+Rule 2. In memo_runs_4_5.sh and probe.sh, status messages that ended by naming the assistant session's product now end 'Tell the assistant session'. This changes what the scripts print, and nothing they do.
+Rule 3. In probe.sh, "$d/case-$1" is written "$d/case-${1}", which the shell reads the same, so the content scan does not read $1 as a dollar figure.
+No other byte of any published file was changed. Paths in the transcripts were already relative to the run folder.
+
+Each changed file, relative to runs/agent-run-02/: SHA-256 as the run wrote it, SHA-256 as published, and what changed.
+
+../agent-run-01/run-01/plan/summary.json
+  as run:       352c519b144aa1a65fef17eef9721c7658a47bae9e6a82ac24b582b77fa5b72f
+  as published: 045fd46315ee92455ae2da5c7862110d2209fc820d9321708573b178fb730ae1
+  model id replaced by 'the model in manifest.json' 1 times
+../agent-run-01/run-01/plan/transcript.jsonl
+  as run:       b9b2c19a63c3b9c834cf41fb680610d75c7a7e976f319198e2fd8ff1ed4294c9
+  as published: 1362af49ebd5c3412ff1fa156bb7a0a60d733495cf691df1b1811cc604c10512
+  model id replaced by 'the model in manifest.json' 62 times
+dry-run/cross-read/summary.json
+  as run:       e12c8e688e9aebb1502d4bf8999d640d68160a08c0f880127a838148f486a531
+  as published: a11ff8a00749f117ec11c24df2f94982875fa3ad7d759b8aa6c3c19a4ee45f60
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run/cross-read/transcript.jsonl
+  as run:       a04736fae4d320bd0a335a1952e8f2b829e368cea9bdc3d2f5b39998f7b7412d
+  as published: cb5f0fa9f3469cb001d1c54186bf3dbcaf533573cb95a0ba509a1fffb8eea235
+  model id replaced by 'the model in manifest.json' 24 times
+dry-run/memo/summary.json
+  as run:       8235af97251fe8aab57fea7737edfaa4b3a4742aa49cbba53f4391e2cbeb438c
+  as published: 83c168af1fcd2ac6285a995150cff9fd83e09bba88a1aba550cca6428764ba70
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run/memo/transcript.jsonl
+  as run:       f6babb47059b0e356ef71ec9b91be65f832055be846fcec6847bab07e6e51682
+  as published: 6426987dca3bcc5460bd9d9d5ebcdd0d3477e67122205f8b90eccc47a130dd96
+  model id replaced by 'the model in manifest.json' 18 times
+dry-run-2/attempt-0-key-rejected/covers/summary.json
+  as run:       ee16946faaf017e56b42ddba566de857e5947d9d67aa44b760227288fb4e6bca
+  as published: 17f27f324198bff2edfcf48ea16b6c33de9794eeae9c75b0c6f454dbd0d636c1
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run-2/attempt-0-key-rejected/covers/transcript.jsonl
+  as run:       2cec4f20576e8f906bc0db5ecd659941ccaff53340f9ea508032db24ad3779d4
+  as published: b1be19059011e60f59d29069e0d6396feddb783c6a3ca0952248481db73f55f2
+  model id replaced by 'the model in manifest.json' 2 times
+dry-run-2/attempt-0-key-rejected/plan/summary.json
+  as run:       e8008668bb623b196217078398a6976fea421edc6111bfb1cfe6abaf193ad3ba
+  as published: d48e120d620bb37e74aed122ab9bbebaddc8fc9267eafb92ec860a7a429644fb
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run-2/attempt-0-key-rejected/plan/transcript.jsonl
+  as run:       d6d3c498b769753223bbcd5830214ddb303111004bf266c6e82f1f578d91935f
+  as published: 5a9a9b426a1e6962a4bc6373741df71479eb491c5068f12bb689d46bf0ea7739
+  model id replaced by 'the model in manifest.json' 2 times
+dry-run-2/covers/summary.json
+  as run:       0c284d779b09d40c59358f57c6ec3527614a8bd0910713577ec9dc76052e481b
+  as published: 2f91b848a07670ef7994bbfae434dca954305d6b30c9cc202e56e007758d4690
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run-2/covers/transcript.jsonl
+  as run:       65b0b28595d5208f1653e6a5dcced30d06657478ba137c076adcb4728b95aa69
+  as published: b8195454e9c4babddd61104bc16ddde7d1d53ffb599800d59a44c3e8f770a936
+  model id replaced by 'the model in manifest.json' 28 times
+dry-run-2/plan/summary.json
+  as run:       7ee74e804e8d29bfe68ebfe8e4b1c171420681f96694284b38aabf36ca639a71
+  as published: 267a325fa1cd3bd482305fe782aea16ec8212c69c716c9270653735f5bed4a41
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run-2/plan/transcript.jsonl
+  as run:       d23e9ecc1ba339e528c880cf6b1eee5fa0e373153a8f0e6aaaf46536386419e9
+  as published: d5a306d064ffec9b2cf9c517d6a4bb6c4df4b839e90650cd32a5a0820dfec8c8
+  model id replaced by 'the model in manifest.json' 38 times
+dry-run-3/probe-1/memo-a/summary.json
+  as run:       3ca448ab44055118c5da5c9cb2e758281e67f54e0c5af192824766c57ac74979
+  as published: 6a63b71cb974d33edc7564cc43547180f8459806f30f0d5f927cb5c7800e0d15
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run-3/probe-1/memo-a/transcript.jsonl
+  as run:       538866d69c1768be137f19abb661137df47ee945fc09b876e57d57175a7fa945
+  as published: 0dc04298319c6c45489f79d86718069db5ee88e1edfaeb07805b273d5d357755
+  model id replaced by 'the model in manifest.json' 18 times
+dry-run-3/probe-1/memo-b/summary.json
+  as run:       afbca626ada57f3ac9b11d82190767f7362e224d95fb135fd0e64db4073f3ebc
+  as published: 0d4a983789772bb5e89cd6e3efa7c5b8a1bba69c13e9cdd026ba587df7809bee
+  model id replaced by 'the model in manifest.json' 1 times
+dry-run-3/probe-1/memo-b/transcript.jsonl
+  as run:       d3d1f0b3494fd269900eece163ad2768ab1db1f5ecae43fb131d0e4a55a65d27
+  as published: 137b4c30117daf0ea973e4dd5786c242a9348a1bbf744dc85491b41b083e9a7b
+  model id replaced by 'the model in manifest.json' 23 times
+memo_runs_4_5.sh
+  as run:       d7a44c4b77f9cc19b8aeed66f66f597071d1973f95e190c2e61d9e487d64970c
+  as published: ef94ae6395464f94d67d736fc6f52ac91c30d207bc5c48a08bd2af161248495d
+  'Tell' plus the assistant's name replaced by 'Tell the assistant session' 5 times
+probe.sh
+  as run:       760134365221068bb227b0ac29fa87f0d66a75390b3d9c5e8b039dbed214ab2d
+  as published: afbbe3fd07d09054ff060bf0a0b47c9839cee1ae54d36ead8703f5f9e1eebc50
+  'Tell' plus the assistant's name replaced by 'Tell the assistant session' 1 times; "$d/case-$1" written as "$d/case-${1}" 3 times, the same in sh
+run-01/covers/summary.json
+  as run:       44aefc1f83bc1cbf4ec677914334f481e645d068dc1c82fa50899ffff17bd22a
+  as published: da66be2d9cf15bd14a522e5c99b3a66866a0fe775e03e27eed67729edd872d8d
+  model id replaced by 'the model in manifest.json' 1 times
+run-01/covers/transcript.jsonl
+  as run:       9dc7b74eeebc3c30273a84c4188011eb4167eb2e11da85e74b0565a73dec1769
+  as published: e43698ffa6dec9db73cd2e981585f2d30baa202e225d175b260d8f3ab5c894ae
+  model id replaced by 'the model in manifest.json' 74 times
+run-01/memo-run-1/memo/summary.json
+  as run:       3c225ae2557a9a35dab64ca2bc80b03b88e06befc1ed70e10877e6ad2965baf0
+  as published: 226a51fa4bc9ae4d288ffe07cec953e040be43555ae7a40036fd7b42f9a28eda
+  model id replaced by 'the model in manifest.json' 1 times
+run-01/memo-run-1/memo/transcript.jsonl
+  as run:       ea4e39077d4ec58358ced75072b57ea6cd5fc13bc54455c6a3c12437729e6c1a
+  as published: 88e8057b89a79f0f705d71f1c23e27211d646bd9b2884d8dcce59cee00a810ca
+  model id replaced by 'the model in manifest.json' 6 times
+run-01/memo-run-2/memo/summary.json
+  as run:       e5f59f95e297a9d44d851c938b0288e915ec011126f3d615d407e462b9a731f7
+  as published: 42d305ea7b2d1c09171a7b6df9995b896c9388c9b38b11aaf09ccb1d45c1829b
+  model id replaced by 'the model in manifest.json' 1 times
+run-01/memo-run-2/memo/transcript.jsonl
+  as run:       b1406111dc15b2a8b3c899ba0e6b5cd7dd303cc6f788305ed5fae468e9d5f3c0
+  as published: ea6db009965906975c7d2a3b18b8dbbb2a7a8124791e5b0c6f23f7e240a4d489
+  model id replaced by 'the model in manifest.json' 20 times
+run-01/memo-run-3/memo/summary.json
+  as run:       c62386ec5967068e30c4d40ccf43c6609f495b82311278495d3915720fd92720
+  as published: 3e339da30a36412c20a4d662f17be646472f8b72f82c39649af8cc313f8fe608
+  model id replaced by 'the model in manifest.json' 1 times
+run-01/memo-run-3/memo/transcript.jsonl
+  as run:       e7a20ea97593865aa8c16936f73d78650f324853e646de95a7661085e40f0d66
+  as published: 04ceb02150ad0e5967630691f86e65b253cf20cf2e5298042f7e8767ddbc0f66
+  model id replaced by 'the model in manifest.json' 6 times
+run-01/memo-run-4/memo/summary.json
+  as run:       105a9b67087aac2bb3e41cb6344b02d2fabd9a9896ccb863b51c34b70adaeb97
+  as published: 80cc8386be78fe6dc0c60c068ad985a2675931c06e40a07ed45248a54cde1c40
+  model id replaced by 'the model in manifest.json' 1 times
+run-01/memo-run-4/memo/transcript.jsonl
+  as run:       646016c9e390f08698fd6cf4b10902f99884c0932f05193e49d1342811ddb571
+  as published: 2809eab8d87439f3788b548977993b8bc702617c072d4afffd2207f44f63e1b3
+  model id replaced by 'the model in manifest.json' 20 times
+run-01/memo-run-5/memo/summary.json
+  as run:       261b6f0ab01d45f6eb1d3419c8a5b125946fefefd8da788c686d6453712933ab
+  as published: daa4869c94f4dd0fc498e57f5f90e7d0771aba66179c950f6f689d3deb291a7c
+  model id replaced by 'the model in manifest.json' 1 times
+run-01/memo-run-5/memo/transcript.jsonl
+  as run:       7845961b96c81b5352ab7b4ce276b29f2684c72d494e7e85328fc7c4b51a2643
+  as published: ab263256edc88f4522d66adedcc4343a9e52ce07de77454ea3209fdde29425d6
+  model id replaced by 'the model in manifest.json' 33 times
+run-01/plan/summary.json
+  as run:       4b440048f01648e0e85f64dd3dd240fc8e333b8d351a8bccf358f4c68c446fb6
+  as published: b40a64d5627fba41b23ac9cbc557da9899b53bea5fb68918109a34f0cad1f03a
+  model id replaced by 'the model in manifest.json' 1 times
+run-01/plan/transcript.jsonl
+  as run:       6c5f535e496ffb9a6d082a215e14fb7c30f8de4c002a7d21734652906ecb0c9c
+  as published: 780b3ff04d81d69f60307feaa7b3d71516d9da9385e6dc99da41288001efacd8
+  model id replaced by 'the model in manifest.json' 69 times
